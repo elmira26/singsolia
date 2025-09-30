@@ -1,0 +1,27 @@
+.img-container img{
+  animation: spin 3s linear infinite;
+
+
+  -webkit-animation: spin 3s linear infinite;
+  //animation-name: rotate;
+  animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+}
+
+.music-container.play .img-container img {
+  animation-play-state: running;
+  -webkit-animation-play-state: running;
+}
+
+
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

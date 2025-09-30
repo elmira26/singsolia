@@ -1,0 +1,75 @@
+// .random-pic-sax {
+//   opacity: 0.7;
+//   width: 10rem;
+//   transform: rotate(20deg);
+//   position: absolute;
+//   bottom: -15%;
+//   left: 60%;
+//   z-index: 10;
+//   filter: invert(1);
+
+//   @include respond(desktop) {
+//     max-width: 15rem;
+//     bottom: -5%;
+//   }
+// }
+@import url('./Fonts/Bicubik.woff');
+.random-pic-headphones {
+  width: 8rem;
+  transform: rotate(20deg);
+  bottom: -5rem;
+  left: -16rem;
+  position: absolute;
+  z-index: 10;
+  opacity: 0.8;
+
+  @include respond(tab-port) {
+    left: -11rem;
+    opacity: 0.6;
+  }
+
+  @include respond(phoneExtra) {
+    left: -10rem;
+    opacity: 0.5;
+  }
+
+}
+
+.random-pic-arrowup {
+  width: 5rem;
+  transform: rotate(150deg);
+  position: absolute;
+  z-index: 10;
+  left: 30%;
+  top: 0;
+}
+
+.random-pic-party {
+  width: 3rem;
+  // position: absolute;
+  // z-index: 10;
+  // right: 5%;
+  // bottom: 0;
+}
+
+.random-pic-smoke {
+  position: absolute;
+  max-width: 30rem;
+  z-index: 0;
+  right: 2%;
+  bottom: 18%;
+}
+
+//text curved
+
+ @font-face {
+    font-family: 'Giliams Regular';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Giliams Regular'), url('../Fonts/Giliams-Regular.woff') format('woff');
+    }
+
+  @font-face {
+    font-family: "Raindrops";
+    src:local('Raindrops'), url(../Fonts/Raindrops.ttf) format('truetype');
+  }

@@ -1,0 +1,85 @@
+
+.container {
+  width:100%;
+   @include respond(phoneExtra) {
+    width:100vw;
+  }
+
+}
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+  background-color: transparent;
+
+  //@include clearfix;
+}
+
+.u-top-5 {
+  margin-top: 5rem;
+}
+
+.u-top-10 {
+  padding-top: 10rem;
+
+  @include respond(phoneExtra) {
+    padding-top: 3rem;
+  }
+}
+
+.flex-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+   @include respond(phoneExtra) {
+    align-content: space-between;
+  }
+}
+
+.flex-item {
+  padding: 0;
+  margin: 0;
+ 
+  @include respond(tab-port) {
+    margin-top: 2rem;
+  }
+  @include respond(phone) {
+    padding: 0 0.6rem;
+  }
+}
+
+.padding-top {
+  padding-top: 6rem;
+  @include respond(tab-port) {
+    padding-top: 3rem;
+  }
+}
+
+.padding-bottom {
+  padding-bottom: 7rem;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.grid {
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.u-center {
+  margin: 0 auto;
+}
+.u-center-text{
+  text-align: center;
+}
+
+.u-margin-bottom-2 {
+  margin-bottom: 2.3rem;
+}

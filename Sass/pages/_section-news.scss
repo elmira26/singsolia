@@ -1,0 +1,245 @@
+.section-news {
+  // height: 100vh;
+  margin-top: 0;
+  background: $color-sand;
+  padding-top:  15rem;
+  padding-bottom: 5rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  @include respond(tab-port){
+    // padding-top: 30rem;
+  }
+  @include respond(phoneExtra){
+    // padding-top: 28rem;
+ 
+  }
+ 
+
+  &__title {
+    padding: 2rem;
+    margin-bottom: 6rem;
+    text-align: center;
+  }
+}
+
+
+.panel-1 {
+  background-image: url(../Img/germanyElmira.jpg);
+  
+
+}
+
+.panel-2 {
+  background-image: url(../Img/MiniPlayElmira.jpg);
+
+}
+
+.panel-3 {
+  background-image: url(../Img/visheNeba.jpg);
+
+}
+
+.panel-4 {
+  background-image: url(../Img/indiaLiza.jpg);
+  
+}
+
+.panel-5 {
+  background-image: url(../Img/germanyLiza.jpg);
+
+}
+.panel-6 {
+  background-image: url(../Img/Petersburg_21.png);
+
+}
+.panel-7 {
+  background-image: url(../Img/Liza_2023.png);
+
+}
+
+.panels {
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+
+
+  @include respond(tab-port) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    justify-items: center;
+
+  }
+
+  @include respond(phoneExtra) {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    justify-items: center;
+  }
+  @include respond(phone){
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    justify-items: center;
+  }
+}
+
+.panel {
+  // box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.1);
+  text-align: center;
+  align-items: center;
+  transition:
+    font-size 0.4s cubic-bezier(0.61, -0.19, 0.7 -0.11),
+    flex 0.4s cubic-bezier(0.61, -0.19, 0.7, -0.11),
+    background 0.1s;
+  height: 60vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  margin: 1.3rem;
+
+
+  @include respond(phone) {
+    max-width: 10rem;
+  }
+
+  @include respond(tab-port) {
+    max-height: 80rem;
+    width: 80%;
+    background-size: contain;
+ 
+
+  }
+
+
+}
+
+.panel>* {
+  margin: 0;
+  width: 100%;
+  transition: transform 0.7s;
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+
+.panel>*:first-child {
+  transform: translateY(-100%);
+}
+
+.panel.open-active>*:first-child {
+  transform: translateY(0);
+
+}
+
+.panel>*:last-child {
+  transform: translateY(100%);
+}
+
+.panel.open-active>*:last-child {
+  transform: translateY(0);
+
+}
+
+.panel p:nth-child(2) {
+  font-size: 3rem;
+}
+
+.panel.open {
+  font-size: 4rem;
+  flex: 5;
+  filter: hue-rotate(0deg) ;
+  // height: 100%;
+  // position: absolute;
+  // left: 25%;
+  // width: 50%;
+  // z-index: 10;
+
+  // & .section-news {
+  //   position: relative;
+  // }
+}
+
+
+.carousel-indicators{
+
+  z-index: 250 !important;
+  
+  & > button{
+    
+    height: 2px !important;
+    @include respond(tab-port){
+      width: 7% !important;
+    }
+    @include respond(phoneExtra){
+      width: 16% !important;
+    }
+    
+  }
+}
+.carousel{
+  height: 100% !important;
+  margin: 0 auto !important;
+   z-index: 0 !important;
+   & > button{
+    z-index: 150 !important;
+   }
+}
+.carousel-item{
+  float: none!important;
+  
+  transform: translateX(0) !important;
+  transition: transform .4s !important;
+  
+
+ 
+}
+  
+  
+.carousel-caption {
+  top: -15rem;
+  transform:translateX(0) !important;
+ 
+}
+.carousel-inner {
+  overflow: visible !important;
+  max-width: 300px !important;
+ 
+  @include respond(tab-land){
+    max-width: 300px !important;
+    // transform: translate(0);
+  }
+
+  @include respond(tab-port){
+    max-width: 330px  !important;
+    // transform: translate(0);
+  }
+  @include respond(phoneExtra){
+  // width: 75% !important;
+  // transform: translate(17%);
+  }
+  @include respond(phone){
+     width: auto !important;
+    //  transform: translate(0);
+  }
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  filter: invert(1) grayscale(3) !important;
+  
+
+}

@@ -1,0 +1,50 @@
+@mixin respond ($breakpoint) {
+
+   @if $breakpoint==desktop {
+    @media(min-width: 112.5em) {
+      @content;
+    }
+  }
+  @if $breakpoint==tab-land {
+    @media(max-width: 75em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==tab-port {
+    @media(max-width: 56.25em) {
+      @content;
+    }
+  }
+  @if $breakpoint==phoneExtra {
+    @media(max-width: 45.6em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==phone {
+    @media(max-width: 37.5em) {
+      @content;
+    }
+  }
+   
+ }
+
+@mixin clearfix {
+  &:before {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin line {
+  &::after {
+    content: '';
+    background: #{$color-blue};
+    width: 2px;
+    height: 15px;
+    float: right;
+    margin: 5px 10px 0 10px;
+  }
+}

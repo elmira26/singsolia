@@ -1,0 +1,76 @@
+ $color-home-base: hsl(300, 100%, 95%);
+ $color-white:#fcfbfe;
+ $color-pink:#af4665;
+ $color-pink-light: #ffa399;
+ $color-red: #dc3545;
+ $color-brown: #363636;
+ $color-blue:#413042;
+ $color-bio-base: #f8f8f8;
+ $color-news-base: hsla(334, 11%, 71%, 0.885);
+ $color-violet: 	hsl(278,56%,73%);
+ $color-violet-bright: hsl(285, 58%, 23%);
+ $color-font-footer:#fef5de75;
+ $color-deep-blue:#2a4545;
+ $color-blue-sky:hsl(157, 20%, 64%);
+ $color-sand:hsl(60, 11%, 91%);
+ $color-gradient_1: linear-gradient(to right bottom,
+rgb(240, 208, 255) 7%, rgb(225, 206, 255) 47%, rgb(246, 166, 197) 77%, rgb(241, 163, 171) 100%);
+ 
+ $color-gradient_2: linear-gradient(to right bottom,
+rgba(235, 235, 230, 0.98) 7%, rgba(221, 212, 216, 0.5) 47%, rgb(225, 206, 255) 100%, rgb(210, 159, 150) 100%);
+
+ $pink-gradient: linear-gradient(to right bottom,
+rgb(255,196,160) 7%, rgb(255, 175, 189) 100%);
+$pink-violet-gradient:
+radial-gradient(at 6% 18%, hsla(166,61%,78%,1) 0px, transparent 5%),
+radial-gradient(at 12% 76%, hsla(55,70%,79%,1) 0px, transparent 5%),
+radial-gradient(at 7% 15%, hsla(222,73%,62%,1) 0px, transparent 5%),
+radial-gradient(at 10% 48%, hsla(262,62%,77%,1) 0px, transparent 5%),
+radial-gradient(at 90% 22%, hsla(353,84%,67%,1) 0px, transparent 5%),
+radial-gradient(at 43% 83%, hsla(232,63%,69%,1) 0px, transparent 5%),
+radial-gradient(at 88% 94%, hsla(339,73%,67%,1) 0px, transparent 5%);
+$shadowgradient:linear-gradient(to bottom, $color-gradient_1);
+ $border: 5px;
+ //  fonts
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400;500;600&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+ $big: 4.4rem;
+ $h1: 3rem;
+ $h2: 2.4rem;
+ $h3: 2.08rem;
+ $mobile-font: 1.6rem;
+ $normal-font: 1.4rem;
+ $small-font: 1.2rem;
+ $smaller-font:1rem;
+
+ 
+//  carousel
+$carousel-control-color:             $color-deep-blue;
+$carousel-control-width:             35%;
+$carousel-control-opacity:           .5;
+$carousel-control-hover-opacity:     .9;
+$carousel-control-transition:        opacity .15s ease;
+
+$carousel-indicator-width:           60px;
+$carousel-indicator-height:          3px;
+$carousel-indicator-hit-area-height: 10px;
+$carousel-indicator-spacer:          3px;
+$carousel-indicator-opacity:         .5;
+$carousel-indicator-active-bg:       $color-blue;
+$carousel-indicator-active-opacity:  1;
+$carousel-indicator-transition:      opacity .6s ease;
+
+$carousel-caption-width:             90%;
+$carousel-caption-color:             $color-white;
+$carousel-caption-padding-y:         1.25rem;
+$carousel-caption-spacer:            1.25rem;
+
+$carousel-control-icon-width:        2rem;
+
+$carousel-control-prev-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+$carousel-control-next-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+
+$carousel-transition-duration:       .4s;
+$carousel-transition:                transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)

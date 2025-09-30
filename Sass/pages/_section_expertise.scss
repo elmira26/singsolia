@@ -1,0 +1,32 @@
+.section-expertise{
+  height: 100vh;
+  margin: 0 auto; 
+  padding-bottom: 5rem;
+  background-color: $color-sand;
+   
+  & .flex-container{
+    justify-content: center;
+    margin: 0 auto;
+    
+     @include respond(tab-land){
+    // justify-content: flex-end;
+    }
+    @include respond(tab-port){
+       justify-content:center;
+       align-content: center;
+    }
+   }
+
+  
+
+ 
+  
+  @include respond(tab-port){
+    padding-top: 1rem;
+   
+  }
+  // @include respond(phoneExtra){
+  //   padding-top: 15rem;;
+  // }
+  
+}

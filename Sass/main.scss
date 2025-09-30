@@ -1,0 +1,26 @@
+//@import 'abstracts/functions.scss';
+@import 'abstracts/mixins.scss';
+@import 'abstracts/variables.scss';
+@import 'base/fonts.scss';
+@import 'base/base.scss';
+@import 'base/animations.scss';
+
+
+@import 'base/typography.scss';
+@import 'base/utilities.scss';
+
+@import 'components/navigation.scss';
+@import 'components/random.scss';
+@import 'components/blob-section.scss';
+@import 'components/modals';
+@import 'components/form';
+@import 'pages/section-home.scss';
+@import 'pages/section-bio.scss';
+@import 'pages/section-music.scss';
+@import 'pages/section-news.scss';
+@import 'pages/section-lessons.scss';
+@import 'pages/section-contact.scss';
+@import 'pages/testimonial.scss';
+@import 'pages/footer.scss';
+@import 'pages/section_expertise.scss';
+@import 'pages/section_QA.scss';

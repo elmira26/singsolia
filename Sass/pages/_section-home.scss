@@ -1,0 +1,124 @@
+.section-home {
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+  background-color: $color-sand;
+  // box-shadow:inset 1px 1px 150px $pink-violet-gradient;
+  text-align: center;
+ 
+
+  // &_blurredimage--bottom{
+  //   width: 100vw;
+  //   height: 100%;
+  //   left: 0;
+  //   position: absolute;
+  //   background-image: url(../Img/Rectangle_blur.svg);
+  //   top: 94%;  
+  //   @include respond(tab-land){
+  //       top:100%;
+  //     }
+  //   @include respond(tab-port){
+  //     top: -10%;
+  //   }
+  //   @include respond(phoneExtra){
+  //     top:-10%;
+    // }
+    // @include respond(phone){
+    //   top:-2%;
+    // }
+  // }
+
+  &__text-box {
+    background: transparent;
+    opacity: 1;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 auto;
+    padding-top:0;
+    @include respond(tab-port){
+     height: 70vh;
+     padding-top: 0;
+    }
+    @include respond(phoneExtra) {
+      padding-top:0;
+     
+    }
+
+  }
+
+  &-logo {
+    padding: 2rem;
+    display: inline-block;
+    text-align: center;
+  }
+
+  &-logo img {
+    width: 10%;
+
+
+  }
+  
+  @include respond(tab-land){
+  }
+  @include respond(tab-port) {
+   padding-top: 21%;
+  }
+   @include respond(phoneExtra){
+   
+  }
+
+  @include respond(phone) {
+    
+  }
+}
+.section-home::before {
+      content: ''; /* Required for pseudo-elements */
+      position: absolute;
+      bottom: 228px;
+      left: 100px;
+      width: 100%;
+      height: 100%;
+      background: $color-gradient_1; /* Your gradient colors */
+      border-radius: inherit; /* Inherit border-radius from parent */
+      filter: blur(50px); /* Adjust blur for shadow effect */
+      z-index: 100; /* Position behind the main element */
+      transform: translate(5px, 5px); /* Optional: Adjust shadow offset */
+    }
+.heading-primary{
+  height: 100%;
+  display: flex;
+  align-items:baseline;
+  width: 100%;
+  margin: 0 auto;
+  
+  @include respond(desktop){
+    height: 100%;
+    // background-image: url(../Img/face.png);
+  
+  }
+  @include respond(tab-land){
+   align-items: center;
+  }
+  @include respond(tab-port){
+    align-items: center;
+    height: 100%;
+  }
+  @include respond(phone) {
+    height: 90%;
+    
+  }
+}
+// .heading-title {
+//   background-image:  $color-gradient_1;
+  
+// }
+.logo{
+  width: 100%;
+  position: fixed;
+  top: 4rem;
+  text-align: center;
+  
+  
+}

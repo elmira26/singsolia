@@ -1,0 +1,130 @@
+.music-container {
+  visibility: hidden;
+  display: flex;
+  padding: 0 4px;
+  margin: 0 auto;
+  width: 45%;
+  height: 30rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: -20px;
+  border-top: .5px solid $color-violet;
+  left: 0;
+  z-index: 150;
+  background-image: $color-gradient_1;
+ 
+  // @include respond(tab-land) {
+  // padding: 12px 20px;
+  // }
+  
+  @include respond(tab-port) {
+    margin: 1rem auto;
+    height: 30rem;
+    
+  }
+   
+  @include respond(phoneExtra) {
+    margin: 2rem auto;
+    width: 100%;
+    height: 40rem;
+  }
+  @include respond(phone) {
+    width: 100%;
+    justify-content: space-around;
+  }
+ &_blurredimage--top{
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: -20px;
+  opacity: .7;
+ }
+ &_blurredimage--bottom{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  bottom: -150px;
+  opacity: .85;
+ }
+ 
+
+}
+
+.img-container {
+  display: none;
+  width: 50px;
+  position: relative;
+  text-align: center;
+  // visibility: hidden;
+  @include respond(phoneExtra){
+    width: 50px;
+   }
+    @include respond(phone){
+    width: 40px;
+   }
+}
+
+// .img-container::after {
+//   content: '';
+//   background-color: white;
+//   border-radius: 50%;
+//   position: absolute;
+//   height: 20px;
+//   width: 20px;
+//   bottom: 20%;
+//   left: -10%;
+//   transform: translate(-50%, -50%);
+
+//   @include respond(phone) {
+//     bottom: 20%;
+//     left: 0;
+//   }
+// }
+
+
+.img-container img {
+  width: inherit;
+  height: 25px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  bottom: -45%;
+  left: 0;
+  visibility: hidden;
+ 
+   @include respond(phone){
+    height: 40px;
+   
+   }
+
+}
+.show{
+  visibility: visible;
+  
+}
+ .hidden{
+    visibility: hidden;
+  
+  }
+  .player{
+     &__close {
+    position: absolute;
+    font-size: 3rem;
+    right: 2rem;
+    top: 1.5rem;
+    cursor: pointer;
+    z-index: 100;
+
+    &:hover {
+      color: #{$color-news-base};
+    }
+  }
+    // &__close,
+    // &__toggle {
+    //   display: contents;
+    //   color: $color-brown;
+    // }
+  }

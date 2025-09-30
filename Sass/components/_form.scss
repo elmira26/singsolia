@@ -1,0 +1,118 @@
+.form {
+  text-align: left;
+  
+
+
+  &__group:not(:last-child) {
+    margin-bottom: 1rem;
+    letter-spacing: .2rem;
+  }
+
+  &__input {
+    font-family: 'Cansu-light', sans-serif;
+    font-size: $h3;
+    padding: 1rem 1.4rem;
+    color: rgb(63, 61, 61);
+    // border-radius: 2px;
+    background-color: rgba($color-bio-base, 1.4);
+    border-bottom: 1px solid#53536975 !important;
+    border-bottom: 3px solid transparent;
+    width: 90%;
+    display: block;
+    box-shadow: 0 1px 0 1px rgba($color-brown, 0.8);
+    &::-webkit-input-placeholder {
+      color: #2626307d;
+      font-weight: 400;
+
+
+    }
+
+    &:focus {
+      border-bottom: 3px solid aqua;
+      outline: none;
+      box-shadow: 0 1rem 2rem rgba(23, 23, 23, 0.2);
+
+      &:invalid {
+        border-bottom: 3px solid #55023c;
+      }
+    }
+  }
+
+  &__label {
+    font-size: $normal-font;
+    font-family: "Gill Sans" cursive;
+    color: $color-news-base;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    display: block;
+    transition: all 0s;
+  }
+
+  &__input:placeholder-shown &__label {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4rem);
+  }
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  font-family: 'Cansu-rounded', sans-serif !important;
+  font-size: $h2;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all 0.2s;
+  position: relative;
+  font-size: $h3;
+  letter-spacing: .2rem;
+  border: none;
+  cursor: pointer;
+
+
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+
+  &::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+  }
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(23, 23, 23, 0.2);
+}
+
+.btn__form {
+  
+  font-size: $h3 !important;
+  font-family: 'Cansu-rounded', sans-serif !important;
+    
+
+  &::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+  }
+}
+
+.btn:hover::after {
+  transform: translateX(1.4) scaleY(1.6);
+  opacity: 0;
+}

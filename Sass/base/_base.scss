@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  // font-size: 10px;
+  box-sizing: inherit;
+  padding: 0;
+}
+html,body{
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
+ 
+  
+  @include respond(tab-land) {
+    font-size: 56.25%;
+  }
+
+  @include respond(tab-port) {
+    font-size: 52.6%;
+    
+  }
+  
+  @include respond(desktop) {
+    font-size: 75%;
+  }
+
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  font-size: $normal-font;
+  background-color: transparent;
+  position: relative;
+}

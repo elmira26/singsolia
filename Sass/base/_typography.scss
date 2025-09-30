@@ -1,0 +1,656 @@
+
+.logo{
+  letter-spacing: 7px;
+  font-family: 'Sacred-Valley';
+  font-weight: 200;
+  font-size: $h3;
+  text-transform: uppercase;
+  color: $color-blue;
+}
+.heading-primary {
+  padding-bottom: 0;
+  line-height: 1.2;
+
+   @include respond(phone) {
+    width: 100%;
+    text-align: center;
+    line-height: 1.4;
+    top: 0;
+  }
+
+
+
+
+  &-icon {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: $small-font;
+    color: $color-brown;
+    text-shadow: 1px 1px 2px white;
+    font-style: normal;
+    font-weight: 400;
+    transform: scale(0.75);
+    // height: 80%;
+    @include respond(tab-land){
+     transform: scale(0.85) 
+    }
+    @include respond(tab-port){
+      transform: scale(0.75); 
+    }
+    @include respond(phoneExtra){
+      transform: scale(0.9);
+    }
+  }
+
+
+
+  &-icon:link,
+  &-icon:visited {
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+
+  &-icon:hover {
+    transform: translateY(0);
+    transform: scale(1.1);
+    font-weight: 600;
+  }
+
+  &-icon:active {
+    transform: translateY(1px);
+  }
+
+  &--q1 {
+    font-size: $h2;
+    // text-shadow: 1px 1px 2px blue;
+    color: $color-blue;
+    padding-top:25%;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 0;
+    // letter-spacing: 1px;
+    font-family: 'Orbitron';
+    z-index: 1000;
+
+     @include respond(desktop){
+      width: 24%;
+      padding-top: 0;
+      font-size: $h2;
+    }
+     
+    
+    @include respond(tab-land){
+      width: 45%;
+      padding-top: 0;
+      font-size: $h1;
+    }
+     @include respond(tab-port){
+      // text-transform: uppercase;
+      padding-top:0;
+      line-height: 1;
+      font-size: $h1;
+      width: 55%;
+      text-align: center;
+    }
+      @include respond(phoneExtra){
+      // text-transform: uppercase;
+      padding-top:0;
+      line-height: 1;
+      font-size: $h1;
+      width: 55%;
+      text-align: center;
+    }
+      @include respond(phone){
+      font-size: $h1;
+      width: 80%;
+      line-height: 1.2;
+      text-align: center;
+      padding-top: 0;
+      align-self: center;
+    }   
+   
+      
+  }
+
+
+  &--q2 {
+    font-family: 'Cansu-light';
+    font-size: $normal-font;
+    z-index: 1000; 
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    color: $color-blue;
+    // text-shadow: 1px 1px 2px white;
+    font-weight: lighter;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+    
+  //
+    
+ 
+    @include respond(desktop) {
+      font-size: $h2;
+
+    }
+    @include respond(tab-land){
+      font-size: $normal-font;
+      max-width: 40%;
+    }
+    @include respond(tab-port){
+      padding-top:20rem;
+      font-size: $normal-font;
+      padding-bottom: 1rem;
+      padding-top:0;
+      max-width: 35%;
+    }
+    @include respond(phone) {
+      font-size: $mobile-font;
+      // font-family: "Sacred valley";
+      min-width: 80%;
+      padding-top:0;
+      line-height: 1.2;
+    }
+
+  }
+
+  
+
+}
+
+
+.heading-sub {
+  width: 15%;
+  display: grid;
+  padding: 2rem;
+  background-color: rgb(252, 250, 241);
+  justify-content: center;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  color: $color-deep-blue;
+
+
+  @include respond(phone) {
+    right: 10%;
+  }
+
+
+  &--q6 {
+    display: inline-block;
+    font-family: 'Gill Sans', cursive;
+    font-weight: 500;
+    font-size: $normal-font;
+    font-style: italic;
+    padding: 0.5rem;
+    letter-spacing: 1.1px;
+
+    @include respond(desktop) {
+      font-size: $h1;
+    }
+
+  }
+}
+
+#title {
+  font-size: $h2;
+  white-space: nowrap;
+  font-weight: 500;
+  font-family: 'Sacred Valley', serif;
+  color: #{$color-deep-blue};
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 0.8px;
+  @include respond(tab-port){
+    font-size: $h1;
+   
+  }
+  @include respond(phoneExtra){
+    font-size: $big;
+  }
+  @include respond(phone){
+    // margin-bottom: 1rem;
+  }
+   
+}
+#title_sub{
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  font-family: 'Cansu-light';
+  color: #{$color-deep-blue};
+
+  font-size:$normal-font;
+  @include respond(phoneExtra){
+    font-size: $mobile-font;
+  }
+}
+.heading-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  @include respond(desktop){
+    width: 100%;
+  }
+  @include respond(phone){
+   width: 100%;
+   align-content: center;
+   padding:0;
+   flex-direction: column;
+    
+  }
+}
+.section-bio {
+  &__text, &__img {
+    justify-items: stretch;
+    font-size: $normal-font;
+  }
+
+  &__span1 {
+    padding: 4rem 1rem;
+    color:$color-deep-blue;
+    align-self: center;
+    justify-self: center;
+    font-family: "Cansu-light";
+    letter-spacing: 1px;
+    font-size: $normal-font;
+    width: 100%;
+    text-align: justify;
+    text-shadow: 1px 1px 2px white;
+    // z-index: 1000;
+    @include respond(tab-land){
+    padding: 6rem 1rem;
+    
+    }
+    @include respond(tab-port) {
+     padding: 4rem 1rem;
+     line-height: 1.2;
+     width: 65%;
+    }
+
+    @include respond(phoneExtra) {
+      padding: 1rem;
+      font-size: $mobile-font;
+      width: 84%;
+    }
+    @include respond(phone){
+      width: 84%;
+      line-height: 1.3;
+    }
+  }
+
+  &__span2 {
+    color: $color-blue;
+    padding: 0 1rem;
+    align-self: center;
+    justify-self: center;
+    font-size: $h2;
+    text-shadow: 1px 1px 2px white;
+    font-family: 'Orbitron';
+    text-transform: uppercase;
+    width: 100%;
+    text-align: right;
+    // font-weight: normal;
+    @include respond(desktop) {
+      width: 100%;
+      font-size: $h2;
+    }
+
+    @include respond(tab-land) {
+      width: 100%;
+      font-size: $h2;
+    }
+
+    @include respond(tab-port) {
+      width: 70%;
+      margin-top: 5rem;
+      
+    }
+
+    @include respond(phoneExtra) {
+      width: 95%;
+      margin-top: 4rem;
+      font-size: $h2;
+      
+    }
+
+  }
+  &__span3 {
+    padding: 0.4rem;
+    align-self: center;
+    justify-self: center;
+    color: $color-deep-blue;
+    text-shadow: 1px 1px 2px white;
+    font-family: "Cansu-light";
+    letter-spacing: 1px;
+    font-size: $normal-font;
+    flex-basis: 51%;
+    text-align: center;
+    // z-index: 1000;
+    @include respond(tab-land){
+      // text-align: center;
+    }
+    @include respond(tab-port) {
+     padding: 0.5rem 4rem;
+     line-height: 1.2; 
+     flex-basis: 55%;
+    }
+
+    @include respond(phoneExtra) {
+      font-size: $mobile-font;
+      flex-basis: 65%;
+      text-align: left;
+    }
+    @include respond(phone){
+      line-height: 1.3; 
+      flex-basis: 100%;
+     
+      
+    }
+  }
+
+  &__p {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 0;
+    letter-spacing: 1px;
+    color: hsl(0, 24%, 32%);
+  }
+  
+
+
+  &__title {
+    display: block;
+    font-size: $h2;
+    color: #{$color-brown};
+    font-family: 'Sacred Valley', serif;
+    letter-spacing: 0;
+    font-weight: 400;
+    padding-top: 0;
+    text-align: right;
+    text-transform: uppercase;
+    z-index: 10;
+    position: relative;
+    @include respond(desktop) {
+      font-size: $h2;
+    }
+    @include respond(tab-port){
+      padding-left: 2rem;
+    }
+    @include respond(phoneExtra) {
+      margin-bottom: 1rem;
+      padding-left: 1rem;
+      text-align: center;
+      font-size: $h2;
+    }
+  }
+}
+
+.panel {
+  font-size: 2rem;
+}
+
+.section-news {
+  &__title {
+    line-height: 1.2;
+    color:#{$color-white};
+    font-size: $h2;
+    margin: 0;
+    letter-spacing: 0;
+    font-family: 'Giliams Regular';
+    font-weight: 300;
+
+    @include respond(desktop) {
+      
+    }
+    @include respond(phoneExtra) {
+      font-size: $h1;
+    }
+  }
+}
+
+.section-lessons {
+  &-title {
+    margin-bottom: 0;
+    text-align: center;
+    color: $color-brown;
+    font-family: 'Giliams Regular';
+    letter-spacing: 0;
+    @include respond(desktop) {
+      margin: 0 auto;     
+    }
+     @include respond(phoneExtra) {
+      margin: 0 auto;
+      text-align: center;
+      width: 70%;
+      font-size: $h1;
+    }
+    
+  }
+
+
+  &-sub {
+    color: hsl(248, 40%, 36%);
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: center;
+    font-size: $h3;
+    @include respond(desktop) {
+    padding-left: 10%;
+    width: 100%;
+    font-size: $h3;
+    }
+    @include respond(tab-land){
+      padding-top: 5rem;
+      font-size: $h3;
+    }
+    @include respond(tab-port){
+      font-size: $h3;
+    }
+     @include respond(phoneExtra) {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    }
+    @include respond(phone){
+      font-size: $h2;
+    }
+
+    &__p p {
+      display: inline-block;
+      width: 80%;
+      font-family: 'Cansu-Light';
+      font-size:  $normal-font;
+      letter-spacing: 2px;
+      color: $color-deep-blue;
+      line-height: 1.3;
+      text-align:left;
+      @include respond(desktop) {
+        font-size: $h3;
+        width: 60%;
+      }
+      @include respond(tab-port){
+        width: 75%;
+      }
+     
+    }
+  }
+
+}
+
+
+
+.title__form {
+  font-family: 'Cansu-rounded', sans-serif;
+  color: $color-brown;
+  font-size: $h3;
+  font-weight: 400;
+  margin: 0.5rem;
+
+  @include respond(desktop) {
+    font-size: $h2;
+  }
+  @include respond(tab-port){
+    font-size: $h2;
+  }
+   @include respond(phone) {
+    font-size: $h2;
+  }
+}
+
+
+.ul-adjust-circle {
+  color: white;
+}
+.icon_rocket {
+  margin: 0 auto;
+  background-image: url("../Img/rocket.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 1000;
+  @include respond(phoneExtra){
+    height: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+.age_icon{
+  margin: 0 auto;
+  background-image: url("../Img/age_icon.svg");
+  background-repeat: no-repeat;
+  background-position:top;
+  background-size: contain;
+  width: 10%;
+  float: right;
+  margin-right: 3rem;
+  @include respond(tab-land){
+    height: $big;
+  }
+}
+
+// section news
+.carousel-caption{
+  h1{
+   font-family: 'Orbitron', serif;
+   margin-bottom: 0;
+   font-size: $big !important;
+   color: $color-blue;
+   text-shadow: 1px 1px 2px white;
+  }
+  p{
+    font-family: 'Cansu-raunded', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size:  $small-font;
+    margin-bottom: 0;
+  }
+  span{
+    // font-family: 'Cansu-lignt', sans-serif;
+    font-family: 'Orbitron', serif;
+    text-transform: uppercase;
+    font-size: $h3;
+    color:$color-deep-blue;
+  }
+}
+.section-expertise{
+  &__title{
+    color:$color-blue; 
+    text-align: center;
+    margin-bottom: 4rem;
+    width: 100%;
+    font-size: $h2;
+    text-shadow: 1px 1px 2px white;
+    font-family: 'Orbitron', serif;
+    text-transform: uppercase;
+    font-size: $h2;
+    // @include respond(tab-land){
+    
+    // }
+    @include respond(tab-port){
+      width: 75%;
+      font-size: $h2;
+      width: 55%;
+      text-align: center;
+    }
+    @include respond(phoneExtra){
+      width: 55%;
+    }
+    @include respond(phone){
+      width: 80%;
+    }
+  }
+}
+.section-QA{
+  &_title{
+    color: $color-blue;
+    font-size: $mobile-font;
+    margin: 4rem auto 2rem auto;
+    font-family: 'Cansu-light';
+    text-transform: uppercase;
+    width: 30%;
+    text-align: center;
+    @include respond(tab-land){
+      font-family: 'Cansu-light';
+    }
+    @include respond(tab-port){
+      font-size: $h2;
+      width: 65%;
+    }
+    @include respond(phoneExtra) {
+      width: 50%;
+      margin: 2rem auto 2rem auto;
+    }
+  }
+
+  &__span1{
+    padding: 2rem 5rem;
+    align-self: center;
+    justify-self: center;
+    color: $color-deep-blue;
+    text-shadow: 1px 1px 2px white;
+    font-family: "Cansu-light";
+    letter-spacing: 1px;
+    font-size: $normal-font;
+    width: 65%;
+    @include respond(tab-port) {
+     padding: 2rem 1rem;
+     font-size: $normal-font;
+     padding: 0.5rem 4rem;
+     line-height: 1.2; 
+     width: 65%;
+     text-align: justify;
+    }
+
+    @include respond(phoneExtra) {
+      font-size: $mobile-font;
+      width: 75%;
+    }
+    @include respond(phone){
+      width: 100%;
+      line-height: 1.3;
+    }
+  }
+}
+.section-contact{
+  &_title{
+    margin: 0 auto;
+    font-size:$h2;
+    color: $color-blue;
+    text-shadow: 1px 1px 2px white;
+    font-family: "Orbitron";
+    text-transform: uppercase;
+    text-align: center;
+    width: 50%;
+    @include respond(tab-port){
+       font-size:$h1;
+    }
+    @include respond(phone){
+      width: 90%;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Giliams Regular';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Giliams Regular'), url('../Fonts/Giliams-Regular.woff') format('woff');
+    }
+
+@font-face {
+  font-family: "Raindrops";
+  src:local('Raindrops'), url(../Fonts/Raindrops.ttf) format('truetype');
+}
+@font-face{
+  font-family: 'League Spartan', sans-serif;
+  src: local('League Spartan'), url(../Fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf) format('truetype');
+  
+}
+
+@font-face{
+  font-family: "Cansu-light",serif;
+  src: local('Cansu'), url(../Fonts/Cansu_Sans_Serif_Font_Family_Dfonts.org/TTF/Cansu-Light.ttf) format('truetype');
+}
+@font-face{
+  font-family: "Cansu-Regular",serif;
+  src: local('Cansu'), url(Fonts/Cansu_Sans_Serif_Font_Family_Dfonts.org/TTF/Cansu-Regular.ttf) format('truetype');
+}
+@font-face{
+  font-family: "Cansu-Bold",serif;
+  src: local('Cansu'), url(Fonts/Cansu_Sans_Serif_Font_Family_Dfonts.org/TTF/Cansu-Bold.ttf) format('truetype');
+}
+@font-face{
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  src: local('Orbitron'), url(../Fonts/Orbitron/static/Orbitron-VariableFont_wght.ttf) format('truetype');
+}

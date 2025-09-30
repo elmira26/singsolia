@@ -1,0 +1,222 @@
+.section-bio {
+  height: auto;
+  background: transparent;
+  padding-top: 10rem;
+  margin: 0 auto;
+  background:  $color-gradient_2;
+  background-blend-mode: lighten;
+  
+   
+  @include respond(phone){
+    padding: 5rem 0rem;
+ 
+  }
+
+  &-container {
+    margin: 0 auto;
+     
+   
+    // @include respond(desktop) {
+    //   max-width: 90%;
+     
+  
+    // }
+
+    // @include respond(tab-land) {
+    //   max-width: 100%;
+    //   max-height: 90%;
+ 
+    // }
+
+    @include respond(tab-port) {
+      max-width: 95%;
+      margin-bottom: 0;
+      padding-top: 4rem;
+    }
+
+    @include respond(phoneExtra) {
+      padding: 0;
+      max-height: 100%;
+      margin-bottom: 0;
+    }
+
+    @include respond(phone) {
+      max-height: 100%;
+      max-width: 100%;
+    }
+  }
+
+  &__text {
+    height: auto;
+    flex-basis: 25%;
+    border-radius: 10px;
+    align-self: center;
+    padding-top: 7rem;
+    .section-bio2_blurredimage--top{
+       position: absolute;
+     @include respond(tab-port) {
+        top: 10%;
+        left: 0;
+        width: 100%;
+        transform: skewY(176deg);
+      }
+    }
+    
+
+    @include respond(desktop){
+      flex-basis: 25%;
+    }
+    @include respond(tab-land){
+      flex-basis: 30%;
+    }
+    @include respond(tab-port) {
+      padding-top: 0;
+      flex-basis: 80%;
+      
+    
+    }
+   
+    @include respond(phone){
+      padding-top: 3rem;
+      flex-basis: 90%;
+    }
+  }
+
+  &__p {
+    display: grid;
+    justify-content: space-between;
+    padding-bottom: 7rem;
+    color: $color-blue;
+    grid-auto-flow: row;
+    position: relative;
+    z-index: 10;
+    @include respond(desktop){
+      // justify-content: space-between;
+    }
+    @include respond(tab-port) {
+      padding-bottom: 0;
+      justify-content: stretch;
+    }
+    @include respond(phoneExtra){
+      margin-bottom: 2rem;
+    }
+ }
+ &__p2 {
+    display: grid;
+    justify-content: stretch;
+    padding-bottom: 7rem;
+    color: $color-brown;
+    grid-auto-flow: row;
+
+    @include respond(tab-port) {
+      padding-bottom: 4rem;
+    }
+
+    @include respond(phone) {
+      padding-bottom: 3rem;
+    }
+ }
+  
+  &__img,
+  .flex-item {
+    flex-basis: 20%;
+    text-align: center;
+    padding: 2rem ;
+    // margin-top: 4rem;
+    
+      @include respond(desktop){
+        flex-basis: 20%;
+        margin-top: -15rem;
+      }
+      @include respond(tab-land){
+      flex-basis: 30%;
+      margin-top: 5rem;
+      }
+      @include respond(tab-port) {
+      flex-basis: 80%;
+      margin-top: 10rem;
+      }
+      @include respond(phoneExtra){
+      flex-basis: 80%;
+      margin-top: 5rem;
+      }
+      @include respond(phone) {
+        flex-basis: 100%;
+      } 
+     
+  }
+
+  &__img{
+      @include respond(tab-land){
+        margin-top: -5rem
+      }
+    }
+
+ &_img{
+  // object-fit: cover;
+  border-top-right-radius: 125px;
+  mix-blend-mode: darken;
+  height: fit-content;
+  @include respond(tab-land){
+    width: 90%;
+  }
+  @include respond(tab-port){
+    width: 60%;
+    
+  }
+ 
+  @include respond(phoneExtra){
+    border-top-right-radius: 143px;
+    width: 80%;
+   
+  }
+  @include respond(phone){
+    object-fit: cover;
+    
+  }
+  }
+
+  .section-bio-about {
+   
+    &__img {
+      height: 100%;
+      transform: translateX(0);
+      backface-visibility: hidden;
+
+      @include respond(tab-port) {
+        transform: translate(0, 0);
+      }
+
+      @include respond(phone) {
+        transform: translate(-2rem, 0);
+      }
+    }
+  }
+ 
+}
+.section-bio2{
+  background-color: $color-sand;
+  height: auto;
+    .flex-container{
+    align-content: flex-start;
+   
+      .section-bio__img{
+        padding-top: 0;
+      }
+      .section-bio__span2{
+        
+        @include respond(tab-land){
+          text-align: right;
+        }
+        @include respond(tab-port){
+          text-align: center;
+        }
+      }
+  }
+   @include respond(tab-port) {
+    padding-top: 10rem;
+  }
+  @include respond(phone) {
+    height: auto;
+  }
+}

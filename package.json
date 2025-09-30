@@ -1,0 +1,25 @@
+{
+  "name": "singsolia",
+  "version": "1.0.0",
+  "description": "landing page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass Sass/main.scss Css/style.css -w"
+  },
+  "author": "elmira26",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "sass": "^1.63.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elmira26/singsolia.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/elmira26/singsolia/issues"
+  },
+  "homepage": "https://github.com/elmira26/singsolia#readme"
+}
