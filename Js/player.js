@@ -33,8 +33,8 @@ function loadSong(song){
   console.log(song.titleSub);
   title.innerText = song.title;
   titleSub.innerText = song.titleSub;
-  audio.src = `./Music/${song.title}.mp3`;
-  cover.src = `./Img/${song.title}.svg`;
+  audio.src = `./.music/${song.title}.mp3`;
+  cover.src = `./.img/${song.title}.svg`;
   console.log(audio.src)
 }
 // function loadSongSub(sub){
