@@ -4,7 +4,7 @@
   "description": "landing page",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass Sass/main.scss Css/style.css -w"
+    "run-script": "sass Sass/main.scss Css/style.css -w"
   },
   "author": "elmira26",
   "license": "ISC",
@@ -21,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/elmira26/singsolia/issues"
   },
-  "homepage": "https://github.com/elmira26/singsolia#readme"
+  "homepage": "https://github.com/elmira26/singsolia#readme",
+  "devDependencies": {}
 }

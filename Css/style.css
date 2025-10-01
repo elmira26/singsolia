@@ -1868,11 +1868,12 @@ a {
 .section-bio_img {
   border-top-right-radius: 125px;
   mix-blend-mode: darken;
-  height: fit-content;
+  height: auto;
+  width: 100%;
 }
 @media (max-width: 75em) {
   .section-bio_img {
-    width: 90%;
+    width: 80%;
   }
 }
 @media (max-width: 56.25em) {

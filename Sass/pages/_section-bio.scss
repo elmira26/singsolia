@@ -153,12 +153,13 @@
     }
 
  &_img{
-  // object-fit: cover;
   border-top-right-radius: 125px;
   mix-blend-mode: darken;
-  height: fit-content;
+  height: auto;
+  width: 100%;
+  
   @include respond(tab-land){
-    width: 90%;
+    width: 80%;
   }
   @include respond(tab-port){
     width: 60%;
