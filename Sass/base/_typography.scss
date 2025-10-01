@@ -200,7 +200,7 @@
   white-space: nowrap;
   font-weight: 500;
   font-family: 'Sacred Valley', serif;
-  color: #{$color-deep-blue};
+  color: #{$color-blue};
   text-align: center;
   margin: 0 auto;
   letter-spacing: 0.8px;
@@ -221,7 +221,7 @@
   margin: 0 auto;
   margin-bottom: 2rem;
   font-family: 'Cansu-light';
-  color: #{$color-deep-blue};
+  color: #{$color-blue};
 
   font-size:$normal-font;
   @include respond(phoneExtra){
@@ -254,7 +254,7 @@
 
   &__span1 {
     padding: 4rem 1rem;
-    color:$color-deep-blue;
+    color:$color-blue;
     align-self: center;
     justify-self: center;
     font-family: "Cansu-light";
@@ -325,7 +325,7 @@
     padding: 0.4rem;
     align-self: center;
     justify-self: center;
-    color: $color-deep-blue;
+    color: $color-blue;
     text-shadow: 1px 1px 2px white;
     font-family: "Cansu-light";
     letter-spacing: 1px;
@@ -467,7 +467,7 @@
       font-family: 'Cansu-Light';
       font-size:  $normal-font;
       letter-spacing: 2px;
-      color: $color-deep-blue;
+      color: $color-blue;
       line-height: 1.3;
       text-align:left;
       @include respond(desktop) {
@@ -555,7 +555,7 @@
     font-family: 'Orbitron', serif;
     text-transform: uppercase;
     font-size: $h3;
-    color:$color-deep-blue;
+    color:$color-blue;
   }
 }
 .section-expertise{
@@ -612,7 +612,7 @@
     padding: 2rem 5rem;
     align-self: center;
     justify-self: center;
-    color: $color-deep-blue;
+    color: $color-blue;
     text-shadow: 1px 1px 2px white;
     font-family: "Cansu-light";
     letter-spacing: 1px;

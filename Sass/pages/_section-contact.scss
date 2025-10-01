@@ -42,7 +42,7 @@
   }
   &_mail{
     h3:hover{
-    color: #{$color-pink};
+    color: #{$color-deep-blue};
     }
   }
   &_socials{
@@ -65,7 +65,7 @@
   }
   &_socials{
     a h3:hover{
-      color: #{$color-pink};
+      color: #{$color-deep-blue};
     }
   }
   @include respond(phoneExtra){

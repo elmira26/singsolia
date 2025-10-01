@@ -147,7 +147,7 @@ a {
   &__li span {
     font-family: 'Cansu-raunded', sans-serif;
     display: contents;
-    color: $color-deep-blue;
+    color: $color-blue;
     font-size: $smaller-font;
     text-transform: uppercase;
     text-align: center;
@@ -157,7 +157,7 @@ a {
   }
 
   &__li a:hover span {
-    color: $color-pink;
+    color: $color-deep-blue;
   }
 
   &__li a span:nth-child(even) {

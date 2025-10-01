@@ -48,26 +48,26 @@
 
   &__text {
     height: auto;
-    flex-basis: 25%;
+    flex-basis: 30%;
     border-radius: 10px;
     align-self: center;
     padding-top: 7rem;
-    .section-bio2_blurredimage--top{
-       position: absolute;
-     @include respond(tab-port) {
-        top: 10%;
-        left: 0;
-        width: 100%;
-        transform: skewY(176deg);
-      }
-    }
+    // .section-bio2_blurredimage--top{
+    //    position: absolute;
+    //  @include respond(tab-port) {
+    //     top: 10%;
+    //     left: 0;
+    //     width: 100%;
+    //     transform: skewY(176deg);
+    //   }
+    // }
     
 
     @include respond(desktop){
       flex-basis: 25%;
     }
     @include respond(tab-land){
-      flex-basis: 30%;
+      flex-basis: 35%;
     }
     @include respond(tab-port) {
       padding-top: 0;
