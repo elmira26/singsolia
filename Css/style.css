@@ -631,12 +631,13 @@ body {
   background-position: top;
   background-size: contain;
   width: 10%;
+  height: 3rem;
   float: right;
   margin-right: 3rem;
 }
 @media (max-width: 75em) {
   .age_icon {
-    height: 4.4rem;
+    height: 3rem;
   }
 }
 
@@ -925,7 +926,7 @@ a {
   cursor: pointer;
 }
 .nav__close:hover {
-  color: hsla(334, 11%, 71%, 0.885);
+  color: hsl(285, 58%, 23%);
 }
 .nav__iconbox:hover {
   opacity: 1;
@@ -998,13 +999,13 @@ a {
   font-family: "Cansu-raunded", sans-serif;
   display: contents;
   color: #2a4545;
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-transform: uppercase;
   text-align: center;
 }
 @media (max-width: 56.25em) {
   .nav__li a span, .nav__li span {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 }
 .nav__li a:hover span {
@@ -2374,6 +2375,9 @@ a {
     font-size: 1.6rem;
   }
 }
+.section-contact_mail h3:hover {
+  color: #af4665;
+}
 .section-contact_socials {
   width: 85%;
   font-size: 2.08rem;
@@ -2394,6 +2398,9 @@ a {
   .section-contact_socials {
     width: 93%;
   }
+}
+.section-contact_socials a h3:hover {
+  color: #af4665;
 }
 @media (max-width: 45.6em) {
   .section-contact {

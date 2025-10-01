@@ -526,10 +526,11 @@
   background-position:top;
   background-size: contain;
   width: 10%;
+  height: 3rem;
   float: right;
   margin-right: 3rem;
   @include respond(tab-land){
-    height: $big;
+    height: 3rem;
   }
 }
 

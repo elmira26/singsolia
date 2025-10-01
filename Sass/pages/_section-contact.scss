@@ -40,6 +40,11 @@
       }
     }
   }
+  &_mail{
+    h3:hover{
+    color: #{$color-pink};
+    }
+  }
   &_socials{
     width: 85%;
     font-size: $h3;
@@ -56,6 +61,11 @@
     }
     @include respond(phoneExtra){
        width: 93%;
+    }
+  }
+  &_socials{
+    a h3:hover{
+      color: #{$color-pink};
     }
   }
   @include respond(phoneExtra){

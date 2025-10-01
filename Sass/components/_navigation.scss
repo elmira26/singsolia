@@ -75,7 +75,7 @@ a {
     cursor: pointer;
 
     &:hover {
-      color: #{$color-news-base};
+      color: #{$color-violet-bright};
     }
   }
 
@@ -148,11 +148,11 @@ a {
     font-family: 'Cansu-raunded', sans-serif;
     display: contents;
     color: $color-deep-blue;
-    font-size: $small-font;
+    font-size: $smaller-font;
     text-transform: uppercase;
     text-align: center;
     @include respond(tab-port){
-      font-size: $smaller-font;
+      font-size: $small-font;
     }
   }
 
