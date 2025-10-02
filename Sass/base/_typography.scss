@@ -629,7 +629,7 @@
 
     @include respond(phoneExtra) {
       font-size: $mobile-font;
-      width: 75%;
+      width: 70%;
     }
     @include respond(phone){
       width: 100%;

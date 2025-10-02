@@ -741,7 +741,7 @@ body {
 @media (max-width: 45.6em) {
   .section-QA__span1 {
     font-size: 1.6rem;
-    width: 75%;
+    width: 70%;
   }
 }
 @media (max-width: 37.5em) {
@@ -1407,7 +1407,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.79);
+  background-color: #f8f8f8;
   transform: scale(0.5);
   padding: 0 1rem;
   opacity: 0;
@@ -1438,21 +1438,19 @@ a {
   position: absolute;
   font-size: 3rem;
   cursor: pointer;
-  bottom: 35px;
+  bottom: 100px;
   left: 50%;
 }
 .appointment-modal__close:before {
-  color: #fcfbfe;
+  color: #363636;
 }
 @media (max-width: 56.25em) {
   .appointment-modal__close {
-    bottom: 30px;
     left: 50%;
   }
 }
 @media (max-width: 45.6em) {
   .appointment-modal__close {
-    bottom: 35px;
     left: 50%;
   }
 }

@@ -2,7 +2,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, .79);
+  background-color: $color-bio-base;
   transform: scale(0.5);
   padding: 0 1rem;
   opacity: 0;
@@ -33,22 +33,22 @@
     position: absolute;
     font-size: 3rem;
     cursor: pointer;
-    bottom: 35px;
+    bottom: 100px;
     left: 50%;
 
     &:before {
-      color: $color-white;
+      color: $color-brown;
     }
     
     
     @include respond(tab-port){
-      bottom: 30px;
+      // bottom: 30px;
       left: 50%;
     }
      
     @include respond(phoneExtra) {
       // top: initial;
-      bottom: 35px;
+      // bottom: 35px;
       left: 50%;
     }
     @include respond(desktop){
