@@ -40,7 +40,7 @@ footer {
       }
   }
   &__logo {
-    font-size: $h1;
+    font-size: $big;
     width: 7rem;
     // filter: sepia(90%);
 
@@ -99,7 +99,7 @@ footer {
   }
   &__left{
     width: 100%;
-    mix-blend-mode: color-burn;
+    // mix-blend-mode: color-burn;
     @include respond(phone){
       text-align: center;
     }

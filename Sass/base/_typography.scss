@@ -196,7 +196,7 @@
 }
 
 #title {
-  font-size: $h2;
+  font-size: $h3;
   white-space: nowrap;
   text-transform: uppercase;
   font-weight: 600;
@@ -206,11 +206,11 @@
   margin: 0 auto;
   
   @include respond(tab-port){
-    font-size: $h1;
+    font-size: $h2;
    
   }
   @include respond(phoneExtra){
-    font-size: $h1;
+    font-size: $h2;
   }
   @include respond(phone){
     // margin-bottom: 1rem;
@@ -610,7 +610,7 @@
   }
 
   &__span1{
-    padding: 2rem 5rem;
+    padding: 3rem 5rem;
     align-self: center;
     justify-self: center;
     color: $color-blue;
@@ -622,7 +622,6 @@
     @include respond(tab-port) {
      padding: 2rem 1rem;
      font-size: $normal-font;
-     padding: 0.5rem 4rem;
      line-height: 1.2; 
      width: 65%;
      text-align: justify;
