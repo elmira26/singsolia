@@ -1,26 +1,26 @@
-//@import 'abstracts/functions.scss';
-@import 'abstracts/mixins.scss';
-@import 'abstracts/variables.scss';
-@import 'base/fonts.scss';
-@import 'base/base.scss';
-@import 'base/animations.scss';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+@import 'base/fonts';
+@import 'base/base';
+@import 'base/animations';
 
 
-@import 'base/typography.scss';
-@import 'base/utilities.scss';
+@import 'base/typography';
+@import 'base/utilities';
 
-@import 'components/navigation.scss';
-@import 'components/random.scss';
-@import 'components/blob-section.scss';
+@import 'components/navigation';
+@import 'components/random';
+@import 'components/blob-section';
 @import 'components/modals';
 @import 'components/form';
-@import 'pages/section-home.scss';
-@import 'pages/section-bio.scss';
-@import 'pages/section-music.scss';
-@import 'pages/section-news.scss';
-@import 'pages/section-lessons.scss';
-@import 'pages/section-contact.scss';
-@import 'pages/testimonial.scss';
-@import 'pages/footer.scss';
-@import 'pages/section_expertise.scss';
-@import 'pages/section_QA.scss';
+@import 'pages/section-home';
+@import 'pages/section-bio';
+@import 'pages/section-music';
+@import 'pages/section-news';
+@import 'pages/section-lessons';
+@import 'pages/section-contact';
+@import 'pages/testimonial';
+@import 'pages/footer';
+@import 'pages/section_expertise';
+@import 'pages/section_QA';

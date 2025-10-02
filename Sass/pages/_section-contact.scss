@@ -8,22 +8,22 @@
   
   background-color: $color-sand;
   
-   &_blurredimage--bottom{
-    position: absolute;
-    width: 100%;
-    top: 0%;
-    left: 0;
-    transform: skewY(176deg);
-    @include respond(tab-land){
-      display: none;
-    }
-    @include respond(tab-port){
-      display: none;
-    }
-    @include respond(phoneExtra){
-      top: 29%;
-    }
-  }
+  //  &_blurredimage--bottom{
+  //   position: absolute;
+  //   width: 100%;
+  //   top: 0%;
+  //   left: 0;
+  //   transform: skewY(176deg);
+  //   @include respond(tab-land){
+  //     display: none;
+  //   }
+  //   @include respond(tab-port){
+  //     display: none;
+  //   }
+  //   @include respond(phoneExtra){
+  //     top: 29%;
+  //   }
+  // }
   &_mail{
     width: 80%;
     font-size: $h3;
@@ -90,37 +90,36 @@
 
 .book {
   visibility: hidden;
-  width: 35%;
+  width: 40%;
   height: auto;
   background-size: cover;
   position: absolute;
-  top: 10%;
-  left: 0;
+  top: 0;
+  left: 30%;
   margin: 0 auto;
   border-radius: 25px;
   box-shadow: 0 1.5rem 4rem rgba(23, 23, 23, 0.3);
   background-position: right;
-  // z-index: 10;
+  
    @include respond(desktop){
     width: 25%;
+    left: 32%;
   }
-
   @include respond(tab-land) {
     width: 50%;
+    left: 25%;
   }
-
   @include respond(tab-port) {
     width: 60%;
   }
-
   @include respond(phoneExtra) {
-    width: 100%;
+    min-width: 90%;
+    left: 5%;
   }
-
-  
-  // @include respond(phone) {
-  //   width: 90%;
-  // }
+  @include respond(phone) {
+    width: 100%;
+    left: 0;
+  }
 
   &__form {
     width: 100%;

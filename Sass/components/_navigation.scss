@@ -138,6 +138,8 @@ a {
     text-align: left;
     text-decoration: none;
     margin: 0;
+    // background-color: $color-pink-light;
+    // border: solid 1px $color-deep-blue;
     @include respond(phoneExtra){
       text-align: center;
     }
@@ -244,7 +246,7 @@ a {
   bottom: 0;
   background-color:transparent;
   @include respond(tab-port){
-    background-color: $color-bio-base;;
+    background-color:  $color-sand;
   }
 }
 
@@ -268,8 +270,8 @@ a {
 
 .action-btn {
   border: 0;
-  color: #{$color-pink};
-  -webkit-text-stroke: 1px $color-sand;
+  color: #{$color-deep-blue};
+  // -webkit-text-stroke: 1px $color-sand;
   background-color: transparent;
   font-size: $h1;
   cursor: pointer;
@@ -290,8 +292,8 @@ a {
 .action-btn-big {
   width: 7rem;
   height: 7rem;
-  color: #{$color-pink};
-  -webkit-text-stroke: 1px $color-sand;
+  color: #{$color-deep-blue};
+  // -webkit-text-stroke: 1px $color-sand;
   background-color: transparent;
   font-size: 4rem;
   border-radius: 22px;

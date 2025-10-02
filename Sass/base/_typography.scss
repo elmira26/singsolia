@@ -198,18 +198,19 @@
 #title {
   font-size: $h2;
   white-space: nowrap;
-  font-weight: 500;
-  font-family: 'Sacred Valley', serif;
-  color: #{$color-blue};
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Orbitron', serif;
+  color: #{$color-deep-blue};
   text-align: center;
   margin: 0 auto;
-  letter-spacing: 0.8px;
+  
   @include respond(tab-port){
     font-size: $h1;
    
   }
   @include respond(phoneExtra){
-    font-size: $big;
+    font-size: $h1;
   }
   @include respond(phone){
     // margin-bottom: 1rem;
@@ -220,8 +221,8 @@
   text-align: center;
   margin: 0 auto;
   margin-bottom: 2rem;
-  font-family: 'Cansu-light';
-  color: #{$color-blue};
+  font-family: 'Cansu-rounded';
+  color: #{$color-brown};
 
   font-size:$normal-font;
   @include respond(phoneExtra){

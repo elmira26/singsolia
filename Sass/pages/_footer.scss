@@ -19,7 +19,7 @@ footer {
   &__bg {
     padding: 2rem 0 3rem;
     background-color: $color-sand;
-    border-top: 1px solid $color-sand;
+    // border-top: 1px solid $color-sand;
   
   }
   &__bg::before {
@@ -28,7 +28,7 @@ footer {
       bottom: 0;
       left: 4px;
       width: 100%;
-      height: 300px;
+      height: 30px;
       background:$pink-violet-gradient; /* Your gradient colors */
       border-radius: inherit; /* Inherit border-radius from parent */
       filter: blur(20px); /* Adjust blur for shadow effect */
@@ -41,8 +41,8 @@ footer {
   }
   &__logo {
     font-size: $h1;
-    width: 10rem;
-    filter: sepia(90%);
+    width: 7rem;
+    // filter: sepia(90%);
 
   }
 
@@ -62,11 +62,12 @@ footer {
     color: $color-blue;
     font-family: 'Cansu-regular', sans-serif;
     text-transform: uppercase;
-    font-size: $small-font;
+    font-size: $smaller-font;
+    text-decoration: none;
   }
 
   &__socials:hover {
-    color: yellow;
+    color: $color-deep-blue;
   }
   &-social-icon{
     font-size: $h2;
@@ -98,6 +99,7 @@ footer {
   }
   &__left{
     width: 100%;
+    mix-blend-mode: color-burn;
     @include respond(phone){
       text-align: center;
     }

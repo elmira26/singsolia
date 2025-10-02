@@ -85,7 +85,7 @@
   &__p {
     display: grid;
     justify-content: space-between;
-    padding-bottom: 10rem;
+    margin-bottom: 1rem;
     color: $color-blue;
     grid-auto-flow: row;
     position: relative;
@@ -94,7 +94,6 @@
       // justify-content: space-between;
     }
     @include respond(tab-port) {
-      padding-bottom: 1rem;
       justify-content: stretch;
     }
     @include respond(phoneExtra){
@@ -159,10 +158,10 @@
   width: 90%;
   
   @include respond(tab-land){
-   width: 65%;
+   width: 80%;
   }
   @include respond(tab-port){
-    width: 70%;
+    width: 60%;
     
   }
  
