@@ -1,6 +1,6 @@
 
 .blob-section {
-  max-width: 250rem;
+  width: auto;
   margin: 0 auto;
   padding-bottom:0;
   display: flex;
@@ -63,7 +63,7 @@ $borderW: 6px;
     padding: 15px 30px;
   }
   @include respond(phone){
-    padding: 20px 46px;
+    padding: 20px 20px;
   }
   // &:before {
   //   content: "";

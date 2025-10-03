@@ -95,7 +95,7 @@
   
   @include respond(desktop){
     height: 100%;
-    // background-image: url(../Img/face.png);
+    align-items: center;
   
   }
   @include respond(tab-land){
