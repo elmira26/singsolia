@@ -645,7 +645,7 @@
     text-align: center;
     width: 50%;
     @include respond(tab-port){
-       font-size:$h1;
+      //  font-size:$h1;
     }
     @include respond(phone){
       width: 90%;

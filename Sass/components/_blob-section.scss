@@ -43,7 +43,7 @@ $borderW: 6px;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     @include respond(tab-port){
-      font-size: $h1;
+      font-size: $h2;
     }
   }
   $numOfBlobs: 4;
@@ -63,7 +63,8 @@ $borderW: 6px;
     padding: 15px 30px;
   }
   @include respond(phone){
-    padding: 20px 20px;
+    padding: 15px;
+   
   }
   // &:before {
   //   content: "";

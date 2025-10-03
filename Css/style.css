@@ -99,7 +99,7 @@ body {
   letter-spacing: 7px;
   font-family: "Sacred-Valley";
   font-weight: 200;
-  font-size: 2rem;
+  font-size: 2.1rem;
   text-transform: uppercase;
   color: #2a144b;
 }
@@ -119,7 +119,7 @@ body {
 .heading-primary-icon {
   display: inline-block;
   margin-right: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #363636;
   text-shadow: 1px 1px 2px white;
   font-style: normal;
@@ -281,7 +281,7 @@ body {
 }
 
 #title {
-  font-size: 2rem;
+  font-size: 2.1rem;
   white-space: nowrap;
   text-transform: uppercase;
   font-weight: 600;
@@ -526,24 +526,24 @@ body {
   letter-spacing: 1px;
   font-weight: 400;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.1rem;
 }
 @media (min-width: 112.5em) {
   .section-lessons-sub {
     padding-left: 10%;
     width: 100%;
-    font-size: 2rem;
+    font-size: 2.1rem;
   }
 }
 @media (max-width: 75em) {
   .section-lessons-sub {
     padding-top: 5rem;
-    font-size: 2rem;
+    font-size: 2.1rem;
   }
 }
 @media (max-width: 56.25em) {
   .section-lessons-sub {
-    font-size: 2rem;
+    font-size: 2.1rem;
   }
 }
 @media (max-width: 45.6em) {
@@ -588,7 +588,7 @@ body {
 .title__form {
   font-family: "Cansu-rounded", sans-serif;
   color: #363636;
-  font-size: 2rem;
+  font-size: 2.1rem;
   font-weight: 400;
   margin: 0.5rem;
 }
@@ -655,13 +655,13 @@ body {
   font-family: "Cansu-raunded", sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-bottom: 0;
 }
 .carousel-caption span {
   font-family: "Orbitron", serif;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 2.1rem;
   color: #2a144b;
 }
 
@@ -762,11 +762,6 @@ body {
   text-transform: uppercase;
   text-align: center;
   width: 50%;
-}
-@media (max-width: 56.25em) {
-  .section-contact_title {
-    font-size: 4.25rem;
-  }
 }
 @media (max-width: 37.5em) {
   .section-contact_title {
@@ -1000,13 +995,13 @@ a {
   font-family: "Cansu-raunded", sans-serif;
   display: contents;
   color: #2a144b;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
   text-align: center;
 }
 @media (max-width: 56.25em) {
   .nav__li a span, .nav__li span {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
 .nav__li a:hover span {
@@ -1314,7 +1309,7 @@ a {
 }
 @media (max-width: 56.25em) {
   .blob-btn h2 {
-    font-size: 4.25rem;
+    font-size: 3rem;
   }
 }
 .blob-btn {
@@ -1338,7 +1333,7 @@ a {
 }
 @media (max-width: 37.5em) {
   .blob-btn {
-    padding: 20px 20px;
+    padding: 15px;
   }
 }
 .blob-btn:hover {
@@ -1520,7 +1515,7 @@ a {
 }
 .form__input {
   font-family: "Cansu-light", sans-serif;
-  font-size: 2rem;
+  font-size: 2.1rem;
   padding: 1rem 1.4rem;
   color: rgb(63, 61, 61);
   background-color: #f8f8f8;
@@ -1571,7 +1566,7 @@ a {
   border-radius: 10rem;
   transition: all 0.2s;
   position: relative;
-  font-size: 2rem;
+  font-size: 2.1rem;
   letter-spacing: 0.2rem;
   border: none;
   cursor: pointer;
@@ -1592,7 +1587,7 @@ a {
 }
 
 .btn__form {
-  font-size: 2rem !important;
+  font-size: 2.1rem !important;
   font-family: "Cansu-rounded", sans-serif !important;
 }
 .btn__form::after {
@@ -2348,7 +2343,7 @@ a {
 }
 .section-contact_mail {
   width: 80%;
-  font-size: 2rem;
+  font-size: 2.1rem;
 }
 .section-contact_mail h3 {
   font-family: "Cansu-raunded", sans-serif;
@@ -2368,7 +2363,7 @@ a {
 }
 .section-contact_socials {
   width: 85%;
-  font-size: 2rem;
+  font-size: 2.1rem;
 }
 .section-contact_socials a h3 {
   font-family: "Cansu-raunded", sans-serif;
@@ -2551,7 +2546,7 @@ footer {
   width: 7rem;
 }
 .footer__copy {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-align: center;
   color: hsl(60, 11%, 91%);
   margin-top: 3rem;
@@ -2560,7 +2555,7 @@ footer {
   color: #0565ec;
   font-family: "Cansu-regular", sans-serif;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-decoration: none;
 }
 .footer__socials:hover {
