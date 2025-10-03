@@ -277,7 +277,7 @@
 
     @include respond(phoneExtra) {
       padding: 1rem;
-      font-size: $normal-font;
+      font-size: $mobile-font;
       width: 84%;
     }
     @include respond(phone){
@@ -463,7 +463,7 @@
       width: 80%;
       font-family: 'Cansu-Light';
       font-size:  $normal-font;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
       color: $color-blue;
       line-height: 1.3;
       text-align:left;
@@ -626,7 +626,7 @@
     }
 
     @include respond(phoneExtra) {
-      // font-size: $normal-font;
+      font-size: $mobile-font;
       width: 70%;
     }
     @include respond(phone){
