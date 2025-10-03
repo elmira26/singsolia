@@ -62,8 +62,8 @@
 
   &--q1 {
     font-size: $h2;
-    // text-shadow: 1px 1px 2px blue;
-    color: $color-blue;
+    text-shadow: 2px 2px 3px $color-deep-blue;
+    color: $color-bio-base;
     padding-top:25%;
     padding-bottom: 1.5rem;
     text-align: center;
@@ -104,8 +104,8 @@
     }
       @include respond(phone){
       font-size: $h1;
-      width: 80%;
-      line-height: 1.2;
+      width: 92%;
+      // line-height: 1.;
       text-align: center;
       padding-top: 0;
       align-self: center;
@@ -588,7 +588,7 @@
 .section-QA{
   &_title{
     color: $color-blue;
-    font-size: $mobile-font;
+    font-size: $h3;
     margin: 4rem auto 2rem auto;
     font-family: 'Cansu-light';
     text-transform: uppercase;
@@ -598,7 +598,6 @@
       font-family: 'Cansu-light';
     }
     @include respond(tab-port){
-      font-size: $h2;
       width: 65%;
     }
     @include respond(phoneExtra) {

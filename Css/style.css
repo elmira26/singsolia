@@ -155,7 +155,8 @@ body {
 }
 .heading-primary--q1 {
   font-size: 3rem;
-  color: #2a144b;
+  text-shadow: 2px 2px 3px #0565ec;
+  color: #f8f8f8;
   padding-top: 25%;
   padding-bottom: 1.5rem;
   text-align: center;
@@ -200,8 +201,7 @@ body {
 @media (max-width: 37.5em) {
   .heading-primary--q1 {
     font-size: 4.25rem;
-    width: 80%;
-    line-height: 1.2;
+    width: 92%;
     text-align: center;
     padding-top: 0;
     align-self: center;
@@ -697,7 +697,7 @@ body {
 
 .section-QA_title {
   color: #2a144b;
-  font-size: 2rem;
+  font-size: 2.1rem;
   margin: 4rem auto 2rem auto;
   font-family: "Cansu-light";
   text-transform: uppercase;
@@ -711,7 +711,6 @@ body {
 }
 @media (max-width: 56.25em) {
   .section-QA_title {
-    font-size: 3rem;
     width: 65%;
   }
 }
