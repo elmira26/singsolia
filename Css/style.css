@@ -70,7 +70,7 @@ body {
   font-weight: 400;
   padding: 0;
   margin: 0;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   background-color: transparent;
   position: relative;
 }
@@ -99,7 +99,7 @@ body {
   letter-spacing: 7px;
   font-family: "Sacred-Valley";
   font-weight: 200;
-  font-size: 2.08rem;
+  font-size: 2rem;
   text-transform: uppercase;
   color: #2a144b;
 }
@@ -154,7 +154,7 @@ body {
   transform: translateY(1px);
 }
 .heading-primary--q1 {
-  font-size: 2.4rem;
+  font-size: 3rem;
   color: #2a144b;
   padding-top: 25%;
   padding-bottom: 1.5rem;
@@ -169,21 +169,21 @@ body {
   .heading-primary--q1 {
     width: 24%;
     padding-top: 0;
-    font-size: 2.4rem;
+    font-size: 3rem;
   }
 }
 @media (max-width: 75em) {
   .heading-primary--q1 {
     width: 45%;
     padding-top: 0;
-    font-size: 3rem;
+    font-size: 4.25rem;
   }
 }
 @media (max-width: 56.25em) {
   .heading-primary--q1 {
     padding-top: 0;
     line-height: 1;
-    font-size: 3rem;
+    font-size: 4.25rem;
     width: 55%;
     text-align: center;
   }
@@ -192,14 +192,14 @@ body {
   .heading-primary--q1 {
     padding-top: 0;
     line-height: 1;
-    font-size: 3rem;
+    font-size: 4.25rem;
     width: 55%;
     text-align: center;
   }
 }
 @media (max-width: 37.5em) {
   .heading-primary--q1 {
-    font-size: 3rem;
+    font-size: 4.25rem;
     width: 80%;
     line-height: 1.2;
     text-align: center;
@@ -209,7 +209,7 @@ body {
 }
 .heading-primary--q2 {
   font-family: "Cansu-light";
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   z-index: 1000;
   display: inline-block;
   width: 50%;
@@ -222,19 +222,19 @@ body {
 }
 @media (min-width: 112.5em) {
   .heading-primary--q2 {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 75em) {
   .heading-primary--q2 {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     max-width: 40%;
   }
 }
 @media (max-width: 56.25em) {
   .heading-primary--q2 {
     padding-top: 20rem;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     padding-bottom: 1rem;
     padding-top: 0;
     max-width: 35%;
@@ -242,7 +242,7 @@ body {
 }
 @media (max-width: 37.5em) {
   .heading-primary--q2 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     min-width: 80%;
     padding-top: 0;
     line-height: 1.2;
@@ -269,19 +269,19 @@ body {
   display: inline-block;
   font-family: "Gill Sans", cursive;
   font-weight: 500;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-style: italic;
   padding: 0.5rem;
   letter-spacing: 1.1px;
 }
 @media (min-width: 112.5em) {
   .heading-sub--q6 {
-    font-size: 3rem;
+    font-size: 4.25rem;
   }
 }
 
 #title {
-  font-size: 2.08rem;
+  font-size: 2rem;
   white-space: nowrap;
   text-transform: uppercase;
   font-weight: 600;
@@ -292,12 +292,12 @@ body {
 }
 @media (max-width: 56.25em) {
   #title {
-    font-size: 2.4rem;
+    font-size: 3rem;
   }
 }
 @media (max-width: 45.6em) {
   #title {
-    font-size: 2.4rem;
+    font-size: 3rem;
   }
 }
 #title_sub {
@@ -306,11 +306,11 @@ body {
   margin-bottom: 2rem;
   font-family: "Cansu-rounded";
   color: #363636;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 @media (max-width: 45.6em) {
   #title_sub {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 }
 
@@ -338,7 +338,7 @@ body {
 
 .section-bio__text, .section-bio__img {
   justify-items: stretch;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 .section-bio__span1 {
   padding: 4rem 1rem;
@@ -347,7 +347,7 @@ body {
   justify-self: center;
   font-family: "Cansu-light";
   letter-spacing: 1px;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   width: 100%;
   text-align: justify;
   text-shadow: 1px 1px 2px white;
@@ -367,7 +367,7 @@ body {
 @media (max-width: 45.6em) {
   .section-bio__span1 {
     padding: 1rem;
-    font-size: 1.6rem;
+    font-size: 2rem;
     width: 84%;
   }
 }
@@ -381,7 +381,7 @@ body {
   padding: 0 1rem;
   align-self: center;
   justify-self: center;
-  font-size: 2.4rem;
+  font-size: 3rem;
   text-shadow: 1px 1px 2px white;
   font-family: "Orbitron";
   text-transform: uppercase;
@@ -391,13 +391,13 @@ body {
 @media (min-width: 112.5em) {
   .section-bio__span2 {
     width: 100%;
-    font-size: 2.4rem;
+    font-size: 3rem;
   }
 }
 @media (max-width: 75em) {
   .section-bio__span2 {
     width: 100%;
-    font-size: 2.4rem;
+    font-size: 3rem;
   }
 }
 @media (max-width: 56.25em) {
@@ -410,7 +410,7 @@ body {
   .section-bio__span2 {
     width: 95%;
     margin-top: 4rem;
-    font-size: 2.4rem;
+    font-size: 3rem;
   }
 }
 .section-bio__span3 {
@@ -421,7 +421,7 @@ body {
   text-shadow: 1px 1px 2px white;
   font-family: "Cansu-light";
   letter-spacing: 1px;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   flex-basis: 51%;
   text-align: center;
 }
@@ -434,7 +434,7 @@ body {
 }
 @media (max-width: 45.6em) {
   .section-bio__span3 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     flex-basis: 65%;
     text-align: left;
   }
@@ -452,7 +452,7 @@ body {
 }
 .section-bio__title {
   display: block;
-  font-size: 2.4rem;
+  font-size: 3rem;
   color: #363636;
   font-family: "Sacred Valley", serif;
   letter-spacing: 0;
@@ -465,7 +465,7 @@ body {
 }
 @media (min-width: 112.5em) {
   .section-bio__title {
-    font-size: 2.4rem;
+    font-size: 3rem;
   }
 }
 @media (max-width: 56.25em) {
@@ -478,7 +478,7 @@ body {
     margin-bottom: 1rem;
     padding-left: 1rem;
     text-align: center;
-    font-size: 2.4rem;
+    font-size: 3rem;
   }
 }
 
@@ -489,7 +489,7 @@ body {
 .section-news__title {
   line-height: 1.2;
   color: #fcfbfe;
-  font-size: 2.4rem;
+  font-size: 3rem;
   margin: 0;
   letter-spacing: 0;
   font-family: "Giliams Regular";
@@ -497,7 +497,7 @@ body {
 }
 @media (max-width: 45.6em) {
   .section-news__title {
-    font-size: 3rem;
+    font-size: 4.25rem;
   }
 }
 
@@ -518,7 +518,7 @@ body {
     margin: 0 auto;
     text-align: center;
     width: 70%;
-    font-size: 3rem;
+    font-size: 4.25rem;
   }
 }
 .section-lessons-sub {
@@ -526,24 +526,24 @@ body {
   letter-spacing: 1px;
   font-weight: 400;
   text-align: center;
-  font-size: 2.08rem;
+  font-size: 2rem;
 }
 @media (min-width: 112.5em) {
   .section-lessons-sub {
     padding-left: 10%;
     width: 100%;
-    font-size: 2.08rem;
+    font-size: 2rem;
   }
 }
 @media (max-width: 75em) {
   .section-lessons-sub {
     padding-top: 5rem;
-    font-size: 2.08rem;
+    font-size: 2rem;
   }
 }
 @media (max-width: 56.25em) {
   .section-lessons-sub {
-    font-size: 2.08rem;
+    font-size: 2rem;
   }
 }
 @media (max-width: 45.6em) {
@@ -555,14 +555,14 @@ body {
 }
 @media (max-width: 37.5em) {
   .section-lessons-sub {
-    font-size: 2.4rem;
+    font-size: 3rem;
   }
 }
 .section-lessons-sub__p p {
   display: inline-block;
   width: 80%;
   font-family: "Cansu-Light";
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   letter-spacing: 1px;
   color: #2a144b;
   line-height: 1.3;
@@ -570,7 +570,7 @@ body {
 }
 @media (min-width: 112.5em) {
   .section-lessons-sub__p p {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     width: 60%;
   }
 }
@@ -581,30 +581,30 @@ body {
 }
 @media (max-width: 45.6em) {
   .section-lessons-sub__p p {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 }
 
 .title__form {
   font-family: "Cansu-rounded", sans-serif;
   color: #363636;
-  font-size: 2.08rem;
+  font-size: 2rem;
   font-weight: 400;
   margin: 0.5rem;
 }
 @media (min-width: 112.5em) {
   .title__form {
-    font-size: 2.4rem;
+    font-size: 3rem;
   }
 }
 @media (max-width: 56.25em) {
   .title__form {
-    font-size: 2.4rem;
+    font-size: 3rem;
   }
 }
 @media (max-width: 37.5em) {
   .title__form {
-    font-size: 2.4rem;
+    font-size: 3rem;
   }
 }
 
@@ -647,7 +647,7 @@ body {
 .carousel-caption h1 {
   font-family: "Orbitron", serif;
   margin-bottom: 0;
-  font-size: 4.4rem !important;
+  font-size: 4.8rem !important;
   color: #2a144b;
   text-shadow: 1px 1px 2px white;
 }
@@ -661,7 +661,7 @@ body {
 .carousel-caption span {
   font-family: "Orbitron", serif;
   text-transform: uppercase;
-  font-size: 2.08rem;
+  font-size: 2rem;
   color: #2a144b;
 }
 
@@ -670,16 +670,16 @@ body {
   text-align: center;
   margin-bottom: 4rem;
   width: 100%;
-  font-size: 2.4rem;
+  font-size: 3rem;
   text-shadow: 1px 1px 2px white;
   font-family: "Orbitron", serif;
   text-transform: uppercase;
-  font-size: 2.4rem;
+  font-size: 3rem;
 }
 @media (max-width: 56.25em) {
   .section-expertise__title {
     width: 75%;
-    font-size: 2.4rem;
+    font-size: 3rem;
     width: 55%;
     text-align: center;
   }
@@ -697,7 +697,7 @@ body {
 
 .section-QA_title {
   color: #2a144b;
-  font-size: 1.6rem;
+  font-size: 2rem;
   margin: 4rem auto 2rem auto;
   font-family: "Cansu-light";
   text-transform: uppercase;
@@ -711,7 +711,7 @@ body {
 }
 @media (max-width: 56.25em) {
   .section-QA_title {
-    font-size: 2.4rem;
+    font-size: 3rem;
     width: 65%;
   }
 }
@@ -729,13 +729,13 @@ body {
   text-shadow: 1px 1px 2px white;
   font-family: "Cansu-light";
   letter-spacing: 1px;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   width: 65%;
 }
 @media (max-width: 56.25em) {
   .section-QA__span1 {
     padding: 2rem 1rem;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     line-height: 1.2;
     width: 65%;
     text-align: justify;
@@ -743,7 +743,7 @@ body {
 }
 @media (max-width: 45.6em) {
   .section-QA__span1 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     width: 70%;
   }
 }
@@ -755,7 +755,7 @@ body {
 
 .section-contact_title {
   margin: 0 auto;
-  font-size: 2.4rem;
+  font-size: 3rem;
   color: #0565ec;
   text-shadow: 1px 1px 2px white;
   font-family: "Orbitron";
@@ -765,7 +765,7 @@ body {
 }
 @media (max-width: 56.25em) {
   .section-contact_title {
-    font-size: 3rem;
+    font-size: 4.25rem;
   }
 }
 @media (max-width: 37.5em) {
@@ -1110,7 +1110,7 @@ a {
   border: 0;
   color: #0565ec;
   background-color: transparent;
-  font-size: 3rem;
+  font-size: 4.25rem;
   cursor: pointer;
   padding: 0 10px;
   margin: 0 15px;
@@ -1128,7 +1128,7 @@ a {
 @media (max-width: 37.5em) {
   .action-btn {
     margin: 0 10px;
-    font-size: 4.4rem;
+    font-size: 4.8rem;
   }
 }
 
@@ -1303,7 +1303,7 @@ a {
 
 .blob-btn h2 {
   background: #0565ec;
-  font-size: 2.4rem;
+  font-size: 3rem;
   margin-bottom: 0;
   line-height: 1;
   font-family: "Orbitron";
@@ -1314,7 +1314,7 @@ a {
 }
 @media (max-width: 56.25em) {
   .blob-btn h2 {
-    font-size: 3rem;
+    font-size: 4.25rem;
   }
 }
 .blob-btn {
@@ -1520,7 +1520,7 @@ a {
 }
 .form__input {
   font-family: "Cansu-light", sans-serif;
-  font-size: 2.08rem;
+  font-size: 2rem;
   padding: 1rem 1.4rem;
   color: rgb(63, 61, 61);
   background-color: #f8f8f8;
@@ -1543,7 +1543,7 @@ a {
   border-bottom: 3px solid #55023c;
 }
 .form__label {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-family: "Gill Sans" cursive;
   color: hsla(334, 11%, 71%, 0.885);
   font-style: italic;
@@ -1563,7 +1563,7 @@ a {
 .btn:link,
 .btn:visited {
   font-family: "Cansu-rounded", sans-serif !important;
-  font-size: 2.4rem;
+  font-size: 3rem;
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
@@ -1571,7 +1571,7 @@ a {
   border-radius: 10rem;
   transition: all 0.2s;
   position: relative;
-  font-size: 2.08rem;
+  font-size: 2rem;
   letter-spacing: 0.2rem;
   border: none;
   cursor: pointer;
@@ -1592,7 +1592,7 @@ a {
 }
 
 .btn__form {
-  font-size: 2.08rem !important;
+  font-size: 2rem !important;
   font-family: "Cansu-rounded", sans-serif !important;
 }
 .btn__form::after {
@@ -2238,8 +2238,8 @@ a {
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-  width: 3rem !important;
-  height: 3rem !important;
+  width: 4.25rem !important;
+  height: 4.25rem !important;
 }
 
 .carousel-control-next {
@@ -2348,7 +2348,7 @@ a {
 }
 .section-contact_mail {
   width: 80%;
-  font-size: 2.08rem;
+  font-size: 2rem;
 }
 .section-contact_mail h3 {
   font-family: "Cansu-raunded", sans-serif;
@@ -2356,11 +2356,11 @@ a {
   margin-left: 2rem;
   color: #2a144b;
   text-shadow: 1px 1px 2px white;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 @media (max-width: 45.6em) {
   .section-contact_mail h3 {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 }
 .section-contact_mail h3:hover {
@@ -2368,18 +2368,18 @@ a {
 }
 .section-contact_socials {
   width: 85%;
-  font-size: 2.08rem;
+  font-size: 2rem;
 }
 .section-contact_socials a h3 {
   font-family: "Cansu-raunded", sans-serif;
   display: inline-block;
   color: #2a144b;
   text-shadow: 1px 1px 2px white;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 @media (max-width: 45.6em) {
   .section-contact_socials a h3 {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 }
 @media (max-width: 45.6em) {
@@ -2547,7 +2547,7 @@ footer {
   }
 }
 .footer__logo {
-  font-size: 4.4rem;
+  font-size: 4.8rem;
   width: 7rem;
 }
 .footer__copy {
@@ -2567,7 +2567,7 @@ footer {
   color: #0565ec;
 }
 .footer-social-icon {
-  font-size: 2.4rem;
+  font-size: 3rem;
 }
 .footer__links {
   display: flex;
