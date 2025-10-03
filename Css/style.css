@@ -367,7 +367,7 @@ body {
 @media (max-width: 45.6em) {
   .section-bio__span1 {
     padding: 1rem;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     width: 84%;
   }
 }
@@ -579,6 +579,11 @@ body {
     width: 75%;
   }
 }
+@media (max-width: 45.6em) {
+  .section-lessons-sub__p p {
+    font-size: 1.6rem;
+  }
+}
 
 .title__form {
   font-family: "Cansu-rounded", sans-serif;
@@ -738,7 +743,6 @@ body {
 }
 @media (max-width: 45.6em) {
   .section-QA__span1 {
-    font-size: 1.6rem;
     width: 70%;
   }
 }
@@ -2552,7 +2556,7 @@ footer {
   margin-top: 3rem;
 }
 .footer__subtitle, .footer__link, .footer__social {
-  color: #2a144b;
+  color: #0565ec;
   font-family: "Cansu-regular", sans-serif;
   text-transform: uppercase;
   font-size: 1rem;

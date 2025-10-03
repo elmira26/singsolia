@@ -59,7 +59,7 @@ footer {
   &__subtitle,
   &__link,
   &__social {
-    color: $color-blue;
+    color: $color-deep-blue;
     font-family: 'Cansu-regular', sans-serif;
     text-transform: uppercase;
     font-size: $smaller-font;
@@ -79,7 +79,7 @@ footer {
     list-style: none;
     cursor: pointer;
     padding-left: 0;
-
+   
     @include respond(phoneExtra) {
       row-gap: 1rem;
     }

@@ -277,7 +277,7 @@
 
     @include respond(phoneExtra) {
       padding: 1rem;
-      font-size: $mobile-font;
+      font-size: $normal-font;
       width: 84%;
     }
     @include respond(phone){
@@ -474,7 +474,9 @@
       @include respond(tab-port){
         width: 75%;
       }
-     
+      @include respond(phoneExtra){
+        font-size: $mobile-font;
+      }
     }
   }
 
@@ -624,7 +626,7 @@
     }
 
     @include respond(phoneExtra) {
-      font-size: $mobile-font;
+      // font-size: $normal-font;
       width: 70%;
     }
     @include respond(phone){
