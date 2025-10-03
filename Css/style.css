@@ -2212,21 +2212,45 @@ a {
 @media (max-width: 75em) {
   .carousel-inner {
     max-width: 300px !important;
+    transform: translate(0);
   }
 }
 @media (max-width: 56.25em) {
   .carousel-inner {
     max-width: 330px !important;
+    transform: translate(0);
+  }
+}
+@media (max-width: 45.6em) {
+  .carousel-inner {
+    width: 75% !important;
+    transform: translate(17%);
   }
 }
 @media (max-width: 37.5em) {
   .carousel-inner {
     width: auto !important;
+    transform: translate(0);
   }
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-  filter: invert(1) grayscale(3) !important;
+  width: 3rem !important;
+  height: 3rem !important;
+}
+
+.carousel-control-next {
+  right: -100px !important;
+}
+
+.carousel-control-prev {
+  left: -100px !important;
+}
+
+@media (max-width: 37.5em) {
+  .carousel-control-next, .carousel-control-prev {
+    width: 40% !important;
+  }
 }
 
 .section-lessons {

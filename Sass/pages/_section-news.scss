@@ -58,7 +58,7 @@
   background-image: url(../Img/Liza_2023.png);
 
 }
-
+//STARTED CLOSE
 .panels {
   height: auto;
   overflow: hidden;
@@ -181,10 +181,10 @@
   z-index: 250 !important;
   
   & > button{
-    
     height: 2px !important;
     @include respond(tab-port){
       width: 7% !important;
+      
     }
     @include respond(phoneExtra){
       width: 16% !important;
@@ -202,7 +202,6 @@
 }
 .carousel-item{
   float: none!important;
-  
   transform: translateX(0) !important;
   transition: transform .4s !important;
   
@@ -222,24 +221,36 @@
  
   @include respond(tab-land){
     max-width: 300px !important;
-    // transform: translate(0);
+    transform: translate(0);
   }
 
   @include respond(tab-port){
     max-width: 330px  !important;
-    // transform: translate(0);
+    transform: translate(0);
   }
   @include respond(phoneExtra){
-  // width: 75% !important;
-  // transform: translate(17%);
+  width: 75% !important;
+  transform: translate(17%);
   }
   @include respond(phone){
      width: auto !important;
-    //  transform: translate(0);
+     transform: translate(0);
   }
 }
 .carousel-control-prev-icon, .carousel-control-next-icon{
-  filter: invert(1) grayscale(3) !important;
-  
-
+  width: $h1 !important;
+  height: $h1 !important;
+ 
 }
+.carousel-control-next{
+  right: -100px !important;
+}
+.carousel-control-prev{
+  left: -100px !important;
+}
+.carousel-control-next, .carousel-control-prev{
+   @include respond(phone){
+    width: 40% !important;
+  }
+}
+//END CLOSE
