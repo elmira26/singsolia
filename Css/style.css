@@ -114,7 +114,7 @@ body {
 .logo {
   letter-spacing: 7px;
   font-weight: 200;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
   color: #2a144b;
 }
@@ -169,7 +169,7 @@ body {
   transform: translateY(1px);
 }
 .heading-primary--q1 {
-  font-size: 2.1rem;
+  font-size: 2.7rem;
   color: #2a144b;
   padding-top: 25%;
   padding-bottom: 1.5rem;
@@ -184,21 +184,21 @@ body {
   .heading-primary--q1 {
     width: 24%;
     padding-top: 0;
-    font-size: 2.1rem;
+    font-size: 2.7rem;
   }
 }
 @media (max-width: 75em) {
   .heading-primary--q1 {
     width: 45%;
     padding-top: 0;
-    font-size: 2.1rem;
+    font-size: 2.7rem;
   }
 }
 @media (max-width: 56.25em) {
   .heading-primary--q1 {
     padding-top: 0;
     line-height: 1;
-    font-size: 2.1rem;
+    font-size: 2.7rem;
     width: 55%;
     text-align: center;
   }
@@ -207,14 +207,14 @@ body {
   .heading-primary--q1 {
     padding-top: 0;
     line-height: 1;
-    font-size: 2.1rem;
+    font-size: 2.7rem;
     width: 55%;
     text-align: center;
   }
 }
 @media (max-width: 37.5em) {
   .heading-primary--q1 {
-    font-size: 2.5rem;
+    font-size: 3.7rem;
     width: 92%;
     text-align: center;
     padding-top: 0;
@@ -234,19 +234,19 @@ body {
 }
 @media (min-width: 112.5em) {
   .heading-primary--q2 {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 75em) {
   .heading-primary--q2 {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     max-width: 40%;
   }
 }
 @media (max-width: 56.25em) {
   .heading-primary--q2 {
     padding-top: 20rem;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     padding-bottom: 1rem;
     padding-top: 0;
     max-width: 35%;
@@ -254,7 +254,7 @@ body {
 }
 @media (max-width: 37.5em) {
   .heading-primary--q2 {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     min-width: 80%;
     padding-top: 0;
   }
@@ -287,12 +287,12 @@ body {
 }
 @media (min-width: 112.5em) {
   .heading-sub--q6 {
-    font-size: 2.1rem;
+    font-size: 2.7rem;
   }
 }
 
 #title {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   white-space: nowrap;
   text-transform: uppercase;
   font-weight: 600;
@@ -303,12 +303,12 @@ body {
 }
 @media (max-width: 56.25em) {
   #title {
-    font-size: 1.9rem;
+    font-size: 2.1rem;
   }
 }
 @media (max-width: 45.6em) {
   #title {
-    font-size: 1.9rem;
+    font-size: 2.1rem;
   }
 }
 #title_sub {
@@ -395,21 +395,21 @@ body {
   padding: 0 2rem;
   align-self: center;
   justify-self: center;
-  font-size: 1.9rem;
+  font-size: 2.1rem;
   font-family: "Hachi Maru Pop", cursive;
   width: 100%;
   text-align: start;
 }
 @media (min-width: 112.5em) {
   .section-bio__span2 {
-    font-size: 1.9rem;
+    font-size: 2.1rem;
     width: 85%;
   }
 }
 @media (max-width: 75em) {
   .section-bio__span2 {
     width: 100%;
-    font-size: 1.9rem;
+    font-size: 2.1rem;
   }
 }
 @media (max-width: 56.25em) {
@@ -421,7 +421,7 @@ body {
 @media (max-width: 45.6em) {
   .section-bio__span2 {
     width: 85%;
-    font-size: 1.9rem;
+    font-size: 2.1rem;
   }
 }
 .section-bio__span3 {
@@ -459,7 +459,7 @@ body {
 }
 .section-bio__title {
   display: block;
-  font-size: 1.9rem;
+  font-size: 2.1rem;
   color: #363636;
   font-family: "Sacred Valley", serif;
   letter-spacing: 0;
@@ -472,7 +472,7 @@ body {
 }
 @media (min-width: 112.5em) {
   .section-bio__title {
-    font-size: 1.9rem;
+    font-size: 2.1rem;
   }
 }
 @media (max-width: 56.25em) {
@@ -485,7 +485,7 @@ body {
     margin-bottom: 1rem;
     padding-left: 1rem;
     text-align: center;
-    font-size: 1.9rem;
+    font-size: 2.1rem;
   }
 }
 
@@ -496,14 +496,14 @@ body {
 .section-news__title {
   line-height: 1.2;
   color: hsl(260, 60%, 99%);
-  font-size: 1.9rem;
+  font-size: 2.1rem;
   margin: 0;
   letter-spacing: 0;
   font-weight: 300;
 }
 @media (max-width: 45.6em) {
   .section-news__title {
-    font-size: 2.1rem;
+    font-size: 2.7rem;
   }
 }
 
@@ -512,24 +512,24 @@ body {
   letter-spacing: 1px;
   font-weight: 400;
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
 }
 @media (min-width: 112.5em) {
   .section-lessons-sub {
     padding-left: 10%;
     width: 100%;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 75em) {
   .section-lessons-sub {
     padding-top: 5rem;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 56.25em) {
   .section-lessons-sub {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 45.6em) {
@@ -541,7 +541,7 @@ body {
 }
 @media (max-width: 37.5em) {
   .section-lessons-sub {
-    font-size: 1.9rem;
+    font-size: 2.1rem;
   }
 }
 .section-lessons-sub__p p {
@@ -574,23 +574,23 @@ body {
 .title__form {
   font-family: "Cansu-Round", sans-serif;
   color: #363636;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: 400;
   margin: 0.5rem;
 }
 @media (min-width: 112.5em) {
   .title__form {
-    font-size: 1.9rem;
+    font-size: 2.1rem;
   }
 }
 @media (max-width: 56.25em) {
   .title__form {
-    font-size: 1.9rem;
+    font-size: 2.1rem;
   }
 }
 @media (max-width: 37.5em) {
   .title__form {
-    font-size: 1.9rem;
+    font-size: 2.1rem;
   }
 }
 
@@ -605,34 +605,38 @@ body {
   background-position: top;
   background-size: contain;
   width: 10%;
-  height: 2.1rem;
+  height: 2.7rem;
   float: right;
   margin-right: 3rem;
 }
 @media (max-width: 56.25em) {
   .age_icon {
-    height: 2.5rem;
+    height: 3.7rem;
+  }
+}
+@media (max-width: 45.6em) {
+  .age_icon {
+    height: 3.7rem;
   }
 }
 
 .carousel-caption h1 {
   font-family: "Hachi Maru Pop", cursive;
   margin-bottom: 0;
-  font-size: 2.5rem !important;
+  font-size: 3.7rem !important;
   color: #0565ec;
-  text-shadow: 1px 1px 2px white;
 }
 .carousel-caption p {
   font-family: "Cansu-raunded", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   font-size: 1.2rem;
   margin-bottom: 0;
 }
 .carousel-caption span {
   font-family: "Hachi Maru Pop", cursive;
   text-transform: uppercase;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   color: #2a144b;
 }
 
@@ -641,15 +645,14 @@ body {
   text-align: center;
   margin-bottom: 4rem;
   width: 100%;
-  font-size: 1.9rem;
   font-family: "Hachi Maru Pop", cursive;
   text-transform: uppercase;
-  font-size: 1.9rem;
+  font-size: 2.1rem;
 }
 @media (max-width: 56.25em) {
   .section-expertise__title {
     width: 75%;
-    font-size: 1.7rem;
+    font-size: 2.1rem;
     width: 55%;
     text-align: center;
   }
@@ -661,13 +664,13 @@ body {
 }
 @media (max-width: 37.5em) {
   .section-expertise__title {
-    width: 80%;
+    width: 85%;
   }
 }
 
 .section-QA_title {
   color: #2a144b;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   margin: 4rem auto 2rem auto;
   font-family: "Cansu-light";
   text-transform: uppercase;
@@ -686,7 +689,7 @@ body {
 }
 @media (max-width: 45.6em) {
   .section-QA_title {
-    width: 50%;
+    width: 55%;
     margin: 2rem auto 2rem auto;
   }
 }
@@ -722,7 +725,7 @@ body {
 
 .section-contact_title {
   margin: 0 auto;
-  font-size: 1.9rem;
+  font-size: 2.1rem;
   color: #0565ec;
   text-shadow: 1px 1px 2px white;
   font-family: "Hachi Maru Pop", cursive;
@@ -1067,7 +1070,7 @@ a {
   border: 0;
   color: #0565ec;
   background-color: transparent;
-  font-size: 2.1rem;
+  font-size: 2.7rem;
   cursor: pointer;
   padding: 0 10px;
   margin: 0 15px;
@@ -1085,7 +1088,7 @@ a {
 @media (max-width: 37.5em) {
   .action-btn {
     margin: 0 10px;
-    font-size: 2.5rem;
+    font-size: 3.7rem;
   }
 }
 
@@ -1260,7 +1263,7 @@ a {
 
 .blob-btn h2 {
   background: #0565ec;
-  font-size: 1.9rem;
+  font-size: 2.1rem;
   margin-bottom: 0;
   width: 26rem;
   font-family: "Hachi Maru Pop", cursive;
@@ -1472,7 +1475,7 @@ a {
 }
 .form__input {
   font-family: "Cansu-light", sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   padding: 1rem 1.4rem;
   color: rgb(63, 61, 61);
   background-color: #f8f8f8;
@@ -1515,7 +1518,7 @@ a {
 .btn:link,
 .btn:visited {
   font-family: "Cansu-rounded", sans-serif !important;
-  font-size: 1.9rem;
+  font-size: 2.1rem;
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
@@ -1523,7 +1526,7 @@ a {
   border-radius: 10rem;
   transition: all 0.2s;
   position: relative;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   letter-spacing: 0.2rem;
   border: none;
   cursor: pointer;
@@ -1544,7 +1547,7 @@ a {
 }
 
 .btn__form {
-  font-size: 1.7rem !important;
+  font-size: 1.8rem !important;
   font-family: "Cansu-rounded", sans-serif !important;
 }
 .btn__form::after {
@@ -1607,6 +1610,12 @@ a {
     height: 85vh;
   }
 }
+@media (max-width: 37.5em) {
+  .section-home {
+    height: 100vh;
+  }
+}
+
 .section-home::before {
   content: ""; /* Required for pseudo-elements */
   position: absolute;
@@ -1890,7 +1899,6 @@ a {
   position: fixed;
   bottom: -20px;
   box-shadow: 0 1.5rem 4rem rgba(23, 23, 23, 0.5);
-  border: 2px solid #0565ec;
   left: 0;
   z-index: 150;
   background: hsl(260, 60%, 99%);
@@ -2180,8 +2188,8 @@ a {
   }
 }
 .carousel-control-prev-icon, .carousel-control-next-icon {
-  width: 2.1rem !important;
-  height: 2.1rem !important;
+  width: 2.7rem !important;
+  height: 2.7rem !important;
 }
 
 .carousel-control-next {
@@ -2202,7 +2210,7 @@ a {
   height: fit-content;
   position: relative;
   padding-top: 10rem;
-  background-color: hsl(260, 60%, 99%);
+  background-image: url("../img/musical-bg.svg");
 }
 @media (max-width: 56.25em) {
   .section-lessons {
@@ -2218,7 +2226,6 @@ a {
 .section-lessons-sub__p {
   margin: 0 auto;
   padding: 3rem;
-  background-color: hsl(260, 60%, 99%);
   width: 30%;
 }
 @media (min-width: 112.5em) {
@@ -2256,7 +2263,7 @@ a {
   height: 100%;
 }
 .container-lessons .flex-container {
-  background-color: hsl(260, 60%, 99%);
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   align-content: space-evenly;
@@ -2295,15 +2302,14 @@ a {
 }
 .section-contact_mail {
   width: 80%;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   color: #0565ec;
 }
 .section-contact_mail h3 {
-  font-family: "Cansu-light", sans-serif;
+  font-family: "Cansu-light", serif;
   display: inline-block;
   margin-left: 2rem;
   color: #2a144b;
-  text-shadow: 1px 1px 2px white;
   font-size: 1.6rem;
 }
 @media (max-width: 45.6em) {
@@ -2316,11 +2322,11 @@ a {
 }
 .section-contact_socials {
   width: 85%;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   color: #0565ec;
 }
 .section-contact_socials a h3 {
-  font-family: "Cansu-light", sans-serif;
+  font-family: "Cansu-light", serif;
   display: inline-block;
   color: #2a144b;
   text-shadow: 1px 1px 2px hsl(260, 60%, 99%);
@@ -2341,7 +2347,7 @@ a {
 }
 @media (max-width: 45.6em) {
   .section-contact {
-    padding-top: 25%;
+    justify-content: start;
     padding-bottom: 5rem;
   }
 }
@@ -2496,7 +2502,7 @@ footer {
   }
 }
 .footer__logo {
-  font-size: 2.5rem;
+  font-size: 3.7rem;
   width: 8rem;
 }
 .footer__copy {
@@ -2516,7 +2522,7 @@ footer {
   color: #0565ec;
 }
 .footer-social-icon {
-  font-size: 1.9rem;
+  font-size: 2.1rem;
 }
 .footer__links {
   display: flex;
@@ -2585,6 +2591,7 @@ footer {
   background-color: hsl(260, 60%, 99%);
   padding-top: 2rem;
   padding-bottom: 10rem;
+  background-image: url("../img/musical-bg.svg");
 }
 .section-QA .row .flex-container {
   width: 60%;

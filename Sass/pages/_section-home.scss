@@ -50,7 +50,7 @@
   }
 
   @include respond(phone) {
-    
+    height: 100vh;
   }
 }
 .section-home::before {
