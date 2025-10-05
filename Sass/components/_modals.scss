@@ -40,15 +40,18 @@
       color: $color-brown;
     }
     
-    
-    @include respond(tab-port){
-      // bottom: 30px;
-      left: 50%;
+    @include respond(tab-land){
+      top: 1rem;
+      left: 93%;
     }
+    // @include respond(tab-port){
+    //   bottom: 30px;
+    //   left: 50%;
+    // }
      
     @include respond(phoneExtra) {
       // top: initial;
-      // bottom: 35px;
+      top: 90%;
       left: 50%;
     }
     @include respond(desktop){
@@ -61,7 +64,7 @@
 
 .active-modal {
   opacity: 1;
-  height: 100vh;
+  height: fit-content;
   visibility: visible;
   overflow: hidden;
   z-index: 200;

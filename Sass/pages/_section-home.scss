@@ -2,31 +2,9 @@
   height: 100vh;
   position: relative;
   z-index: 1;
-  background-color: $color-sand;
-  // box-shadow:inset 1px 1px 150px $pink-violet-gradient;
+  background-color: $color-white;
   text-align: center;
  
-
-  // &_blurredimage--bottom{
-  //   width: 100vw;
-  //   height: 100%;
-  //   left: 0;
-  //   position: absolute;
-  //   background-image: url(../Img/Rectangle_blur.svg);
-  //   top: 94%;  
-  //   @include respond(tab-land){
-  //       top:100%;
-  //     }
-  //   @include respond(tab-port){
-  //     top: -10%;
-  //   }
-  //   @include respond(phoneExtra){
-  //     top:-10%;
-    // }
-    // @include respond(phone){
-    //   top:-2%;
-    // }
-  // }
 
   &__text-box {
     background: transparent;
@@ -61,9 +39,11 @@
   }
   
   @include respond(tab-land){
+     padding-top: 10%;
+     height: 85vh;
   }
   @include respond(tab-port) {
-   padding-top: 21%;
+     
   }
    @include respond(phoneExtra){
    
@@ -76,7 +56,7 @@
 .section-home::before {
       content: ''; /* Required for pseudo-elements */
       position: absolute;
-      bottom: 400px;
+      bottom: 80%;
       left: 0;
       width: 100%;
       height: 100%;

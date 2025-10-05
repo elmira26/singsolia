@@ -32,6 +32,22 @@
   font-optical-sizing: auto;
   src: local("Orbitron"), url(../Fonts/Orbitron/static/Orbitron-VariableFont_wght.ttf) format("truetype");
 }
+@font-face {
+  font-family: "Cansu-Round", serif;
+  src: local("Cansu"), url(Fonts/Cansu_Sans_Serif_Font_Family_Dfonts.org/TTF/Cansu-Round.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Rubik Vinyl", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  src: local("Rubik Vinyl"), url("../Fonts/RubikVinyl-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Hachi Maru Pop", cursive;
+  font-weight: 400;
+  font-style: normal;
+  src: local("Hachi Maru Pop"), url("../Fonts/HachiMaruPop-Regular.ttf") format("truetype");
+}
 *,
 *::after,
 *::before {
@@ -70,7 +86,7 @@ body {
   font-weight: 400;
   padding: 0;
   margin: 0;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   background-color: transparent;
   position: relative;
 }
@@ -97,9 +113,8 @@ body {
 }
 .logo {
   letter-spacing: 7px;
-  font-family: "Sacred-Valley";
   font-weight: 200;
-  font-size: 2.1rem;
+  font-size: 1.7rem;
   text-transform: uppercase;
   color: #2a144b;
 }
@@ -154,37 +169,36 @@ body {
   transform: translateY(1px);
 }
 .heading-primary--q1 {
-  font-size: 3rem;
-  text-shadow: 2px 2px 3px #0565ec;
-  color: #f8f8f8;
+  font-size: 2.1rem;
+  color: #2a144b;
   padding-top: 25%;
   padding-bottom: 1.5rem;
   text-align: center;
-  font-weight: normal;
+  font-weight: bolder;
   line-height: 1.2;
   margin-bottom: 0;
-  font-family: "Orbitron";
+  font-family: "Hachi Maru Pop", cursive;
   z-index: 1000;
 }
 @media (min-width: 112.5em) {
   .heading-primary--q1 {
     width: 24%;
     padding-top: 0;
-    font-size: 3rem;
+    font-size: 2.1rem;
   }
 }
 @media (max-width: 75em) {
   .heading-primary--q1 {
     width: 45%;
     padding-top: 0;
-    font-size: 4.25rem;
+    font-size: 2.1rem;
   }
 }
 @media (max-width: 56.25em) {
   .heading-primary--q1 {
     padding-top: 0;
     line-height: 1;
-    font-size: 4.25rem;
+    font-size: 2.1rem;
     width: 55%;
     text-align: center;
   }
@@ -193,14 +207,14 @@ body {
   .heading-primary--q1 {
     padding-top: 0;
     line-height: 1;
-    font-size: 4.25rem;
+    font-size: 2.1rem;
     width: 55%;
     text-align: center;
   }
 }
 @media (max-width: 37.5em) {
   .heading-primary--q1 {
-    font-size: 4.25rem;
+    font-size: 2.5rem;
     width: 92%;
     text-align: center;
     padding-top: 0;
@@ -208,8 +222,8 @@ body {
   }
 }
 .heading-primary--q2 {
-  font-family: "Cansu-light";
-  font-size: 1.8rem;
+  font-family: "Cansu-Round";
+  font-size: 1.6rem;
   z-index: 1000;
   display: inline-block;
   width: 50%;
@@ -217,24 +231,22 @@ body {
   color: #2a144b;
   font-weight: lighter;
   margin: 0;
-  font-weight: 400;
-  letter-spacing: 1px;
 }
 @media (min-width: 112.5em) {
   .heading-primary--q2 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 }
 @media (max-width: 75em) {
   .heading-primary--q2 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     max-width: 40%;
   }
 }
 @media (max-width: 56.25em) {
   .heading-primary--q2 {
     padding-top: 20rem;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     padding-bottom: 1rem;
     padding-top: 0;
     max-width: 35%;
@@ -242,10 +254,9 @@ body {
 }
 @media (max-width: 37.5em) {
   .heading-primary--q2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     min-width: 80%;
     padding-top: 0;
-    line-height: 1.2;
   }
 }
 
@@ -269,48 +280,48 @@ body {
   display: inline-block;
   font-family: "Gill Sans", cursive;
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-style: italic;
   padding: 0.5rem;
   letter-spacing: 1.1px;
 }
 @media (min-width: 112.5em) {
   .heading-sub--q6 {
-    font-size: 4.25rem;
+    font-size: 2.1rem;
   }
 }
 
 #title {
-  font-size: 2.1rem;
+  font-size: 1.7rem;
   white-space: nowrap;
   text-transform: uppercase;
   font-weight: 600;
-  font-family: "Orbitron", serif;
+  font-family: "Hachi Maru Pop", cursive;
   color: #0565ec;
   text-align: center;
   margin: 0 auto;
 }
 @media (max-width: 56.25em) {
   #title {
-    font-size: 3rem;
+    font-size: 1.9rem;
   }
 }
 @media (max-width: 45.6em) {
   #title {
-    font-size: 3rem;
+    font-size: 1.9rem;
   }
 }
 #title_sub {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 2rem;
-  font-family: "Cansu-rounded";
+  font-family: "Cansu-Round";
   color: #363636;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 @media (max-width: 45.6em) {
   #title_sub {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -337,29 +348,32 @@ body {
 }
 
 .section-bio__text, .section-bio__img {
-  justify-items: stretch;
-  font-size: 1.8rem;
+  align-self: flex-start;
+  font-size: 1.6rem;
 }
 .section-bio__span1 {
-  padding: 4rem 1rem;
+  padding: 2rem;
   color: #2a144b;
   align-self: center;
   justify-self: center;
   font-family: "Cansu-light";
-  letter-spacing: 1px;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   width: 100%;
   text-align: justify;
-  text-shadow: 1px 1px 2px white;
+  text-shadow: 1px 1px 2px hsl(260, 60%, 99%);
+}
+@media (min-width: 112.5em) {
+  .section-bio__span1 {
+    width: 85%;
+  }
 }
 @media (max-width: 75em) {
   .section-bio__span1 {
-    padding: 4rem 1rem;
+    width: 100%;
   }
 }
 @media (max-width: 56.25em) {
   .section-bio__span1 {
-    padding: 4rem 1rem;
     line-height: 1.2;
     width: 65%;
   }
@@ -367,37 +381,35 @@ body {
 @media (max-width: 45.6em) {
   .section-bio__span1 {
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     width: 84%;
   }
 }
 @media (max-width: 37.5em) {
   .section-bio__span1 {
-    width: 84%;
+    width: 90%;
   }
 }
 .section-bio__span2 {
   color: #0565ec;
-  padding: 0 1rem;
+  padding: 0 2rem;
   align-self: center;
   justify-self: center;
-  font-size: 3rem;
-  text-shadow: 1px 1px 2px white;
-  font-family: "Orbitron";
-  text-transform: uppercase;
+  font-size: 1.9rem;
+  font-family: "Hachi Maru Pop", cursive;
   width: 100%;
-  text-align: right;
+  text-align: start;
 }
 @media (min-width: 112.5em) {
   .section-bio__span2 {
-    width: 100%;
-    font-size: 3rem;
+    font-size: 1.9rem;
+    width: 85%;
   }
 }
 @media (max-width: 75em) {
   .section-bio__span2 {
     width: 100%;
-    font-size: 3rem;
+    font-size: 1.9rem;
   }
 }
 @media (max-width: 56.25em) {
@@ -408,51 +420,46 @@ body {
 }
 @media (max-width: 45.6em) {
   .section-bio__span2 {
-    width: 95%;
-    margin-top: 4rem;
-    font-size: 3rem;
+    width: 85%;
+    font-size: 1.9rem;
   }
 }
 .section-bio__span3 {
-  padding: 0.4rem;
+  padding: 0;
   align-self: center;
   justify-self: center;
   color: #2a144b;
-  text-shadow: 1px 1px 2px white;
   font-family: "Cansu-light";
-  letter-spacing: 1px;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   flex-basis: 51%;
-  text-align: center;
+  text-align: justify;
+  padding: 0;
 }
 @media (max-width: 56.25em) {
   .section-bio__span3 {
-    padding: 0.5rem 4rem;
-    line-height: 1.2;
     flex-basis: 55%;
   }
 }
 @media (max-width: 45.6em) {
   .section-bio__span3 {
-    font-size: 2rem;
-    flex-basis: 65%;
+    font-size: 1.8rem;
+    flex-basis: 75%;
     text-align: left;
   }
 }
 @media (max-width: 37.5em) {
   .section-bio__span3 {
-    flex-basis: 90%;
+    flex-basis: 85%;
   }
 }
 .section-bio__p {
   font-family: "Roboto", sans-serif;
   padding-top: 0;
-  letter-spacing: 1px;
-  color: hsl(0, 24%, 32%);
+  color: #363636;
 }
 .section-bio__title {
   display: block;
-  font-size: 3rem;
+  font-size: 1.9rem;
   color: #363636;
   font-family: "Sacred Valley", serif;
   letter-spacing: 0;
@@ -465,7 +472,7 @@ body {
 }
 @media (min-width: 112.5em) {
   .section-bio__title {
-    font-size: 3rem;
+    font-size: 1.9rem;
   }
 }
 @media (max-width: 56.25em) {
@@ -478,7 +485,7 @@ body {
     margin-bottom: 1rem;
     padding-left: 1rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 1.9rem;
   }
 }
 
@@ -488,62 +495,41 @@ body {
 
 .section-news__title {
   line-height: 1.2;
-  color: #fcfbfe;
-  font-size: 3rem;
+  color: hsl(260, 60%, 99%);
+  font-size: 1.9rem;
   margin: 0;
   letter-spacing: 0;
-  font-family: "Giliams Regular";
   font-weight: 300;
 }
 @media (max-width: 45.6em) {
   .section-news__title {
-    font-size: 4.25rem;
+    font-size: 2.1rem;
   }
 }
 
-.section-lessons-title {
-  margin-bottom: 0;
-  text-align: center;
-  color: #363636;
-  font-family: "Giliams Regular";
-  letter-spacing: 0;
-}
-@media (min-width: 112.5em) {
-  .section-lessons-title {
-    margin: 0 auto;
-  }
-}
-@media (max-width: 45.6em) {
-  .section-lessons-title {
-    margin: 0 auto;
-    text-align: center;
-    width: 70%;
-    font-size: 4.25rem;
-  }
-}
 .section-lessons-sub {
   color: hsl(248, 40%, 36%);
   letter-spacing: 1px;
   font-weight: 400;
   text-align: center;
-  font-size: 2.1rem;
+  font-size: 1.7rem;
 }
 @media (min-width: 112.5em) {
   .section-lessons-sub {
     padding-left: 10%;
     width: 100%;
-    font-size: 2.1rem;
+    font-size: 1.7rem;
   }
 }
 @media (max-width: 75em) {
   .section-lessons-sub {
     padding-top: 5rem;
-    font-size: 2.1rem;
+    font-size: 1.7rem;
   }
 }
 @media (max-width: 56.25em) {
   .section-lessons-sub {
-    font-size: 2.1rem;
+    font-size: 1.7rem;
   }
 }
 @media (max-width: 45.6em) {
@@ -555,14 +541,14 @@ body {
 }
 @media (max-width: 37.5em) {
   .section-lessons-sub {
-    font-size: 3rem;
+    font-size: 1.9rem;
   }
 }
 .section-lessons-sub__p p {
   display: inline-block;
   width: 80%;
   font-family: "Cansu-Light";
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   letter-spacing: 1px;
   color: #2a144b;
   line-height: 1.3;
@@ -570,7 +556,7 @@ body {
 }
 @media (min-width: 112.5em) {
   .section-lessons-sub__p p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     width: 60%;
   }
 }
@@ -581,50 +567,35 @@ body {
 }
 @media (max-width: 45.6em) {
   .section-lessons-sub__p p {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 
 .title__form {
-  font-family: "Cansu-rounded", sans-serif;
+  font-family: "Cansu-Round", sans-serif;
   color: #363636;
-  font-size: 2.1rem;
+  font-size: 1.7rem;
   font-weight: 400;
   margin: 0.5rem;
 }
 @media (min-width: 112.5em) {
   .title__form {
-    font-size: 3rem;
+    font-size: 1.9rem;
   }
 }
 @media (max-width: 56.25em) {
   .title__form {
-    font-size: 3rem;
+    font-size: 1.9rem;
   }
 }
 @media (max-width: 37.5em) {
   .title__form {
-    font-size: 3rem;
+    font-size: 1.9rem;
   }
 }
 
 .ul-adjust-circle {
   color: white;
-}
-
-.icon_rocket {
-  margin: 0 auto;
-  background-image: url("../Img/rocket.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-  z-index: 1000;
-}
-@media (max-width: 45.6em) {
-  .icon_rocket {
-    height: 3rem;
-    margin-bottom: 2rem;
-  }
 }
 
 .age_icon {
@@ -634,21 +605,21 @@ body {
   background-position: top;
   background-size: contain;
   width: 10%;
-  height: 3rem;
+  height: 2.1rem;
   float: right;
   margin-right: 3rem;
 }
-@media (max-width: 75em) {
+@media (max-width: 56.25em) {
   .age_icon {
-    height: 3rem;
+    height: 2.5rem;
   }
 }
 
 .carousel-caption h1 {
-  font-family: "Orbitron", serif;
+  font-family: "Hachi Maru Pop", cursive;
   margin-bottom: 0;
-  font-size: 4.8rem !important;
-  color: #2a144b;
+  font-size: 2.5rem !important;
+  color: #0565ec;
   text-shadow: 1px 1px 2px white;
 }
 .carousel-caption p {
@@ -659,27 +630,26 @@ body {
   margin-bottom: 0;
 }
 .carousel-caption span {
-  font-family: "Orbitron", serif;
+  font-family: "Hachi Maru Pop", cursive;
   text-transform: uppercase;
-  font-size: 2.1rem;
+  font-size: 1.7rem;
   color: #2a144b;
 }
 
 .section-expertise__title {
-  color: #2a144b;
+  color: #0565ec;
   text-align: center;
   margin-bottom: 4rem;
   width: 100%;
-  font-size: 3rem;
-  text-shadow: 1px 1px 2px white;
-  font-family: "Orbitron", serif;
+  font-size: 1.9rem;
+  font-family: "Hachi Maru Pop", cursive;
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 1.9rem;
 }
 @media (max-width: 56.25em) {
   .section-expertise__title {
     width: 75%;
-    font-size: 3rem;
+    font-size: 1.7rem;
     width: 55%;
     text-align: center;
   }
@@ -697,7 +667,7 @@ body {
 
 .section-QA_title {
   color: #2a144b;
-  font-size: 2.1rem;
+  font-size: 1.7rem;
   margin: 4rem auto 2rem auto;
   font-family: "Cansu-light";
   text-transform: uppercase;
@@ -727,14 +697,13 @@ body {
   color: #2a144b;
   text-shadow: 1px 1px 2px white;
   font-family: "Cansu-light";
-  letter-spacing: 1px;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   width: 65%;
 }
 @media (max-width: 56.25em) {
   .section-QA__span1 {
     padding: 2rem 1rem;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 1.2;
     width: 65%;
     text-align: justify;
@@ -742,22 +711,21 @@ body {
 }
 @media (max-width: 45.6em) {
   .section-QA__span1 {
-    font-size: 2rem;
-    width: 70%;
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 37.5em) {
   .section-QA__span1 {
-    width: 80%;
+    width: 85%;
   }
 }
 
 .section-contact_title {
   margin: 0 auto;
-  font-size: 3rem;
+  font-size: 1.9rem;
   color: #0565ec;
   text-shadow: 1px 1px 2px white;
-  font-family: "Orbitron";
+  font-family: "Hachi Maru Pop", cursive;
   text-transform: uppercase;
   text-align: center;
   width: 50%;
@@ -802,11 +770,6 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   align-content: center;
-}
-@media (max-width: 45.6em) {
-  .flex-container {
-    align-content: space-between;
-  }
 }
 
 .flex-item {
@@ -940,7 +903,7 @@ a {
 }
 @media (max-width: 75em) {
   .nav__ul {
-    width: 80%;
+    width: 60%;
   }
 }
 @media (max-width: 56.25em) {
@@ -991,7 +954,7 @@ a {
   }
 }
 .nav__li a span, .nav__li span {
-  font-family: "Cansu-raunded", sans-serif;
+  font-family: "Cansu-Round", sans-serif;
   display: contents;
   color: #2a144b;
   font-size: 1.1rem;
@@ -1009,12 +972,12 @@ a {
 .nav__li a span:nth-child(even) {
   overflow: hidden;
   transition: ease-in-out 0.5s;
-  color: #fcfbfe;
+  color: hsl(260, 60%, 99%);
   letter-spacing: -1em;
 }
 .nav__li a:hover span:nth-child(even) {
   letter-spacing: 2px;
-  color: #fcfbfe;
+  color: hsl(260, 60%, 99%);
 }
 @media (max-width: 45.6em) {
   .nav__li a:hover span:nth-child(even) {
@@ -1104,7 +1067,7 @@ a {
   border: 0;
   color: #0565ec;
   background-color: transparent;
-  font-size: 4.25rem;
+  font-size: 2.1rem;
   cursor: pointer;
   padding: 0 10px;
   margin: 0 15px;
@@ -1122,7 +1085,7 @@ a {
 @media (max-width: 37.5em) {
   .action-btn {
     margin: 0 10px;
-    font-size: 4.8rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -1218,7 +1181,7 @@ a {
 @media (max-width: 37.5em) {
   .container, .container-sm {
     max-width: 100% !important;
-    background-color: hsl(60, 11%, 91%) !important;
+    background-color: transparent !important;
   }
 }
 
@@ -1297,19 +1260,13 @@ a {
 
 .blob-btn h2 {
   background: #0565ec;
-  font-size: 3rem;
+  font-size: 1.9rem;
   margin-bottom: 0;
-  line-height: 1;
-  font-family: "Orbitron";
+  width: 26rem;
+  font-family: "Hachi Maru Pop", cursive;
   text-transform: uppercase;
-  font-weight: bold;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-}
-@media (max-width: 56.25em) {
-  .blob-btn h2 {
-    font-size: 3rem;
-  }
 }
 .blob-btn {
   z-index: 1;
@@ -1318,7 +1275,6 @@ a {
   margin-bottom: 30px;
   text-align: center;
   text-transform: uppercase;
-  font-size: 16px;
   background-color: #ffa399;
   outline: none;
   border: none;
@@ -1440,13 +1396,15 @@ a {
 .appointment-modal__close:before {
   color: #363636;
 }
-@media (max-width: 56.25em) {
+@media (max-width: 75em) {
   .appointment-modal__close {
-    left: 50%;
+    top: 1rem;
+    left: 93%;
   }
 }
 @media (max-width: 45.6em) {
   .appointment-modal__close {
+    top: 90%;
     left: 50%;
   }
 }
@@ -1459,7 +1417,7 @@ a {
 
 .active-modal {
   opacity: 1;
-  height: 100vh;
+  height: fit-content;
   visibility: visible;
   overflow: hidden;
   z-index: 200;
@@ -1514,7 +1472,7 @@ a {
 }
 .form__input {
   font-family: "Cansu-light", sans-serif;
-  font-size: 2.1rem;
+  font-size: 1.7rem;
   padding: 1rem 1.4rem;
   color: rgb(63, 61, 61);
   background-color: #f8f8f8;
@@ -1537,7 +1495,7 @@ a {
   border-bottom: 3px solid #55023c;
 }
 .form__label {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: "Gill Sans" cursive;
   color: hsla(334, 11%, 71%, 0.885);
   font-style: italic;
@@ -1557,7 +1515,7 @@ a {
 .btn:link,
 .btn:visited {
   font-family: "Cansu-rounded", sans-serif !important;
-  font-size: 3rem;
+  font-size: 1.9rem;
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
@@ -1565,7 +1523,7 @@ a {
   border-radius: 10rem;
   transition: all 0.2s;
   position: relative;
-  font-size: 2.1rem;
+  font-size: 1.7rem;
   letter-spacing: 0.2rem;
   border: none;
   cursor: pointer;
@@ -1586,7 +1544,7 @@ a {
 }
 
 .btn__form {
-  font-size: 2.1rem !important;
+  font-size: 1.7rem !important;
   font-family: "Cansu-rounded", sans-serif !important;
 }
 .btn__form::after {
@@ -1611,7 +1569,7 @@ a {
   height: 100vh;
   position: relative;
   z-index: 1;
-  background-color: hsl(60, 11%, 91%);
+  background-color: hsl(260, 60%, 99%);
   text-align: center;
 }
 .section-home__text-box {
@@ -1643,15 +1601,16 @@ a {
 .section-home-logo img {
   width: 10%;
 }
-@media (max-width: 56.25em) {
+@media (max-width: 75em) {
   .section-home {
-    padding-top: 21%;
+    padding-top: 10%;
+    height: 85vh;
   }
 }
 .section-home::before {
   content: ""; /* Required for pseudo-elements */
   position: absolute;
-  bottom: 400px;
+  bottom: 80%;
   left: 0;
   width: 100%;
   height: 100%;
@@ -1701,11 +1660,9 @@ a {
 
 .section-bio {
   height: auto;
-  background: transparent;
+  background-color: hsl(260, 60%, 99%);
   padding-top: 10rem;
   margin: 0 auto;
-  background: linear-gradient(to right bottom, rgba(235, 235, 230, 0.98) 7%, rgba(221, 212, 216, 0.5) 47%, rgb(225, 206, 255) 100%, rgb(210, 159, 150) 100%);
-  background-blend-mode: lighten;
 }
 @media (max-width: 37.5em) {
   .section-bio {
@@ -1714,19 +1671,19 @@ a {
 }
 .section-bio-container {
   margin: 0 auto;
+  justify-content: center;
+  flex-direction: row-reverse;
 }
 @media (max-width: 56.25em) {
   .section-bio-container {
-    max-width: 95%;
-    margin-bottom: 0;
-    padding-top: 4rem;
+    justify-content: center;
+    flex-direction: row;
   }
 }
 @media (max-width: 45.6em) {
   .section-bio-container {
     padding: 0;
     max-height: 100%;
-    margin-bottom: 0;
   }
 }
 @media (max-width: 37.5em) {
@@ -1736,15 +1693,14 @@ a {
   }
 }
 .section-bio__text {
-  height: auto;
-  flex-basis: 30%;
+  height: 100%;
+  flex-basis: 35%;
   border-radius: 10px;
   align-self: center;
-  padding-top: 7rem;
 }
 @media (min-width: 112.5em) {
   .section-bio__text {
-    flex-basis: 25%;
+    flex-basis: 40%;
   }
 }
 @media (max-width: 75em) {
@@ -1766,12 +1722,17 @@ a {
 }
 .section-bio__p {
   display: grid;
-  justify-content: space-between;
-  margin-bottom: 1rem;
+  justify-content: center;
+  margin-bottom: 0;
   color: #2a144b;
   grid-auto-flow: row;
   position: relative;
   z-index: 10;
+}
+@media (min-width: 112.5em) {
+  .section-bio__p {
+    justify-content: flex-end;
+  }
 }
 @media (max-width: 56.25em) {
   .section-bio__p {
@@ -1810,14 +1771,14 @@ a {
   .section-bio__img,
   .section-bio .flex-item {
     flex-basis: 20%;
-    margin-top: -15rem;
+    text-align: right;
   }
 }
 @media (max-width: 75em) {
   .section-bio__img,
   .section-bio .flex-item {
     flex-basis: 30%;
-    margin-top: 5rem;
+    margin-top: 0;
   }
 }
 @media (max-width: 56.25em) {
@@ -1825,6 +1786,7 @@ a {
   .section-bio .flex-item {
     flex-basis: 80%;
     margin-top: 10rem;
+    text-align: center;
   }
 }
 @media (max-width: 45.6em) {
@@ -1846,30 +1808,29 @@ a {
   }
 }
 .section-bio_img {
-  border-top-right-radius: 125px;
   mix-blend-mode: darken;
-  height: fit-content;
-  width: 90%;
+  width: 85%;
+}
+@media (min-width: 112.5em) {
+  .section-bio_img {
+    padding: 0 2rem;
+    width: 80%;
+  }
 }
 @media (max-width: 75em) {
   .section-bio_img {
-    width: 80%;
+    width: 65%;
   }
 }
 @media (max-width: 56.25em) {
   .section-bio_img {
-    width: 60%;
+    width: 36%;
   }
 }
 @media (max-width: 45.6em) {
   .section-bio_img {
-    border-top-right-radius: 143px;
-    width: 80%;
-  }
-}
-@media (max-width: 37.5em) {
-  .section-bio_img {
-    object-fit: cover;
+    border-top-right-radius: 60px;
+    width: 60%;
   }
 }
 .section-bio .section-bio-about__img {
@@ -1889,18 +1850,15 @@ a {
 }
 
 .section-bio2 {
-  background-color: hsl(60, 11%, 91%);
+  background-color: hsl(260, 60%, 99%);
   height: auto;
 }
-.section-bio2 .flex-container {
-  align-content: flex-start;
-}
 .section-bio2 .flex-container .section-bio__img {
-  padding-top: 0;
+  align-self: center;
 }
 @media (max-width: 75em) {
   .section-bio2 .flex-container .section-bio__span2 {
-    text-align: justify;
+    text-align: left;
   }
 }
 @media (max-width: 56.25em) {
@@ -1935,7 +1893,7 @@ a {
   border: 2px solid #0565ec;
   left: 0;
   z-index: 150;
-  background: hsl(60, 11%, 91%);
+  background: hsl(260, 60%, 99%);
 }
 @media (max-width: 56.25em) {
   .music-container {
@@ -2026,9 +1984,9 @@ a {
 }
 
 .section-news {
-  margin-top: 0;
-  background: hsl(60, 11%, 91%);
-  padding-top: 15rem;
+  margin-top: 10rem;
+  background: hsl(260, 60%, 99%);
+  padding-top: 10rem;
   padding-bottom: 5rem;
   position: relative;
   display: flex;
@@ -2070,8 +2028,7 @@ a {
 }
 
 .panels {
-  height: auto;
-  overflow: hidden;
+  overflow: hidden !important;
   display: flex;
   width: 100%;
   padding: 2rem;
@@ -2105,7 +2062,6 @@ a {
   text-align: center;
   align-items: center;
   transition: font-size 0.4s cubic-bezier(0.61, -0.19, 0.7 -0.11), flex 0.4s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.1s;
-  height: 60vh;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -2166,10 +2122,15 @@ a {
 }
 
 .carousel-indicators {
+  position: static !important;
   z-index: 250 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 .carousel-indicators > button {
-  height: 2px !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  background: #0565ec !important;
 }
 @media (max-width: 56.25em) {
   .carousel-indicators > button {
@@ -2183,7 +2144,7 @@ a {
 }
 
 .carousel {
-  height: 100% !important;
+  height: auto !important;
   margin: 0 auto !important;
   z-index: 0 !important;
 }
@@ -2194,16 +2155,17 @@ a {
 .carousel-item {
   float: none !important;
   transform: translateX(0) !important;
-  transition: transform 0.4s !important;
 }
 
 .carousel-caption {
-  top: -15rem;
-  transform: translateX(0) !important;
+  background-color: hsl(260, 60%, 99%);
+  position: relative !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
 }
 
 .carousel-inner {
-  overflow: visible !important;
   max-width: 300px !important;
 }
 @media (max-width: 75em) {
@@ -2212,28 +2174,14 @@ a {
     transform: translate(0);
   }
 }
-@media (max-width: 56.25em) {
-  .carousel-inner {
-    max-width: 330px !important;
-    transform: translate(0);
-  }
-}
 @media (max-width: 45.6em) {
   .carousel-inner {
-    width: 75% !important;
-    transform: translate(17%);
+    width: 100% !important;
   }
 }
-@media (max-width: 37.5em) {
-  .carousel-inner {
-    width: auto !important;
-    transform: translate(0);
-  }
-}
-
 .carousel-control-prev-icon, .carousel-control-next-icon {
-  width: 4.25rem !important;
-  height: 4.25rem !important;
+  width: 2.1rem !important;
+  height: 2.1rem !important;
 }
 
 .carousel-control-next {
@@ -2253,8 +2201,8 @@ a {
 .section-lessons {
   height: fit-content;
   position: relative;
-  padding-top: 15rem;
-  background-color: hsl(60, 11%, 91%);
+  padding-top: 10rem;
+  background-color: hsl(260, 60%, 99%);
 }
 @media (max-width: 56.25em) {
   .section-lessons {
@@ -2270,7 +2218,7 @@ a {
 .section-lessons-sub__p {
   margin: 0 auto;
   padding: 3rem;
-  background-color: hsl(60, 11%, 91%);
+  background-color: hsl(260, 60%, 99%);
   width: 30%;
 }
 @media (min-width: 112.5em) {
@@ -2308,7 +2256,7 @@ a {
   height: 100%;
 }
 .container-lessons .flex-container {
-  background-color: hsl(60, 11%, 91%);
+  background-color: hsl(260, 60%, 99%);
   display: flex;
   flex-direction: column;
   align-content: space-evenly;
@@ -2338,42 +2286,49 @@ a {
   justify-content: center;
   height: 100vh;
   padding: 5rem 0;
-  background-color: hsl(60, 11%, 91%);
+  background-color: hsl(260, 60%, 99%);
+}
+@media (max-width: 75em) {
+  .section-contact {
+    height: 85vh;
+  }
 }
 .section-contact_mail {
   width: 80%;
-  font-size: 2.1rem;
+  font-size: 1.7rem;
+  color: #0565ec;
 }
 .section-contact_mail h3 {
-  font-family: "Cansu-raunded", sans-serif;
+  font-family: "Cansu-light", sans-serif;
   display: inline-block;
   margin-left: 2rem;
   color: #2a144b;
   text-shadow: 1px 1px 2px white;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 @media (max-width: 45.6em) {
   .section-contact_mail h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 .section-contact_mail h3:hover {
-  color: #0565ec;
+  transform: scale(1.1);
 }
 .section-contact_socials {
   width: 85%;
-  font-size: 2.1rem;
+  font-size: 1.7rem;
+  color: #0565ec;
 }
 .section-contact_socials a h3 {
-  font-family: "Cansu-raunded", sans-serif;
+  font-family: "Cansu-light", sans-serif;
   display: inline-block;
   color: #2a144b;
-  text-shadow: 1px 1px 2px white;
-  font-size: 1.8rem;
+  text-shadow: 1px 1px 2px hsl(260, 60%, 99%);
+  font-size: 1.6rem;
 }
 @media (max-width: 45.6em) {
   .section-contact_socials a h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 45.6em) {
@@ -2382,7 +2337,7 @@ a {
   }
 }
 .section-contact_socials a h3:hover {
-  color: #0565ec;
+  transform: scale(1.1);
 }
 @media (max-width: 45.6em) {
   .section-contact {
@@ -2455,7 +2410,7 @@ a {
   width: 100%;
   min-width: 33rem;
   padding: 2rem;
-  background-color: white;
+  background-color: hsl(260, 60%, 99%);
 }
 
 .appointment-modal__content {
@@ -2520,7 +2475,7 @@ footer {
 }
 .footer__bg {
   padding: 2rem 0 3rem;
-  background-color: hsl(60, 11%, 91%);
+  background-color: transparent;
 }
 .footer__bg::before {
   content: ""; /* Required for pseudo-elements */
@@ -2541,8 +2496,8 @@ footer {
   }
 }
 .footer__logo {
-  font-size: 4.8rem;
-  width: 7rem;
+  font-size: 2.5rem;
+  width: 8rem;
 }
 .footer__copy {
   font-size: 1.2rem;
@@ -2554,14 +2509,14 @@ footer {
   color: #0565ec;
   font-family: "Cansu-regular", sans-serif;
   text-transform: uppercase;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   text-decoration: none;
 }
 .footer__socials:hover {
   color: #0565ec;
 }
 .footer-social-icon {
-  font-size: 3rem;
+  font-size: 1.9rem;
 }
 .footer__links {
   display: flex;
@@ -2599,19 +2554,25 @@ footer {
 }
 
 .section-expertise {
-  height: 100vh;
+  height: 50vh;
   margin: 0 auto;
-  padding-bottom: 5rem;
-  background-color: hsl(60, 11%, 91%);
+  padding-top: 5rem;
+  background-color: hsl(260, 60%, 99%);
 }
 .section-expertise .flex-container {
   justify-content: center;
   margin: 0 auto;
+  width: 70%;
 }
 @media (max-width: 56.25em) {
   .section-expertise .flex-container {
     justify-content: center;
     align-content: center;
+  }
+}
+@media (max-width: 45.6em) {
+  .section-expertise .flex-container {
+    width: 100%;
   }
 }
 @media (max-width: 56.25em) {
@@ -2621,7 +2582,7 @@ footer {
 }
 
 .section-QA {
-  background-color: hsl(60, 11%, 91%);
+  background-color: hsl(260, 60%, 99%);
   padding-top: 2rem;
   padding-bottom: 10rem;
 }

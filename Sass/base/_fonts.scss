@@ -32,3 +32,22 @@
   font-optical-sizing: auto;
   src: local('Orbitron'), url(../Fonts/Orbitron/static/Orbitron-VariableFont_wght.ttf) format('truetype');
 }
+@font-face {
+  font-family: "Cansu-Round",serif; 
+  src: local('Cansu'), url(Fonts/Cansu_Sans_Serif_Font_Family_Dfonts.org/TTF/Cansu-Round.ttf) format('truetype');
+}
+@font-face{
+  font-family: "Rubik Vinyl", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  src: local('Rubik Vinyl'), url('../Fonts/RubikVinyl-Regular.ttf') format('truetype');
+
+}
+@font-face{
+  
+  font-family: "Hachi Maru Pop", cursive;
+  font-weight: 400;
+  font-style: normal;
+  src: local('Hachi Maru Pop'), url('../Fonts/HachiMaruPop-Regular.ttf') format('truetype');
+
+}

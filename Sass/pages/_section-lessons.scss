@@ -1,9 +1,8 @@
 .section-lessons {
   height: fit-content;
   position: relative;
-  padding-top: 15rem;
-  // padding-bottom: 15rem;
-  background-color: $color-sand;
+  padding-top: 10rem;
+  background-color: $color-white;
   @include respond(tab-port){
     text-align: center;
   }
@@ -30,7 +29,7 @@
     
     margin: 0 auto;
     padding: 3rem;
-    background-color:$color-sand;
+    background-color:$color-white;
     width: 30%;
     
     
@@ -64,7 +63,7 @@
 
  
    .flex-container {
-    background-color:$color-sand;
+    background-color:$color-white;
     // z-index: 10;
     display: flex;
     flex-direction:column;

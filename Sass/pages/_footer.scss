@@ -18,7 +18,7 @@ footer {
 
   &__bg {
     padding: 2rem 0 3rem;
-    background-color: $color-sand;
+    background-color: transparent;
     // border-top: 1px solid $color-sand;
   
   }
@@ -41,7 +41,7 @@ footer {
   }
   &__logo {
     font-size: $big;
-    width: 7rem;
+    width: 8rem;
     // filter: sepia(90%);
 
   }
@@ -62,7 +62,7 @@ footer {
     color: $color-deep-blue;
     font-family: 'Cansu-regular', sans-serif;
     text-transform: uppercase;
-    font-size: $smaller-font;
+    font-size: $small-font;
     text-decoration: none;
   }
 

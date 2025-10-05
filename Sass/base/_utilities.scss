@@ -33,9 +33,15 @@
   justify-content: center;
   flex-wrap: wrap;
   align-content: center;
-   @include respond(phoneExtra) {
-    align-content: space-between;
-  }
+  //  @include respond(tab-land){
+  //   justify-content: flex-start;
+  //  }
+  //   @include respond(phonePort) {
+  //   align-content: center;
+  // }
+  //  @include respond(phoneExtra) {
+  //   // align-content: space-between;
+  // }
 }
 
 .flex-item {

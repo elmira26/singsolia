@@ -1,13 +1,17 @@
 .section-news {
   // height: 100vh;
-  margin-top: 0;
-  background: $color-sand;
-  padding-top:  15rem;
+  margin-top: 10rem;
+  background: $color-white;
+  padding-top:  10rem;
   padding-bottom: 5rem;
   position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  
+  @include respond(tab-land){
+    
+  }
   @include respond(tab-port){
     // padding-top: 30rem;
   }
@@ -60,8 +64,8 @@
 }
 //STARTED CLOSE
 .panels {
-  height: auto;
-  overflow: hidden;
+  
+  overflow: hidden !important;
   display: flex;
   width: 100%;
   padding: 2rem;
@@ -97,7 +101,7 @@
     font-size 0.4s cubic-bezier(0.61, -0.19, 0.7 -0.11),
     flex 0.4s cubic-bezier(0.61, -0.19, 0.7, -0.11),
     background 0.1s;
-  height: 60vh;
+  // height: 60vh;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -117,11 +121,7 @@
     max-height: 80rem;
     width: 80%;
     background-size: contain;
- 
-
   }
-
-
 }
 
 .panel>* {
@@ -177,11 +177,14 @@
 
 
 .carousel-indicators{
-
+  position: static !important;
   z-index: 250 !important;
-  
+  margin-left: 0 !important;
+  margin-right: 0 !important;
   & > button{
-    height: 2px !important;
+    border-top:none !important;
+    border-bottom:none !important;
+    background: $color-deep-blue !important;
     @include respond(tab-port){
       width: 7% !important;
       
@@ -193,9 +196,9 @@
   }
 }
 .carousel{
-  height: 100% !important;
+  height: auto !important;
   margin: 0 auto !important;
-   z-index: 0 !important;
+  z-index: 0 !important;
    & > button{
     z-index: 150 !important;
    }
@@ -203,20 +206,22 @@
 .carousel-item{
   float: none!important;
   transform: translateX(0) !important;
-  transition: transform .4s !important;
-  
+  // transition: transform .2s !important;
 
  
 }
   
   
 .carousel-caption {
-  top: -15rem;
-  transform:translateX(0) !important;
- 
+  background-color: $color-white;
+  position: relative !important;
+  left:0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  
 }
 .carousel-inner {
-  overflow: visible !important;
+  
   max-width: 300px !important;
  
   @include respond(tab-land){
@@ -225,16 +230,12 @@
   }
 
   @include respond(tab-port){
-    max-width: 330px  !important;
-    transform: translate(0);
+    
   }
   @include respond(phoneExtra){
-  width: 75% !important;
-  transform: translate(17%);
+  width: 100% !important;
   }
   @include respond(phone){
-     width: auto !important;
-     transform: translate(0);
   }
 }
 .carousel-control-prev-icon, .carousel-control-next-icon{
