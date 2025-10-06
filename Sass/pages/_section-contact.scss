@@ -5,8 +5,8 @@
   justify-content: center;
   height: 100vh;
   padding: 5rem 0;
-  background-color: $color-white;
-
+  // background-color: $color-white;
+  background-image: url('../img/musical-bg.svg');
   @include respond(tab-land){
     height: 85vh;
   }
@@ -18,7 +18,7 @@
     h3{
       font-family: "Cansu-light",serif;
       display: inline-block;
-      margin-left: 2rem;
+      margin-left: 1rem;
       color: $color-blue;
       font-size: $normal-font;
        @include respond(phoneExtra) {

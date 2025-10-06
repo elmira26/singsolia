@@ -169,7 +169,7 @@ body {
   transform: translateY(1px);
 }
 .heading-primary--q1 {
-  font-size: 2.7rem;
+  font-size: 2.65rem;
   color: #2a144b;
   padding-top: 25%;
   padding-bottom: 1.5rem;
@@ -184,21 +184,21 @@ body {
   .heading-primary--q1 {
     width: 24%;
     padding-top: 0;
-    font-size: 2.7rem;
+    font-size: 2.65rem;
   }
 }
 @media (max-width: 75em) {
   .heading-primary--q1 {
     width: 45%;
     padding-top: 0;
-    font-size: 2.7rem;
+    font-size: 2.65rem;
   }
 }
 @media (max-width: 56.25em) {
   .heading-primary--q1 {
     padding-top: 0;
     line-height: 1;
-    font-size: 2.7rem;
+    font-size: 2.65rem;
     width: 55%;
     text-align: center;
   }
@@ -207,14 +207,14 @@ body {
   .heading-primary--q1 {
     padding-top: 0;
     line-height: 1;
-    font-size: 2.7rem;
+    font-size: 2.65rem;
     width: 55%;
     text-align: center;
   }
 }
 @media (max-width: 37.5em) {
   .heading-primary--q1 {
-    font-size: 3.7rem;
+    font-size: 2.65rem;
     width: 92%;
     text-align: center;
     padding-top: 0;
@@ -222,7 +222,7 @@ body {
   }
 }
 .heading-primary--q2 {
-  font-family: "Cansu-Round";
+  font-family: "Cansu-light";
   font-size: 1.6rem;
   z-index: 1000;
   display: inline-block;
@@ -287,7 +287,7 @@ body {
 }
 @media (min-width: 112.5em) {
   .heading-sub--q6 {
-    font-size: 2.7rem;
+    font-size: 2.65rem;
   }
 }
 
@@ -297,7 +297,7 @@ body {
   text-transform: uppercase;
   font-weight: 600;
   font-family: "Hachi Maru Pop", cursive;
-  color: #0565ec;
+  color: hsl(199, 97%, 77%);
   text-align: center;
   margin: 0 auto;
 }
@@ -316,7 +316,7 @@ body {
   margin: 0 auto;
   margin-bottom: 2rem;
   font-family: "Cansu-Round";
-  color: #363636;
+  color: #0565ec;
   font-size: 1.6rem;
 }
 @media (max-width: 45.6em) {
@@ -503,7 +503,7 @@ body {
 }
 @media (max-width: 45.6em) {
   .section-news__title {
-    font-size: 2.7rem;
+    font-size: 2.65rem;
   }
 }
 
@@ -605,7 +605,7 @@ body {
   background-position: top;
   background-size: contain;
   width: 10%;
-  height: 2.7rem;
+  height: 2.65rem;
   float: right;
   margin-right: 3rem;
 }
@@ -1070,7 +1070,7 @@ a {
   border: 0;
   color: #0565ec;
   background-color: transparent;
-  font-size: 2.7rem;
+  font-size: 2.65rem;
   cursor: pointer;
   padding: 0 10px;
   margin: 0 15px;
@@ -1153,7 +1153,7 @@ a {
 }
 
 .progress-container {
-  background: #ffa399;
+  background: hsl(260, 60%, 99%);
   border-radius: 5px;
   cursor: pointer;
   height: 1px;
@@ -1169,7 +1169,7 @@ a {
 }
 
 .progress-player {
-  background-color: hsl(285, 58%, 23%);
+  background-color: #0565ec;
   border-radius: 5px;
   height: 100%;
   width: 0%;
@@ -1242,7 +1242,6 @@ a {
   src: local("Raindrops"), url(../Fonts/Raindrops.ttf) format("truetype");
 }
 .blob-section {
-  width: auto;
   margin: 0 auto;
   padding-bottom: 0;
   display: flex;
@@ -1255,7 +1254,6 @@ a {
     justify-content: space-between;
   }
 }
-
 .buttons {
   margin: 0 auto;
   text-align: center;
@@ -1291,7 +1289,7 @@ a {
 }
 @media (max-width: 37.5em) {
   .blob-btn {
-    padding: 15px;
+    width: 100%;
   }
 }
 .blob-btn:hover {
@@ -1842,6 +1840,11 @@ a {
     width: 60%;
   }
 }
+@media (max-width: 37.5em) {
+  .section-bio_img {
+    width: 85%;
+  }
+}
 .section-bio .section-bio-about__img {
   height: 100%;
   transform: translateX(0);
@@ -1901,7 +1904,7 @@ a {
   box-shadow: 0 1.5rem 4rem rgba(23, 23, 23, 0.5);
   left: 0;
   z-index: 150;
-  background: hsl(260, 60%, 99%);
+  background: #2a144b;
 }
 @media (max-width: 56.25em) {
   .music-container {
@@ -1986,6 +1989,7 @@ a {
   top: 1.5rem;
   cursor: pointer;
   z-index: 100;
+  color: hsl(199, 97%, 77%);
 }
 .player__close:hover {
   color: hsla(334, 11%, 71%, 0.885);
@@ -2188,8 +2192,8 @@ a {
   }
 }
 .carousel-control-prev-icon, .carousel-control-next-icon {
-  width: 2.7rem !important;
-  height: 2.7rem !important;
+  width: 2.65rem !important;
+  height: 2.65rem !important;
 }
 
 .carousel-control-next {
@@ -2210,7 +2214,6 @@ a {
   height: fit-content;
   position: relative;
   padding-top: 10rem;
-  background-image: url("../img/musical-bg.svg");
 }
 @media (max-width: 56.25em) {
   .section-lessons {
@@ -2293,7 +2296,7 @@ a {
   justify-content: center;
   height: 100vh;
   padding: 5rem 0;
-  background-color: hsl(260, 60%, 99%);
+  background-image: url("../img/musical-bg.svg");
 }
 @media (max-width: 75em) {
   .section-contact {
@@ -2308,7 +2311,7 @@ a {
 .section-contact_mail h3 {
   font-family: "Cansu-light", serif;
   display: inline-block;
-  margin-left: 2rem;
+  margin-left: 1rem;
   color: #2a144b;
   font-size: 1.6rem;
 }
@@ -2592,6 +2595,7 @@ footer {
   padding-top: 2rem;
   padding-bottom: 10rem;
   background-image: url("../img/musical-bg.svg");
+  background-position: 25%;
 }
 .section-QA .row .flex-container {
   width: 60%;
@@ -2610,6 +2614,21 @@ footer {
 @media (max-width: 45.6em) {
   .section-QA .row .flex-container {
     width: 100%;
+  }
+}
+@media (max-width: 75em) {
+  .section-QA {
+    background-position: 30%;
+  }
+}
+@media (max-width: 56.25em) {
+  .section-QA {
+    background-position: 50%;
+  }
+}
+@media (max-width: 45.6em) {
+  .section-QA {
+    background-position: 47%;
   }
 }
 

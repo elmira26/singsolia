@@ -1,6 +1,6 @@
 
 .blob-section {
-  width: auto;
+  
   margin: 0 auto;
   padding-bottom:0;
   display: flex;
@@ -14,6 +14,9 @@
   }
   @include respond(phoneExtra){
     justify-content: space-between;
+  }
+  @include respond(phone){
+    
   }
   
 }
@@ -63,8 +66,8 @@ $borderW: 6px;
     padding: 15px 30px;
   }
   @include respond(phone){
-    padding: 15px;
-   
+    // padding:15px;
+    width: 100%;
   }
   // &:before {
   //   content: "";

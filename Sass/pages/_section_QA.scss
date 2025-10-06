@@ -4,6 +4,8 @@
   padding-top: 2rem;
   padding-bottom: 10rem;
   background-image: url('../img/musical-bg.svg');
+  background-position:  25%;
+  
   .row .flex-container{
     width: 60%;
     margin: 0 auto;
@@ -13,10 +15,19 @@
     }
     @include respond(tab-port){
     width: 90%;
+    
     }
     @include respond(phoneExtra){
-    width: 100%;
+    width: 100%; 
     }
   }
- 
+   @include respond(tab-land){
+    background-position:  30%;
+  }
+   @include respond(tab-port){
+    background-position:  50%;
+  }
+  @include respond(phoneExtra){
+    background-position:  47%;
+  }
 }

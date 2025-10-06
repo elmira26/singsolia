@@ -61,7 +61,7 @@
 
   &--q1 {
     font-size: $h1;
-    // text-shadow: 2px 2px 3px $color-brown;
+    // text-shadow: 2px 2px 3px $color-blue-sky;
     color: $color-blue;
     padding-top:25%;
     padding-bottom: 1.5rem;
@@ -104,7 +104,7 @@
       text-align: center;
     }
       @include respond(phone){
-      font-size: $big;
+      font-size: $h1;
       width: 92%;
       // line-height: 1.;
       text-align: center;
@@ -117,7 +117,7 @@
 
 
   &--q2 {
-    font-family: 'Cansu-Round';
+    font-family: 'Cansu-light';
     font-size: $normal-font;
     z-index: 1000; 
     display: inline-block;
@@ -195,7 +195,7 @@
   text-transform: uppercase;
   font-weight: 600;
   font-family: "Hachi Maru Pop", cursive;
-  color: #{$color-deep-blue};
+  color: #{$color-blue-sky};
   text-align: center;
   margin: 0 auto;
   
@@ -216,7 +216,7 @@
   margin: 0 auto;
   margin-bottom: 2rem;
   font-family: 'Cansu-Round';
-  color: #{$color-brown};
+  color: #{$color-deep-blue};
 
   font-size:$normal-font;
   @include respond(phoneExtra){

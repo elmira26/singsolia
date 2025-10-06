@@ -14,7 +14,7 @@
   // border: 2px solid $color-deep-blue;
   left: 0;
   z-index: 150;
-  background:  $color-white;
+  background:  $color-blue;
  
   // @include respond(tab-land) {
   // padding: 12px 20px;
@@ -118,7 +118,7 @@
     top: 1.5rem;
     cursor: pointer;
     z-index: 100;
-
+    color: $color-blue-sky;
     &:hover {
       color: #{$color-news-base};
     }
