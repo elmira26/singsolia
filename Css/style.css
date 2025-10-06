@@ -5,48 +5,48 @@
   font-family: "Giliams Regular";
   font-style: normal;
   font-weight: bold;
-  src: local("Giliams Regular"), url("./Fonts/Giliams-Regular.woff") format("woff");
+  src: local("Giliams Regular"), url("./fonts/Giliams-Regular.woff") format("woff");
 }
 @font-face {
   font-family: "Raindrops";
-  src: local("Raindrops"), url(./Fonts/Raindrops.ttf) format("truetype");
+  src: local("Raindrops"), url(./fonts/Raindrops.ttf) format("truetype");
 }
 @font-face {
   font-family: "League Spartan", sans-serif;
-  src: local("League Spartan"), url(./Fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf) format("truetype");
+  src: local("League Spartan"), url(./fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf) format("truetype");
 }
 @font-face {
   font-family: "Cansu-Light", serif;
-  src: local("Cansu"), url(./Fonts/Cansu_Sans_Serif_Font_Family_Dfonts.org/TTF/Cansu-Light.ttf) format("truetype");
+  src: local("Cansu"), url(./fonts/Cansu_Sans_Serif_Font_Family_Dfonts.org/TTF/Cansu-Light.ttf) format("truetype");
 }
 @font-face {
   font-family: "Cansu-Regular", serif;
-  src: local("Cansu"), url(./Fonts/Cansu_Sans_Serif_Font_Family_Dfonts.org/TTF/Cansu-Regular.ttf) format("truetype");
+  src: local("Cansu"), url(./fonts/Cansu_Sans_Serif_Font_Family_Dfonts.org/TTF/Cansu-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: "Cansu-Bold", serif;
-  src: local("Cansu"), url(./Fonts/Cansu_Sans_Serif_Font_Family_Dfonts.org/TTF/Cansu-Bold.ttf) format("truetype");
+  src: local("Cansu"), url(./fonts/Cansu_Sans_Serif_Font_Family_Dfonts.org/TTF/Cansu-Bold.ttf) format("truetype");
 }
 @font-face {
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
-  src: local("Orbitron"), url(./Fonts/Orbitron/static/Orbitron-VariableFont_wght.ttf) format("truetype");
+  src: local("Orbitron"), url(./fonts/Orbitron/static/Orbitron-VariableFont_wght.ttf) format("truetype");
 }
 @font-face {
   font-family: "Cansu-Round", serif;
-  src: local("Cansu"), url(./Fonts/Cansu_Sans_Serif_Font_Family_Dfonts.org/TTF/Cansu-Round.ttf) format("truetype");
+  src: local("Cansu"), url(./fonts/Cansu_Sans_Serif_Font_Family_Dfonts.org/TTF/Cansu-Round.ttf) format("truetype");
 }
 @font-face {
   font-family: "Rubik Vinyl", system-ui;
   font-weight: 400;
   font-style: normal;
-  src: local("Rubik Vinyl"), url("./Fonts/RubikVinyl-Regular.ttf") format("truetype");
+  src: local("Rubik Vinyl"), url("./fonts/RubikVinyl-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Hachi Maru Pop", cursive;
   font-weight: 400;
   font-style: normal;
-  src: local("Hachi Maru Pop"), url("./Fonts/HachiMaruPop-Regular.ttf") format("truetype");
+  src: local("Hachi Maru Pop"), url("./fonts/HachiMaruPop-Regular.ttf") format("truetype");
 }
 *,
 *::after,
