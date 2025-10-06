@@ -16,7 +16,8 @@
     // padding-top: 30rem;
   }
   @include respond(phoneExtra){
-    // padding-top: 28rem;
+    padding-top:  0;
+    margin-top: 2rem;
  
   }
  
@@ -251,7 +252,7 @@
 }
 .carousel-control-next, .carousel-control-prev{
    @include respond(phone){
-    width: 40% !important;
+    width: 50% !important;
   }
 }
 //END CLOSE

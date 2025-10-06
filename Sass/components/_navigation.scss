@@ -31,8 +31,6 @@ a {
 
 .nav {
   background-color: transparent;
-  //   -webkit-backdrop-filter: blur(10px);
-  font-family: 'Cansu-raunded', sans-serif;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -42,8 +40,6 @@ a {
   // border-bottom: solid $color-blue-sky .5px;
   padding: 3rem;
   // border-radius: 10px;
-  
-
 
   &__logo__img{
     display: none;
@@ -136,6 +132,7 @@ a {
     display: inline-flex;
     max-width: 7rem;
     text-align: left;
+    align-items: center;
     text-decoration: none;
     margin: 0;
     // background-color: $color-pink-light;
@@ -147,7 +144,8 @@ a {
 
   &__li a span, 
   &__li span {
-    font-family: 'Cansu-Round', sans-serif;
+    font-family: "Inclusive Sans", sans-serif;
+    font-weight: 400;
     display: contents;
     color: $color-blue;
     font-size: $smaller-font;
@@ -221,7 +219,7 @@ a {
       position: fixed !important;
       bottom: -180px;
       padding: 2rem 1.5rem 2rem;
-      box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.186);
+      // box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.186);
       border-radius: 1.5rem 1.5rem 0 0;
       transition: .3s;
       background-color:$color-bio-base;
@@ -271,7 +269,6 @@ a {
 .action-btn {
   border: 0;
   color: #{$color-deep-blue};
-  // -webkit-text-stroke: 1px $color-sand;
   background-color: transparent;
   font-size: $h1;
   cursor: pointer;

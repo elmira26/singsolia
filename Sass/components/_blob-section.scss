@@ -34,15 +34,13 @@ $borderW: 6px;
 
 .blob-btn {
   h2{
-    background: $color-deep-blue;
+    background: $color-white;
+    -webkit-text-stroke: 1px $color-white;
     font-size: $h2;
     margin-bottom: 0;
     width: 26rem;
     font-family: "Hachi Maru Pop", cursive;
-    // font-family: 'Orbitron';
     text-transform: uppercase;
-    // font-weight: bold;
-    
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     @include respond(tab-port){
@@ -57,7 +55,7 @@ $borderW: 6px;
   text-align: center;
   text-transform: uppercase;
   // font-size: 16px;
-  background-color: $color-pink-light;
+  background-color: $color-deep-blue;
   outline: none;
   border: none;
   transition: color 0.5s;

@@ -59,8 +59,9 @@
 
   &--q1 {
     font-size: $h1;
-    // text-shadow: 2px 2px 3px $color-blue-sky;
-    color: $color-blue;
+    // text-shadow: 2px 2px 3px $color-white;
+    -webkit-text-stroke: 1px $color-deep-blue;
+    color: $color-white;
     padding-top:25%;
     padding-bottom: 1.5rem;
     text-align: center;
@@ -112,14 +113,15 @@
 
 
   &--q2 {
-    font-family: "cansu-light",serif;
+    // font-family: "cansu-light",serif;
+    font-family: "Inclusive Sans", sans-serif;
     font-size: $normal-font;
     z-index: 1000; 
     display: inline-block;
     width: 50%;
     text-align: center;
     color: $color-blue;
-    font-weight: lighter;
+    font-weight: 300;
     margin: 0;
     
     @include respond(desktop) {
@@ -210,7 +212,8 @@
   text-align: center;
   margin: 0 auto;
   margin-bottom: 2rem;
-  font-family: "Cansu-Round",serif; 
+  font-family: "Inclusive Sans", sans-serif;
+  font-weight: 300;
   color: #{$color-deep-blue};
 
   font-size:$normal-font;
@@ -247,7 +250,8 @@
     color:$color-blue;
     align-self: center;
     justify-self: center;
-    font-family: "cansu-light", serif;
+    font-family: "Inclusive Sans", sans-serif;
+    font-weight: 300;
     font-size: $normal-font;
     width: 100%;
     text-align: justify;
@@ -311,7 +315,8 @@
     align-self: center;
     justify-self: center;
     color: $color-blue;
-    font-family: "cansu-light", serif;
+    font-family: "Inclusive Sans", sans-serif;
+    font-weight: 300;
     font-size: $normal-font;
     flex-basis: 51%;
     text-align: justify;
@@ -337,33 +342,6 @@
     font-family: 'Roboto', sans-serif;
     padding-top: 0;
     color: $color-brown;
-  }
-
-
-  &__title {
-    display: block;
-    font-size: $h2;
-    color: #{$color-brown};
-    font-family: 'Sacred Valley', serif;
-    letter-spacing: 0;
-    font-weight: 400;
-    padding-top: 0;
-    text-align: right;
-    text-transform: uppercase;
-    z-index: 10;
-    position: relative;
-    @include respond(desktop) {
-      font-size: $h2;
-    }
-    @include respond(tab-port){
-      padding-left: 2rem;
-    }
-    @include respond(phoneExtra) {
-      margin-bottom: 1rem;
-      padding-left: 1rem;
-      text-align: center;
-      font-size: $h2;
-    }
   }
 }
 
@@ -437,7 +415,8 @@
     &__p p {
       display: inline-block;
       width: 80%;
-      font-family: 'cansu-light',serif;
+      font-family: "Inclusive Sans", sans-serif;
+      font-weight: 300;
       font-size:  $normal-font;
       letter-spacing: 1px;
       color: $color-blue;
@@ -460,7 +439,7 @@
 
 
 .title__form {
-  font-family: 'Cansu-Round', serif;
+  font-family: "Inclusive Sans", sans-serif;
   color: $color-brown;
   font-size: $h3;
   font-weight: 400;
@@ -523,7 +502,8 @@
   //  text-shadow: 1px 1px 2px white;
   }
   p{
-    font-family: 'Cansu-Round', serif;
+    font-family: "Inclusive Sans", sans-serif;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size:  $small-font;
@@ -570,12 +550,12 @@
     color: $color-blue;
     font-size: $h3;
     margin: 4rem auto 2rem auto;
-    font-family: 'cansu-light',serif;
+    font-family: "Inclusive Sans", sans-serif;
+    font-weight: 300;
     text-transform: uppercase;
     width: 30%;
     text-align: center;
     @include respond(tab-land){
-      font-family: 'cansu-light',serif;
     }
     @include respond(tab-port){
       width: 65%;
@@ -592,7 +572,8 @@
     justify-self: center;
     color: $color-blue;
     text-shadow: 1px 1px 2px white;
-    font-family: "cansu-light",serif;
+    font-family: "Inclusive Sans", sans-serif;
+    font-weight: 300;
     font-size: $normal-font;
     width: 65%;
     @include respond(tab-port) {

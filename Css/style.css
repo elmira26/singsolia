@@ -2,51 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
 @import url("./Fonts/Bicubik.woff");
 @font-face {
-  font-family: "Giliams Regular";
-  font-style: normal;
-  font-weight: bold;
-  src: local("Giliams Regular"), url("./fonts/Giliams-Regular.woff") format("woff");
-}
-@font-face {
-  font-family: "Raindrops";
-  src: local("Raindrops"), url(./fonts/Raindrops.ttf) format("truetype");
-}
-@font-face {
-  font-family: "League Spartan", sans-serif;
-  src: local("League Spartan"), url(./fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf) format("truetype");
-}
-@font-face {
-  font-family: "cansu-light", serif;
-  src: local("Cansu"), url(../fonts/cansu_sans_serif_font_family_dfonts.org/ttf/cansu-light.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Cansu-Regular", serif;
-  src: local("Cansu"), url(./fonts/Cansu_Sans_Serif_Font_Family_Dfonts.org/TTF/Cansu-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Cansu-Bold", serif;
-  src: local("Cansu"), url(./fonts/Cansu_Sans_Serif_Font_Family_Dfonts.org/TTF/Cansu-Bold.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Orbitron", sans-serif;
-  font-optical-sizing: auto;
-  src: local("Orbitron"), url(./fonts/Orbitron/static/Orbitron-VariableFont_wght.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Cansu-Round", serif;
-  src: local("Cansu"), url(./fonts/Cansu_Sans_Serif_Font_Family_Dfonts.org/TTF/Cansu-Round.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Rubik Vinyl", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  src: local("Rubik Vinyl"), url("./fonts/RubikVinyl-Regular.ttf") format("truetype");
-}
-@font-face {
   font-family: "Hachi Maru Pop", cursive;
   font-weight: 400;
   font-style: normal;
   src: local("Hachi Maru Pop"), url("./fonts/HachiMaruPop-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inclusive Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  src: local("Inclusive Sans"), url("./fonts/InclusiveSans-VariableFont_wght.ttf") format("truetype");
 }
 *,
 *::after,
@@ -113,7 +78,7 @@ body {
 .logo {
   letter-spacing: 7px;
   font-weight: 200;
-  font-size: 1.8rem;
+  font-size: 2.1rem;
   text-transform: uppercase;
   color: #2a144b;
 }
@@ -131,7 +96,7 @@ body {
 .heading-primary-icon {
   display: inline-block;
   margin-right: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #363636;
   text-shadow: 1px 1px 2px white;
   font-style: normal;
@@ -166,8 +131,9 @@ body {
   transform: translateY(1px);
 }
 .heading-primary--q1 {
-  font-size: 2.65rem;
-  color: #2a144b;
+  font-size: 2.7rem;
+  -webkit-text-stroke: 1px #0565ec;
+  color: hsl(260, 60%, 99%);
   padding-top: 25%;
   padding-bottom: 1.5rem;
   text-align: center;
@@ -180,20 +146,20 @@ body {
   .heading-primary--q1 {
     width: 24%;
     padding-top: 0;
-    font-size: 2.65rem;
+    font-size: 2.7rem;
   }
 }
 @media (max-width: 75em) {
   .heading-primary--q1 {
     width: 45%;
     padding-top: 0;
-    font-size: 2.65rem;
+    font-size: 2.7rem;
   }
 }
 @media (max-width: 56.25em) {
   .heading-primary--q1 {
     padding-top: 0;
-    font-size: 2.65rem;
+    font-size: 2.7rem;
     width: 55%;
     text-align: center;
   }
@@ -201,14 +167,14 @@ body {
 @media (max-width: 45.6em) {
   .heading-primary--q1 {
     padding-top: 0;
-    font-size: 2.65rem;
+    font-size: 2.7rem;
     width: 55%;
     text-align: center;
   }
 }
 @media (max-width: 37.5em) {
   .heading-primary--q1 {
-    font-size: 2.65rem;
+    font-size: 2.7rem;
     width: 92%;
     text-align: center;
     padding-top: 0;
@@ -216,31 +182,31 @@ body {
   }
 }
 .heading-primary--q2 {
-  font-family: "cansu-light", serif;
+  font-family: "Inclusive Sans", sans-serif;
   font-size: 1.8rem;
   z-index: 1000;
   display: inline-block;
   width: 50%;
   text-align: center;
   color: #2a144b;
-  font-weight: lighter;
+  font-weight: 300;
   margin: 0;
 }
 @media (min-width: 112.5em) {
   .heading-primary--q2 {
-    font-size: 1.8rem;
+    font-size: 2.1rem;
   }
 }
 @media (max-width: 75em) {
   .heading-primary--q2 {
-    font-size: 1.8rem;
+    font-size: 2.1rem;
     max-width: 40%;
   }
 }
 @media (max-width: 56.25em) {
   .heading-primary--q2 {
     padding-top: 20rem;
-    font-size: 1.8rem;
+    font-size: 2.1rem;
     padding-bottom: 1rem;
     padding-top: 0;
     max-width: 35%;
@@ -248,7 +214,7 @@ body {
 }
 @media (max-width: 37.5em) {
   .heading-primary--q2 {
-    font-size: 1.8rem;
+    font-size: 2.1rem;
     min-width: 80%;
     padding-top: 0;
   }
@@ -272,7 +238,7 @@ body {
 }
 
 #title {
-  font-size: 1.8rem;
+  font-size: 2.1rem;
   white-space: nowrap;
   text-transform: uppercase;
   font-weight: 600;
@@ -283,25 +249,26 @@ body {
 }
 @media (max-width: 56.25em) {
   #title {
-    font-size: 2.1rem;
+    font-size: 2.3rem;
   }
 }
 @media (max-width: 45.6em) {
   #title {
-    font-size: 2.1rem;
+    font-size: 2.3rem;
   }
 }
 #title_sub {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 2rem;
-  font-family: "Cansu-Round", serif;
+  font-family: "Inclusive Sans", sans-serif;
+  font-weight: 300;
   color: #0565ec;
   font-size: 1.8rem;
 }
 @media (max-width: 45.6em) {
   #title_sub {
-    font-size: 1.96rem;
+    font-size: 2rem;
   }
 }
 
@@ -336,7 +303,8 @@ body {
   color: #2a144b;
   align-self: center;
   justify-self: center;
-  font-family: "cansu-light", serif;
+  font-family: "Inclusive Sans", sans-serif;
+  font-weight: 300;
   font-size: 1.8rem;
   width: 100%;
   text-align: justify;
@@ -360,7 +328,7 @@ body {
 @media (max-width: 45.6em) {
   .section-bio__span1 {
     padding: 1rem;
-    font-size: 1.96rem;
+    font-size: 2rem;
     width: 84%;
   }
 }
@@ -374,21 +342,21 @@ body {
   padding: 0 2rem;
   align-self: center;
   justify-self: center;
-  font-size: 2.1rem;
+  font-size: 2.3rem;
   font-family: "Hachi Maru Pop", cursive;
   width: 100%;
   text-align: start;
 }
 @media (min-width: 112.5em) {
   .section-bio__span2 {
-    font-size: 2.1rem;
+    font-size: 2.3rem;
     width: 85%;
   }
 }
 @media (max-width: 75em) {
   .section-bio__span2 {
     width: 100%;
-    font-size: 2.1rem;
+    font-size: 2.3rem;
   }
 }
 @media (max-width: 56.25em) {
@@ -400,7 +368,7 @@ body {
 @media (max-width: 45.6em) {
   .section-bio__span2 {
     width: 85%;
-    font-size: 2.1rem;
+    font-size: 2.3rem;
   }
 }
 .section-bio__span3 {
@@ -408,7 +376,8 @@ body {
   align-self: center;
   justify-self: center;
   color: #2a144b;
-  font-family: "cansu-light", serif;
+  font-family: "Inclusive Sans", sans-serif;
+  font-weight: 300;
   font-size: 1.8rem;
   flex-basis: 51%;
   text-align: justify;
@@ -421,7 +390,7 @@ body {
 }
 @media (max-width: 45.6em) {
   .section-bio__span3 {
-    font-size: 1.96rem;
+    font-size: 2rem;
     flex-basis: 75%;
     text-align: left;
   }
@@ -436,37 +405,6 @@ body {
   padding-top: 0;
   color: #363636;
 }
-.section-bio__title {
-  display: block;
-  font-size: 2.1rem;
-  color: #363636;
-  font-family: "Sacred Valley", serif;
-  letter-spacing: 0;
-  font-weight: 400;
-  padding-top: 0;
-  text-align: right;
-  text-transform: uppercase;
-  z-index: 10;
-  position: relative;
-}
-@media (min-width: 112.5em) {
-  .section-bio__title {
-    font-size: 2.1rem;
-  }
-}
-@media (max-width: 56.25em) {
-  .section-bio__title {
-    padding-left: 2rem;
-  }
-}
-@media (max-width: 45.6em) {
-  .section-bio__title {
-    margin-bottom: 1rem;
-    padding-left: 1rem;
-    text-align: center;
-    font-size: 2.1rem;
-  }
-}
 
 .panel {
   font-size: 2rem;
@@ -474,14 +412,14 @@ body {
 
 .section-news__title {
   color: hsl(260, 60%, 99%);
-  font-size: 2.1rem;
+  font-size: 2.3rem;
   margin: 0;
   letter-spacing: 0;
   font-weight: 300;
 }
 @media (max-width: 45.6em) {
   .section-news__title {
-    font-size: 2.65rem;
+    font-size: 2.7rem;
   }
 }
 
@@ -490,24 +428,24 @@ body {
   letter-spacing: 1px;
   font-weight: 400;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 2.1rem;
 }
 @media (min-width: 112.5em) {
   .section-lessons-sub {
     padding-left: 10%;
     width: 100%;
-    font-size: 1.8rem;
+    font-size: 2.1rem;
   }
 }
 @media (max-width: 75em) {
   .section-lessons-sub {
     padding-top: 5rem;
-    font-size: 1.8rem;
+    font-size: 2.1rem;
   }
 }
 @media (max-width: 56.25em) {
   .section-lessons-sub {
-    font-size: 1.8rem;
+    font-size: 2.1rem;
   }
 }
 @media (max-width: 45.6em) {
@@ -519,13 +457,14 @@ body {
 }
 @media (max-width: 37.5em) {
   .section-lessons-sub {
-    font-size: 2.1rem;
+    font-size: 2.3rem;
   }
 }
 .section-lessons-sub__p p {
   display: inline-block;
   width: 80%;
-  font-family: "cansu-light", serif;
+  font-family: "Inclusive Sans", sans-serif;
+  font-weight: 300;
   font-size: 1.8rem;
   letter-spacing: 1px;
   color: #2a144b;
@@ -544,30 +483,30 @@ body {
 }
 @media (max-width: 45.6em) {
   .section-lessons-sub__p p {
-    font-size: 1.96rem;
+    font-size: 2rem;
   }
 }
 
 .title__form {
-  font-family: "Cansu-Round", serif;
+  font-family: "Inclusive Sans", sans-serif;
   color: #363636;
-  font-size: 1.8rem;
+  font-size: 2.1rem;
   font-weight: 400;
   margin: 0.5rem;
 }
 @media (min-width: 112.5em) {
   .title__form {
-    font-size: 2.1rem;
+    font-size: 2.3rem;
   }
 }
 @media (max-width: 56.25em) {
   .title__form {
-    font-size: 2.1rem;
+    font-size: 2.3rem;
   }
 }
 @media (max-width: 37.5em) {
   .title__form {
-    font-size: 2.1rem;
+    font-size: 2.3rem;
   }
 }
 
@@ -582,38 +521,39 @@ body {
   background-position: top;
   background-size: contain;
   width: 10%;
-  height: 2.65rem;
+  height: 2.7rem;
   float: right;
   margin-right: 3rem;
 }
 @media (max-width: 56.25em) {
   .age_icon {
-    height: 3.7rem;
+    height: 3.1rem;
   }
 }
 @media (max-width: 45.6em) {
   .age_icon {
-    height: 3.7rem;
+    height: 3.1rem;
   }
 }
 
 .carousel-caption h1 {
   font-family: "Hachi Maru Pop", cursive;
   margin-bottom: 0;
-  font-size: 3.7rem !important;
+  font-size: 3.1rem !important;
   color: #0565ec;
 }
 .carousel-caption p {
-  font-family: "Cansu-Round", serif;
+  font-family: "Inclusive Sans", sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-bottom: 0;
 }
 .carousel-caption span {
   font-family: "Hachi Maru Pop", cursive;
   text-transform: uppercase;
-  font-size: 1.8rem;
+  font-size: 2.1rem;
   color: #2a144b;
 }
 
@@ -624,12 +564,12 @@ body {
   width: 100%;
   font-family: "Hachi Maru Pop", cursive;
   text-transform: uppercase;
-  font-size: 2.1rem;
+  font-size: 2.3rem;
 }
 @media (max-width: 56.25em) {
   .section-expertise__title {
     width: 75%;
-    font-size: 2.1rem;
+    font-size: 2.3rem;
     width: 55%;
     text-align: center;
   }
@@ -647,17 +587,13 @@ body {
 
 .section-QA_title {
   color: #2a144b;
-  font-size: 1.8rem;
+  font-size: 2.1rem;
   margin: 4rem auto 2rem auto;
-  font-family: "cansu-light", serif;
+  font-family: "Inclusive Sans", sans-serif;
+  font-weight: 300;
   text-transform: uppercase;
   width: 30%;
   text-align: center;
-}
-@media (max-width: 75em) {
-  .section-QA_title {
-    font-family: "cansu-light", serif;
-  }
 }
 @media (max-width: 56.25em) {
   .section-QA_title {
@@ -676,7 +612,8 @@ body {
   justify-self: center;
   color: #2a144b;
   text-shadow: 1px 1px 2px white;
-  font-family: "cansu-light", serif;
+  font-family: "Inclusive Sans", sans-serif;
+  font-weight: 300;
   font-size: 1.8rem;
   width: 65%;
 }
@@ -690,7 +627,7 @@ body {
 }
 @media (max-width: 45.6em) {
   .section-QA__span1 {
-    font-size: 1.96rem;
+    font-size: 2rem;
   }
 }
 @media (max-width: 37.5em) {
@@ -701,7 +638,7 @@ body {
 
 .section-contact_title {
   margin: 0 auto;
-  font-size: 2.1rem;
+  font-size: 2.3rem;
   color: #0565ec;
   text-shadow: 1px 1px 2px white;
   font-family: "Hachi Maru Pop", cursive;
@@ -826,7 +763,6 @@ a {
 
 .nav {
   background-color: transparent;
-  font-family: "Cansu-raunded", sans-serif;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -924,6 +860,7 @@ a {
   display: inline-flex;
   max-width: 7rem;
   text-align: left;
+  align-items: center;
   text-decoration: none;
   margin: 0;
 }
@@ -933,16 +870,17 @@ a {
   }
 }
 .nav__li a span, .nav__li span {
-  font-family: "Cansu-Round", sans-serif;
+  font-family: "Inclusive Sans", sans-serif;
+  font-weight: 400;
   display: contents;
   color: #2a144b;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   text-align: center;
 }
 @media (max-width: 56.25em) {
   .nav__li a span, .nav__li span {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 }
 .nav__li a:hover span {
@@ -1000,7 +938,6 @@ a {
     position: fixed !important;
     bottom: -180px;
     padding: 2rem 1.5rem 2rem;
-    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.186);
     border-radius: 1.5rem 1.5rem 0 0;
     transition: 0.3s;
     background-color: #f8f8f8;
@@ -1046,7 +983,7 @@ a {
   border: 0;
   color: #0565ec;
   background-color: transparent;
-  font-size: 2.65rem;
+  font-size: 2.7rem;
   cursor: pointer;
   padding: 0 10px;
   margin: 0 15px;
@@ -1064,7 +1001,7 @@ a {
 @media (max-width: 37.5em) {
   .action-btn {
     margin: 0 10px;
-    font-size: 3.7rem;
+    font-size: 3.1rem;
   }
 }
 
@@ -1236,8 +1173,9 @@ a {
 }
 
 .blob-btn h2 {
-  background: #0565ec;
-  font-size: 2.1rem;
+  background: hsl(260, 60%, 99%);
+  -webkit-text-stroke: 1px hsl(260, 60%, 99%);
+  font-size: 2.3rem;
   margin-bottom: 0;
   width: 26rem;
   font-family: "Hachi Maru Pop", cursive;
@@ -1252,7 +1190,7 @@ a {
   margin-bottom: 30px;
   text-align: center;
   text-transform: uppercase;
-  background-color: #ffa399;
+  background-color: #0565ec;
   outline: none;
   border: none;
   transition: color 0.5s;
@@ -1449,7 +1387,7 @@ a {
 }
 .form__input {
   font-family: "Cansu-light", sans-serif;
-  font-size: 1.8rem;
+  font-size: 2.1rem;
   padding: 1rem 1.4rem;
   color: rgb(63, 61, 61);
   background-color: #f8f8f8;
@@ -1492,7 +1430,7 @@ a {
 .btn:link,
 .btn:visited {
   font-family: "Cansu-rounded", sans-serif !important;
-  font-size: 2.1rem;
+  font-size: 2.3rem;
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
@@ -1500,7 +1438,7 @@ a {
   border-radius: 10rem;
   transition: all 0.2s;
   position: relative;
-  font-size: 1.8rem;
+  font-size: 2.1rem;
   letter-spacing: 0.2rem;
   border: none;
   cursor: pointer;
@@ -1521,7 +1459,7 @@ a {
 }
 
 .btn__form {
-  font-size: 1.8rem !important;
+  font-size: 2.1rem !important;
   font-family: "Cansu-rounded", sans-serif !important;
 }
 .btn__form::after {
@@ -1548,11 +1486,12 @@ a {
   z-index: 1;
   background-color: hsl(260, 60%, 99%);
   text-align: center;
+  margin: 0 auto;
+  align-content: center;
 }
 .section-home__text-box {
   background: transparent;
   opacity: 1;
-  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -1560,12 +1499,6 @@ a {
   padding-top: 0;
 }
 @media (max-width: 56.25em) {
-  .section-home__text-box {
-    height: 70vh;
-    padding-top: 0;
-  }
-}
-@media (max-width: 45.6em) {
   .section-home__text-box {
     padding-top: 0;
   }
@@ -1578,12 +1511,6 @@ a {
 .section-home-logo img {
   width: 10%;
 }
-@media (max-width: 75em) {
-  .section-home {
-    padding-top: 10%;
-    height: 85vh;
-  }
-}
 @media (max-width: 37.5em) {
   .section-home {
     height: 100vh;
@@ -1593,7 +1520,7 @@ a {
 .section-home::before {
   content: ""; /* Required for pseudo-elements */
   position: absolute;
-  bottom: 80%;
+  bottom: 87%;
   left: 0;
   width: 100%;
   height: 100%;
@@ -1981,6 +1908,12 @@ a {
   justify-content: center;
   flex-direction: column;
 }
+@media (max-width: 45.6em) {
+  .section-news {
+    padding-top: 0;
+    margin-top: 2rem;
+  }
+}
 .section-news__title {
   padding: 2rem;
   margin-bottom: 6rem;
@@ -2168,8 +2101,8 @@ a {
   }
 }
 .carousel-control-prev-icon, .carousel-control-next-icon {
-  width: 2.65rem !important;
-  height: 2.65rem !important;
+  width: 2.7rem !important;
+  height: 2.7rem !important;
 }
 
 .carousel-control-next {
@@ -2182,7 +2115,7 @@ a {
 
 @media (max-width: 37.5em) {
   .carousel-control-next, .carousel-control-prev {
-    width: 40% !important;
+    width: 50% !important;
   }
 }
 
@@ -2281,11 +2214,12 @@ a {
 }
 .section-contact_mail {
   width: 80%;
-  font-size: 1.8rem;
+  font-size: 2.1rem;
   color: #0565ec;
 }
 .section-contact_mail h3 {
-  font-family: "Cansu-light", serif;
+  font-family: "Inclusive Sans", sans-serif;
+  font-weight: 300;
   display: inline-block;
   margin-left: 1rem;
   color: #2a144b;
@@ -2293,7 +2227,7 @@ a {
 }
 @media (max-width: 45.6em) {
   .section-contact_mail h3 {
-    font-size: 1.96rem;
+    font-size: 2rem;
   }
 }
 .section-contact_mail h3:hover {
@@ -2301,11 +2235,12 @@ a {
 }
 .section-contact_socials {
   width: 85%;
-  font-size: 1.8rem;
+  font-size: 2.1rem;
   color: #0565ec;
 }
 .section-contact_socials a h3 {
-  font-family: "Cansu-light", serif;
+  font-family: "Inclusive Sans", sans-serif;
+  font-weight: 300;
   display: inline-block;
   color: #2a144b;
   text-shadow: 1px 1px 2px hsl(260, 60%, 99%);
@@ -2313,7 +2248,7 @@ a {
 }
 @media (max-width: 45.6em) {
   .section-contact_socials a h3 {
-    font-size: 1.96rem;
+    font-size: 2rem;
   }
 }
 @media (max-width: 45.6em) {
@@ -2481,27 +2416,28 @@ footer {
   }
 }
 .footer__logo {
-  font-size: 3.7rem;
+  font-size: 3.1rem;
   width: 8rem;
 }
 .footer__copy {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-align: center;
   color: hsl(60, 11%, 91%);
   margin-top: 3rem;
 }
 .footer__subtitle, .footer__link, .footer__social {
   color: #0565ec;
-  font-family: "Cansu-regular", sans-serif;
+  font-family: "Inclusive Sans", sans-serif;
+  font-weight: 500;
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-decoration: none;
 }
 .footer__socials:hover {
   color: #0565ec;
 }
 .footer-social-icon {
-  font-size: 2.1rem;
+  font-size: 2.3rem;
 }
 .footer__links {
   display: flex;
@@ -2540,7 +2476,7 @@ footer {
 
 .section-expertise {
   height: 50vh;
-  margin: 0 auto;
+  margin: 10rem auto;
   padding-top: 5rem;
   background-color: hsl(260, 60%, 99%);
 }
