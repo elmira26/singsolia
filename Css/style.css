@@ -86,7 +86,7 @@ body {
   font-weight: 400;
   padding: 0;
   margin: 0;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   background-color: transparent;
   position: relative;
 }
@@ -121,13 +121,11 @@ body {
 
 .heading-primary {
   padding-bottom: 0;
-  line-height: 1.2;
 }
 @media (max-width: 37.5em) {
   .heading-primary {
     width: 100%;
     text-align: center;
-    line-height: 1.4;
     top: 0;
   }
 }
@@ -175,7 +173,6 @@ body {
   padding-bottom: 1.5rem;
   text-align: center;
   font-weight: bolder;
-  line-height: 1.2;
   margin-bottom: 0;
   font-family: "Hachi Maru Pop", cursive;
   z-index: 1000;
@@ -197,7 +194,6 @@ body {
 @media (max-width: 56.25em) {
   .heading-primary--q1 {
     padding-top: 0;
-    line-height: 1;
     font-size: 2.65rem;
     width: 55%;
     text-align: center;
@@ -206,7 +202,6 @@ body {
 @media (max-width: 45.6em) {
   .heading-primary--q1 {
     padding-top: 0;
-    line-height: 1;
     font-size: 2.65rem;
     width: 55%;
     text-align: center;
@@ -223,7 +218,7 @@ body {
 }
 .heading-primary--q2 {
   font-family: "Cansu-light", serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   z-index: 1000;
   display: inline-block;
   width: 50%;
@@ -280,7 +275,7 @@ body {
   display: inline-block;
   font-family: "Gill Sans", cursive;
   font-weight: 500;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-style: italic;
   padding: 0.5rem;
   letter-spacing: 1.1px;
@@ -317,11 +312,11 @@ body {
   margin-bottom: 2rem;
   font-family: "Cansu-Round";
   color: #0565ec;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 @media (max-width: 45.6em) {
   #title_sub {
-    font-size: 1.8rem;
+    font-size: 1.96rem;
   }
 }
 
@@ -349,7 +344,7 @@ body {
 
 .section-bio__text, .section-bio__img {
   align-self: flex-start;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 .section-bio__span1 {
   padding: 2rem;
@@ -357,7 +352,7 @@ body {
   align-self: center;
   justify-self: center;
   font-family: "Cansu-light";
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   width: 100%;
   text-align: justify;
   text-shadow: 1px 1px 2px hsl(260, 60%, 99%);
@@ -374,14 +369,13 @@ body {
 }
 @media (max-width: 56.25em) {
   .section-bio__span1 {
-    line-height: 1.2;
     width: 65%;
   }
 }
 @media (max-width: 45.6em) {
   .section-bio__span1 {
     padding: 1rem;
-    font-size: 1.8rem;
+    font-size: 1.96rem;
     width: 84%;
   }
 }
@@ -430,7 +424,7 @@ body {
   justify-self: center;
   color: #2a144b;
   font-family: "Cansu-light";
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   flex-basis: 51%;
   text-align: justify;
   padding: 0;
@@ -442,7 +436,7 @@ body {
 }
 @media (max-width: 45.6em) {
   .section-bio__span3 {
-    font-size: 1.8rem;
+    font-size: 1.96rem;
     flex-basis: 75%;
     text-align: left;
   }
@@ -494,7 +488,6 @@ body {
 }
 
 .section-news__title {
-  line-height: 1.2;
   color: hsl(260, 60%, 99%);
   font-size: 2.1rem;
   margin: 0;
@@ -548,15 +541,14 @@ body {
   display: inline-block;
   width: 80%;
   font-family: "Cansu-Light";
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   letter-spacing: 1px;
   color: #2a144b;
-  line-height: 1.3;
   text-align: left;
 }
 @media (min-width: 112.5em) {
   .section-lessons-sub__p p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     width: 60%;
   }
 }
@@ -567,7 +559,7 @@ body {
 }
 @media (max-width: 45.6em) {
   .section-lessons-sub__p p {
-    font-size: 1.8rem;
+    font-size: 1.96rem;
   }
 }
 
@@ -700,21 +692,20 @@ body {
   color: #2a144b;
   text-shadow: 1px 1px 2px white;
   font-family: "Cansu-light";
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   width: 65%;
 }
 @media (max-width: 56.25em) {
   .section-QA__span1 {
     padding: 2rem 1rem;
-    font-size: 1.6rem;
-    line-height: 1.2;
+    font-size: 1.8rem;
     width: 65%;
     text-align: justify;
   }
 }
 @media (max-width: 45.6em) {
   .section-QA__span1 {
-    font-size: 1.8rem;
+    font-size: 1.96rem;
   }
 }
 @media (max-width: 37.5em) {
@@ -1496,7 +1487,7 @@ a {
   border-bottom: 3px solid #55023c;
 }
 .form__label {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-family: "Gill Sans" cursive;
   color: hsla(334, 11%, 71%, 0.885);
   font-style: italic;
@@ -2313,11 +2304,11 @@ a {
   display: inline-block;
   margin-left: 1rem;
   color: #2a144b;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 @media (max-width: 45.6em) {
   .section-contact_mail h3 {
-    font-size: 1.8rem;
+    font-size: 1.96rem;
   }
 }
 .section-contact_mail h3:hover {
@@ -2333,11 +2324,11 @@ a {
   display: inline-block;
   color: #2a144b;
   text-shadow: 1px 1px 2px hsl(260, 60%, 99%);
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 @media (max-width: 45.6em) {
   .section-contact_socials a h3 {
-    font-size: 1.8rem;
+    font-size: 1.96rem;
   }
 }
 @media (max-width: 45.6em) {
