@@ -832,14 +832,12 @@ a {
     gap: 2rem;
     display: grid;
     width: 80%;
-    justify-content: flex-start;
   }
 }
 @media (max-width: 37.5em) {
   .nav__ul {
     grid-template-columns: repeat(5, auto);
-    width: auto;
-    justify-content: center;
+    width: 100%;
   }
 }
 .nav__li {
@@ -942,6 +940,7 @@ a {
 @media (max-width: 45.6em) and (max-width: 56.25em) {
   .nav__menu {
     height: 10%;
+    padding: 1rem;
   }
 }
 @media (max-width: 45.6em) {
@@ -1478,7 +1477,7 @@ a {
 }
 
 .section-home {
-  height: 100vh;
+  height: 96vh;
   position: relative;
   z-index: 1;
   background-color: hsl(260, 60%, 99%);
