@@ -106,9 +106,9 @@ a {
       justify-content: flex-start; 
     }
     @include respond(phone){
-      grid-template-columns: repeat(5,50px);
+      grid-template-columns: repeat(5,auto);
       width: auto;
-      justify-content: space-evenly;
+      justify-content: center;
     }
     
   }
@@ -130,6 +130,7 @@ a {
 
   &__li a {
     display: inline-flex;
+    justify-content: center;
     max-width: 7rem;
     text-align: left;
     align-items: center;
@@ -151,9 +152,9 @@ a {
     font-size: $smaller-font;
     text-transform: uppercase;
     text-align: center;
-    @include respond(tab-port){
-      font-size: $small-font;
-    }
+    // @include respond(tab-port){
+    //   font-size: $small-font;
+    // }
   }
 
   &__li a:hover span {
