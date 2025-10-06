@@ -112,7 +112,7 @@
 
 
   &--q2 {
-    font-family: "Cansu-light",serif;
+    font-family: "Cansu-Light",serif;
     font-size: $normal-font;
     z-index: 1000; 
     display: inline-block;
@@ -168,20 +168,20 @@
   }
 
 
-  &--q6 {
-    display: inline-block;
-    font-family: 'Gill Sans', cursive;
-    font-weight: 500;
-    font-size: $normal-font;
-    font-style: italic;
-    padding: 0.5rem;
-    letter-spacing: 1.1px;
+  // &--q6 {
+  //   display: inline-block;
+  //   font-family: 'Gill Sans', cursive;
+  //   font-weight: 500;
+  //   font-size: $normal-font;
+  //   font-style: italic;
+  //   padding: 0.5rem;
+  //   letter-spacing: 1.1px;
 
-    @include respond(desktop) {
-      font-size: $h1;
-    }
+  //   @include respond(desktop) {
+  //     font-size: $h1;
+  //   }
 
-  }
+  // }
 }
 
 #title {
@@ -210,7 +210,7 @@
   text-align: center;
   margin: 0 auto;
   margin-bottom: 2rem;
-  font-family: 'Cansu-Round';
+  font-family: "Cansu-Round",serif; 
   color: #{$color-deep-blue};
 
   font-size:$normal-font;
@@ -247,7 +247,7 @@
     color:$color-blue;
     align-self: center;
     justify-self: center;
-    font-family: "Cansu-light";
+    font-family: "Cansu-Light", serif;
     font-size: $normal-font;
     width: 100%;
     text-align: justify;
@@ -311,7 +311,7 @@
     align-self: center;
     justify-self: center;
     color: $color-blue;
-    font-family: "Cansu-light";
+    font-family: "Cansu-Light", serif;
     font-size: $normal-font;
     flex-basis: 51%;
     text-align: justify;
@@ -437,7 +437,7 @@
     &__p p {
       display: inline-block;
       width: 80%;
-      font-family: 'Cansu-Light';
+      font-family: 'Cansu-Light',serif;
       font-size:  $normal-font;
       letter-spacing: 1px;
       color: $color-blue;
@@ -460,7 +460,7 @@
 
 
 .title__form {
-  font-family: 'Cansu-Round', sans-serif;
+  font-family: 'Cansu-Round', serif;
   color: $color-brown;
   font-size: $h3;
   font-weight: 400;
@@ -523,7 +523,7 @@
   //  text-shadow: 1px 1px 2px white;
   }
   p{
-    font-family: 'Cansu-raunded', sans-serif;
+    font-family: 'Cansu-Round', serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size:  $small-font;
@@ -570,12 +570,12 @@
     color: $color-blue;
     font-size: $h3;
     margin: 4rem auto 2rem auto;
-    font-family: 'Cansu-light';
+    font-family: 'Cansu-Light',serif;
     text-transform: uppercase;
     width: 30%;
     text-align: center;
     @include respond(tab-land){
-      font-family: 'Cansu-light';
+      font-family: 'Cansu-Light',serif;
     }
     @include respond(tab-port){
       width: 65%;
@@ -592,7 +592,7 @@
     justify-self: center;
     color: $color-blue;
     text-shadow: 1px 1px 2px white;
-    font-family: "Cansu-light";
+    font-family: "Cansu-Light",serif;
     font-size: $normal-font;
     width: 65%;
     @include respond(tab-port) {

@@ -16,7 +16,7 @@
   src: local("League Spartan"), url(./Fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf) format("truetype");
 }
 @font-face {
-  font-family: "Cansu-light", serif;
+  font-family: "Cansu-Light", serif;
   src: local("Cansu-Light"), url(./Fonts/Cansu_Sans_Serif_Font_Family_Dfonts.org/TTF/Cansu-Light.ttf) format("truetype");
 }
 @font-face {
@@ -216,7 +216,7 @@ body {
   }
 }
 .heading-primary--q2 {
-  font-family: "Cansu-light", serif;
+  font-family: "Cansu-Light", serif;
   font-size: 1.8rem;
   z-index: 1000;
   display: inline-block;
@@ -270,20 +270,6 @@ body {
     right: 10%;
   }
 }
-.heading-sub--q6 {
-  display: inline-block;
-  font-family: "Gill Sans", cursive;
-  font-weight: 500;
-  font-size: 1.8rem;
-  font-style: italic;
-  padding: 0.5rem;
-  letter-spacing: 1.1px;
-}
-@media (min-width: 112.5em) {
-  .heading-sub--q6 {
-    font-size: 2.65rem;
-  }
-}
 
 #title {
   font-size: 1.8rem;
@@ -309,7 +295,7 @@ body {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 2rem;
-  font-family: "Cansu-Round";
+  font-family: "Cansu-Round", serif;
   color: #0565ec;
   font-size: 1.8rem;
 }
@@ -350,7 +336,7 @@ body {
   color: #2a144b;
   align-self: center;
   justify-self: center;
-  font-family: "Cansu-light";
+  font-family: "Cansu-Light", serif;
   font-size: 1.8rem;
   width: 100%;
   text-align: justify;
@@ -422,7 +408,7 @@ body {
   align-self: center;
   justify-self: center;
   color: #2a144b;
-  font-family: "Cansu-light";
+  font-family: "Cansu-Light", serif;
   font-size: 1.8rem;
   flex-basis: 51%;
   text-align: justify;
@@ -539,7 +525,7 @@ body {
 .section-lessons-sub__p p {
   display: inline-block;
   width: 80%;
-  font-family: "Cansu-Light";
+  font-family: "Cansu-Light", serif;
   font-size: 1.8rem;
   letter-spacing: 1px;
   color: #2a144b;
@@ -563,7 +549,7 @@ body {
 }
 
 .title__form {
-  font-family: "Cansu-Round", sans-serif;
+  font-family: "Cansu-Round", serif;
   color: #363636;
   font-size: 1.8rem;
   font-weight: 400;
@@ -618,7 +604,7 @@ body {
   color: #0565ec;
 }
 .carousel-caption p {
-  font-family: "Cansu-raunded", sans-serif;
+  font-family: "Cansu-Round", serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 1.2rem;
@@ -663,14 +649,14 @@ body {
   color: #2a144b;
   font-size: 1.8rem;
   margin: 4rem auto 2rem auto;
-  font-family: "Cansu-light";
+  font-family: "Cansu-Light", serif;
   text-transform: uppercase;
   width: 30%;
   text-align: center;
 }
 @media (max-width: 75em) {
   .section-QA_title {
-    font-family: "Cansu-light";
+    font-family: "Cansu-Light", serif;
   }
 }
 @media (max-width: 56.25em) {
@@ -690,7 +676,7 @@ body {
   justify-self: center;
   color: #2a144b;
   text-shadow: 1px 1px 2px white;
-  font-family: "Cansu-light";
+  font-family: "Cansu-Light", serif;
   font-size: 1.8rem;
   width: 65%;
 }
