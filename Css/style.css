@@ -16,8 +16,8 @@
   src: local("League Spartan"), url(./fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf) format("truetype");
 }
 @font-face {
-  font-family: "Cansu-Light", serif;
-  src: local("Cansu"), url(./fonts/Cansu_Sans_Serif_Font_Family_Dfonts.org/TTF/Cansu-Light.ttf) format("truetype");
+  font-family: "cansu-light", serif;
+  src: local("Cansu"), url(./fonts/cansu_sans_serif_font_family_dfonts.org/ttf/cansu-light.ttf) format("truetype");
 }
 @font-face {
   font-family: "Cansu-Regular", serif;
@@ -216,7 +216,7 @@ body {
   }
 }
 .heading-primary--q2 {
-  font-family: "Cansu-Light", serif;
+  font-family: "cansu-light", serif;
   font-size: 1.8rem;
   z-index: 1000;
   display: inline-block;
@@ -336,7 +336,7 @@ body {
   color: #2a144b;
   align-self: center;
   justify-self: center;
-  font-family: "Cansu-Light", serif;
+  font-family: "cansu-light", serif;
   font-size: 1.8rem;
   width: 100%;
   text-align: justify;
@@ -408,7 +408,7 @@ body {
   align-self: center;
   justify-self: center;
   color: #2a144b;
-  font-family: "Cansu-Light", serif;
+  font-family: "cansu-light", serif;
   font-size: 1.8rem;
   flex-basis: 51%;
   text-align: justify;
@@ -525,7 +525,7 @@ body {
 .section-lessons-sub__p p {
   display: inline-block;
   width: 80%;
-  font-family: "Cansu-Light", serif;
+  font-family: "cansu-light", serif;
   font-size: 1.8rem;
   letter-spacing: 1px;
   color: #2a144b;
@@ -649,14 +649,14 @@ body {
   color: #2a144b;
   font-size: 1.8rem;
   margin: 4rem auto 2rem auto;
-  font-family: "Cansu-Light", serif;
+  font-family: "cansu-light", serif;
   text-transform: uppercase;
   width: 30%;
   text-align: center;
 }
 @media (max-width: 75em) {
   .section-QA_title {
-    font-family: "Cansu-Light", serif;
+    font-family: "cansu-light", serif;
   }
 }
 @media (max-width: 56.25em) {
@@ -676,7 +676,7 @@ body {
   justify-self: center;
   color: #2a144b;
   text-shadow: 1px 1px 2px white;
-  font-family: "Cansu-Light", serif;
+  font-family: "cansu-light", serif;
   font-size: 1.8rem;
   width: 65%;
 }

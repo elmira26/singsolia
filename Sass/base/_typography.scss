@@ -112,7 +112,7 @@
 
 
   &--q2 {
-    font-family: "Cansu-Light",serif;
+    font-family: "cansu-light",serif;
     font-size: $normal-font;
     z-index: 1000; 
     display: inline-block;
@@ -247,7 +247,7 @@
     color:$color-blue;
     align-self: center;
     justify-self: center;
-    font-family: "Cansu-Light", serif;
+    font-family: "cansu-light", serif;
     font-size: $normal-font;
     width: 100%;
     text-align: justify;
@@ -311,7 +311,7 @@
     align-self: center;
     justify-self: center;
     color: $color-blue;
-    font-family: "Cansu-Light", serif;
+    font-family: "cansu-light", serif;
     font-size: $normal-font;
     flex-basis: 51%;
     text-align: justify;
@@ -437,7 +437,7 @@
     &__p p {
       display: inline-block;
       width: 80%;
-      font-family: 'Cansu-Light',serif;
+      font-family: 'cansu-light',serif;
       font-size:  $normal-font;
       letter-spacing: 1px;
       color: $color-blue;
@@ -570,12 +570,12 @@
     color: $color-blue;
     font-size: $h3;
     margin: 4rem auto 2rem auto;
-    font-family: 'Cansu-Light',serif;
+    font-family: 'cansu-light',serif;
     text-transform: uppercase;
     width: 30%;
     text-align: center;
     @include respond(tab-land){
-      font-family: 'Cansu-Light',serif;
+      font-family: 'cansu-light',serif;
     }
     @include respond(tab-port){
       width: 65%;
@@ -592,7 +592,7 @@
     justify-self: center;
     color: $color-blue;
     text-shadow: 1px 1px 2px white;
-    font-family: "Cansu-Light",serif;
+    font-family: "cansu-light",serif;
     font-size: $normal-font;
     width: 65%;
     @include respond(tab-port) {
