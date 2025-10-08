@@ -14,10 +14,13 @@ const songs =[
   
   {title:'Lead the way',
   titleSub: 'song by Mariah C'},
+  {title:'No tears left to cry',
+  titleSub:'song by Ariana G'},
   {title:'Listen',
    titleSub:'song by Beyonce' },
   {title:'Remedy',
   titleSub: 'song by Adele'},
+ 
   ];
 
 // keep track of songs
