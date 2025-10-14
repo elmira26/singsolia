@@ -146,7 +146,7 @@ a {
 
   &__li a span, 
   &__li span {
-    font-family: "Inclusive Sans", sans-serif;
+    font-family: "Lexend", sans-serif;
     font-weight: 400;
     display: contents;
     color: $color-blue;
@@ -247,7 +247,7 @@ a {
   bottom: 0;
   background-color:transparent;
   @include respond(tab-port){
-    background-color:  $color-sand;
+    background-color:  $color-white;
   }
 }
 

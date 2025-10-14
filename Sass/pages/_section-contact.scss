@@ -16,7 +16,7 @@
     font-size: $h3;
     color: $color-deep-blue;
     h3{
-      font-family: "Inclusive Sans", sans-serif;
+      font-family: "Lexend", sans-serif;
       font-weight: 300;
       display: inline-block;
       margin-left: 1rem;
@@ -37,11 +37,10 @@
     font-size: $h3;
     color: $color-deep-blue;
     a h3{
-      font-family: "Inclusive Sans", sans-serif;
+      font-family: "Lexend", sans-serif;
       font-weight: 300;
       display: inline-block;
       color: $color-blue;
-      text-shadow: 1px 1px 2px $color-white;
       font-size: $normal-font;
        @include respond(phoneExtra) {
       font-size: $mobile-font;

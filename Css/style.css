@@ -8,10 +8,9 @@
   src: local("Hachi Maru Pop"), url("./fonts/HachiMaruPop-Regular.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Inclusive Sans", sans-serif;
+  font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
-  font-style: normal;
-  src: local("Inclusive Sans"), url("./fonts/InclusiveSans-VariableFont_wght.ttf") format("truetype");
+  src: local("Lexend"), url("./fonts/Lexend/Lexend-VariableFont_wght.ttf");
 }
 *,
 *::after,
@@ -133,11 +132,11 @@ body {
 .heading-primary--q1 {
   font-size: 2.7rem;
   -webkit-text-stroke: 1px #0565ec;
-  color: hsl(260, 60%, 99%);
+  color: #0565ec;
   padding-top: 25%;
   padding-bottom: 1.5rem;
   text-align: center;
-  font-weight: bolder;
+  font-weight: 500;
   margin-bottom: 0;
   font-family: "Hachi Maru Pop", cursive;
   z-index: 1000;
@@ -182,7 +181,7 @@ body {
   }
 }
 .heading-primary--q2 {
-  font-family: "Inclusive Sans", sans-serif;
+  font-family: "Lexend", sans-serif;
   font-size: 1.8rem;
   z-index: 1000;
   display: inline-block;
@@ -261,7 +260,7 @@ body {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 2rem;
-  font-family: "Inclusive Sans", sans-serif;
+  font-family: "Lexend", sans-serif;
   font-weight: 300;
   color: #0565ec;
   font-size: 1.8rem;
@@ -303,12 +302,11 @@ body {
   color: #2a144b;
   align-self: center;
   justify-self: center;
-  font-family: "Inclusive Sans", sans-serif;
+  font-family: "Lexend", sans-serif;
   font-weight: 300;
   font-size: 1.8rem;
   width: 100%;
   text-align: justify;
-  text-shadow: 1px 1px 2px hsl(260, 60%, 99%);
 }
 @media (min-width: 112.5em) {
   .section-bio__span1 {
@@ -376,7 +374,7 @@ body {
   align-self: center;
   justify-self: center;
   color: #2a144b;
-  font-family: "Inclusive Sans", sans-serif;
+  font-family: "Lexend", sans-serif;
   font-weight: 300;
   font-size: 1.8rem;
   flex-basis: 51%;
@@ -400,18 +398,13 @@ body {
     flex-basis: 85%;
   }
 }
-.section-bio__p {
-  font-family: "Roboto", sans-serif;
-  padding-top: 0;
-  color: #363636;
-}
 
 .panel {
   font-size: 2rem;
 }
 
 .section-news__title {
-  color: hsl(260, 60%, 99%);
+  color: #dfdacf;
   font-size: 2.3rem;
   margin: 0;
   letter-spacing: 0;
@@ -463,10 +456,9 @@ body {
 .section-lessons-sub__p p {
   display: inline-block;
   width: 80%;
-  font-family: "Inclusive Sans", sans-serif;
+  font-family: "Lexend", sans-serif;
   font-weight: 300;
   font-size: 1.8rem;
-  letter-spacing: 1px;
   color: #2a144b;
   text-align: left;
 }
@@ -488,7 +480,7 @@ body {
 }
 
 .title__form {
-  font-family: "Inclusive Sans", sans-serif;
+  font-family: "Lexend", sans-serif;
   color: #363636;
   font-size: 2.1rem;
   font-weight: 400;
@@ -543,7 +535,7 @@ body {
   color: #0565ec;
 }
 .carousel-caption p {
-  font-family: "Inclusive Sans", sans-serif;
+  font-family: "Lexend", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -563,7 +555,6 @@ body {
   margin-bottom: 4rem;
   width: 100%;
   font-family: "Hachi Maru Pop", cursive;
-  text-transform: uppercase;
   font-size: 2.3rem;
 }
 @media (max-width: 56.25em) {
@@ -589,8 +580,8 @@ body {
   color: #2a144b;
   font-size: 2.1rem;
   margin: 4rem auto 2rem auto;
-  font-family: "Inclusive Sans", sans-serif;
-  font-weight: 300;
+  font-family: "Lexend", sans-serif;
+  font-weight: 500;
   text-transform: uppercase;
   width: 30%;
   text-align: center;
@@ -611,8 +602,7 @@ body {
   align-self: center;
   justify-self: center;
   color: #2a144b;
-  text-shadow: 1px 1px 2px white;
-  font-family: "Inclusive Sans", sans-serif;
+  font-family: "Lexend", sans-serif;
   font-weight: 300;
   font-size: 1.8rem;
   width: 65%;
@@ -640,9 +630,7 @@ body {
   margin: 0 auto;
   font-size: 2.3rem;
   color: #0565ec;
-  text-shadow: 1px 1px 2px white;
   font-family: "Hachi Maru Pop", cursive;
-  text-transform: uppercase;
   text-align: center;
   width: 50%;
 }
@@ -650,6 +638,12 @@ body {
   .section-contact_title {
     width: 90%;
   }
+}
+
+.footer_copy {
+  font-size: 1.5rem;
+  font-family: "Lexend", sans-serif;
+  color: #2a144b;
 }
 
 .container {
@@ -738,6 +732,10 @@ body {
 
 .u-margin-bottom-2 {
   margin-bottom: 2.3rem;
+}
+
+.u-margin-bottom-4 {
+  margin-bottom: 4rem;
 }
 
 header {
@@ -869,7 +867,7 @@ a {
   }
 }
 .nav__li a span, .nav__li span {
-  font-family: "Inclusive Sans", sans-serif;
+  font-family: "Lexend", sans-serif;
   font-weight: 400;
   display: contents;
   color: #2a144b;
@@ -883,12 +881,12 @@ a {
 .nav__li a span:nth-child(even) {
   overflow: hidden;
   transition: ease-in-out 0.5s;
-  color: hsl(260, 60%, 99%);
+  color: #dfdacf;
   letter-spacing: -1em;
 }
 .nav__li a:hover span:nth-child(even) {
   letter-spacing: 2px;
-  color: hsl(260, 60%, 99%);
+  color: #dfdacf;
 }
 @media (max-width: 45.6em) {
   .nav__li a:hover span:nth-child(even) {
@@ -956,7 +954,7 @@ a {
 }
 @media (max-width: 56.25em) {
   .show-menu {
-    background-color: hsl(60, 11%, 91%);
+    background-color: #dfdacf;
   }
 }
 
@@ -1061,7 +1059,7 @@ a {
 }
 
 .progress-container {
-  background: hsl(260, 60%, 99%);
+  background: #dfdacf;
   border-radius: 5px;
   cursor: pointer;
   height: 1px;
@@ -1168,8 +1166,8 @@ a {
 }
 
 .blob-btn h2 {
-  background: hsl(260, 60%, 99%);
-  -webkit-text-stroke: 1px hsl(260, 60%, 99%);
+  background: #dfdacf;
+  -webkit-text-stroke: 1px #dfdacf;
   font-size: 2.1rem;
   margin-bottom: 0;
   width: 26rem;
@@ -1407,7 +1405,7 @@ a {
 }
 .form__label {
   font-size: 1.8rem;
-  font-family: "Gill Sans" cursive;
+  font-family: "Lexend", sans-serif;
   color: hsla(334, 11%, 71%, 0.885);
   font-style: italic;
   font-weight: 600;
@@ -1425,7 +1423,7 @@ a {
 .btn,
 .btn:link,
 .btn:visited {
-  font-family: "Cansu-rounded", sans-serif !important;
+  font-family: "Lexend", sans-serif !important;
   font-size: 2.3rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -1456,7 +1454,7 @@ a {
 
 .btn__form {
   font-size: 2.1rem !important;
-  font-family: "Cansu-rounded", sans-serif !important;
+  font-family: "Lexend", sans-serif !important;
 }
 .btn__form::after {
   content: "";
@@ -1480,7 +1478,7 @@ a {
   height: 96vh;
   position: relative;
   z-index: 1;
-  background-color: hsl(260, 60%, 99%);
+  background-color: #dfdacf;
   text-align: center;
   margin: 0 auto;
   align-content: center;
@@ -1566,7 +1564,7 @@ a {
 
 .section-bio {
   height: auto;
-  background-color: hsl(260, 60%, 99%);
+  background-color: #dfdacf;
   padding-top: 10rem;
   margin: 0 auto;
 }
@@ -1761,7 +1759,7 @@ a {
 }
 
 .section-bio2 {
-  background-color: hsl(260, 60%, 99%);
+  background-color: #dfdacf;
   height: auto;
 }
 .section-bio2 .flex-container .section-bio__img {
@@ -1896,7 +1894,7 @@ a {
 
 .section-news {
   margin-top: 10rem;
-  background: hsl(260, 60%, 99%);
+  background: #dfdacf;
   padding-top: 10rem;
   padding-bottom: 5rem;
   position: relative;
@@ -2075,7 +2073,7 @@ a {
 }
 
 .carousel-caption {
-  background-color: hsl(260, 60%, 99%);
+  background-color: #dfdacf;
   position: relative !important;
   left: 0 !important;
   right: 0 !important;
@@ -2214,7 +2212,7 @@ a {
   color: #0565ec;
 }
 .section-contact_mail h3 {
-  font-family: "Inclusive Sans", sans-serif;
+  font-family: "Lexend", sans-serif;
   font-weight: 300;
   display: inline-block;
   margin-left: 1rem;
@@ -2235,11 +2233,10 @@ a {
   color: #0565ec;
 }
 .section-contact_socials a h3 {
-  font-family: "Inclusive Sans", sans-serif;
+  font-family: "Lexend", sans-serif;
   font-weight: 300;
   display: inline-block;
   color: #2a144b;
-  text-shadow: 1px 1px 2px hsl(260, 60%, 99%);
   font-size: 1.8rem;
 }
 @media (max-width: 45.6em) {
@@ -2326,7 +2323,7 @@ a {
   width: 100%;
   min-width: 33rem;
   padding: 2rem;
-  background-color: hsl(260, 60%, 99%);
+  background-color: #dfdacf;
 }
 
 .appointment-modal__content {
@@ -2414,11 +2411,10 @@ footer {
 .footer__logo {
   font-size: 3.1rem;
   width: 8rem;
+  mix-blend-mode: darken;
 }
 .footer__copy {
-  font-size: 1.5rem;
   text-align: center;
-  color: hsl(60, 11%, 91%);
   margin-top: 3rem;
 }
 .footer__subtitle, .footer__link, .footer__social {
@@ -2474,7 +2470,7 @@ footer {
   height: 50vh;
   margin: 10rem auto;
   padding-top: 5rem;
-  background-color: hsl(260, 60%, 99%);
+  background-color: #dfdacf;
 }
 .section-expertise .flex-container {
   justify-content: center;
@@ -2499,7 +2495,7 @@ footer {
 }
 
 .section-QA {
-  background-color: hsl(260, 60%, 99%);
+  background-color: #dfdacf;
   padding-top: 2rem;
   padding-bottom: 10rem;
   background-image: url("../img/musical-bg.svg");

@@ -42,16 +42,14 @@ footer {
   &__logo {
     font-size: $big;
     width: 8rem;
-    // filter: sepia(90%);
+    mix-blend-mode: darken;
 
   }
 
   
 
   &__copy {
-    font-size: $small-font;
     text-align: center;
-    color: $color-sand;
     margin-top: 3rem;
   }
 

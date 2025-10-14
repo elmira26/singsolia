@@ -40,7 +40,7 @@
 
   &__label {
     font-size: $normal-font;
-    font-family: "Gill Sans" cursive;
+     font-family: "Lexend", sans-serif;
     color: $color-news-base;
     font-style: italic;
     font-weight: 600;
@@ -60,7 +60,7 @@
 .btn,
 .btn:link,
 .btn:visited {
-  font-family: 'Cansu-rounded', sans-serif !important;
+   font-family: "Lexend", sans-serif !important;
   font-size: $h2;
   text-transform: uppercase;
   text-decoration: none;
@@ -95,7 +95,7 @@
 .btn__form {
   
   font-size: $h3 !important;
-  font-family: 'Cansu-rounded', sans-serif !important;
+   font-family: "Lexend", sans-serif !important;
     
 
   &::after {
