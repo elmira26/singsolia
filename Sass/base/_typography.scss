@@ -58,49 +58,41 @@
   }
 
   &--q1 {
-    font-size: $h1;
-    // text-shadow: 2px 2px 3px $color-white;
-    -webkit-text-stroke: 1px $color-deep-blue;
-    color: $color-deep-blue;
-    padding-top:25%;
-    padding-bottom: 1.5rem;
-    text-align: center;
-    font-weight: 500;
+    font-size: $big;
+    color: $color-green;
+    text-transform: uppercase;
+    padding-top:0;
+    padding-bottom: 1.3rem;
+    text-align: left;
+    font-weight: 700;
     margin-bottom: 0;
-    font-family: "Hachi Maru Pop", cursive;
-    // font-family: "Lexend", sans-serif;
+    // font-family: "Hachi Maru Pop", cursive;
+    font-family: "Lexend", sans-serif;
     z-index: 1000;
+    .colored-text_1{
+      color: $color-blue-sky;
+    }
 
      @include respond(desktop){
-      width: 24%;
       padding-top: 0;
-      font-size: $h1;
     }
      
-    
-    @include respond(tab-land){
-      width: 45%;
+     @include respond(tab-land){
       padding-top: 0;
       font-size: $h1;
     }
      @include respond(tab-port){
-      // text-transform: uppercase;
       padding-top:0;
       font-size: $h1;
-      width: 55%;
       text-align: center;
     }
       @include respond(phoneExtra){
-      // text-transform: uppercase;
       padding-top:0;
       font-size: $h1;
-      width: 55%;
       text-align: center;
     }
       @include respond(phone){
       font-size: $h1;
-      width: 92%;
-      // line-height: 1.;
       text-align: center;
       padding-top: 0;
       align-self: center;
@@ -116,9 +108,9 @@
     font-size: $normal-font;
     z-index: 1000; 
     display: inline-block;
-    width: 50%;
+    // width: 100%;
     text-align: center;
-    color: $color-blue;
+    color: $color-blue-sky;
     font-weight: 300;
     margin: 0;
     
@@ -128,25 +120,27 @@
     }
     @include respond(tab-land){
       font-size: $h3;
-      max-width: 40%;
+      // width: 70%;
+      text-align: left;
     }
     @include respond(tab-port){
       padding-top:20rem;
       font-size: $h3;
       padding-bottom: 1rem;
       padding-top:0;
-      max-width: 35%;
+      // width: 55%;
+      text-align: center;
+    }
+    @include respond(phoneExtra){
+      // width: 70%;
     }
     @include respond(phone) {
       font-size: $h3;
-      min-width: 80%;
+      // width: 100%;
       padding-top:0;
-      // line-height: 1.2;
     }
 
-  }
-
-  
+  } 
 
 }
 
@@ -173,9 +167,6 @@
   //   font-family: 'Gill Sans', cursive;
   //   font-weight: 500;
   //   font-size: $normal-font;
-  //   font-style: italic;
-  //   padding: 0.5rem;
-  //   letter-spacing: 1.1px;
 
   //   @include respond(desktop) {
   //     font-size: $h1;
@@ -186,7 +177,7 @@
 
 #title {
   font-size: $h3;
-  white-space: nowrap;
+  // white-space: nowrap;
   text-transform: uppercase;
   font-weight: 600;
   font-family: "Hachi Maru Pop", cursive;
@@ -220,21 +211,31 @@
   }
 }
 .heading-title {
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 100%;
+  align-items: flex-end;
+  width: inherit;
   justify-content: center;
   margin: 0 auto;
+  @include respond(tab-port){
+     align-items: center; 
+  }
+  @include respond(phoneExtra){
+    padding-top: 3rem;
+  }
+  @include respond(phone){
+    padding-top: 5rem;
+    width: 100%;
+  }
+
   @include respond(desktop){
     width: 100%;
   }
   @include respond(phone){
    width: 100%;
    align-content: center;
-   padding:0;
-   flex-direction: column;
-    
+   flex-direction: column;  
   }
 }
 .section-bio {

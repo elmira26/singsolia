@@ -1,9 +1,9 @@
 .section-lessons {
   height: fit-content;
   position: relative;
-  // box-shadow: 0 1.5rem 4rem rgba(23, 23, 23, 0.5);
   padding-top: 10rem;
-  // background-color: $color-white;
+  background-color: $color-white;
+
   
   @include respond(tab-port){
     text-align: center;

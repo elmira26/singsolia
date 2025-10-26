@@ -38,8 +38,8 @@ a {
   margin: 0 auto;
   width: 100%;
   // border-bottom: solid $color-blue-sky .5px;
-  padding: 3rem;
-  // border-radius: 10px;
+  padding: 1.7rem;
+  border-radius: 1.5rem 1.5rem 0 0;
 
   &__logo__img{
     display: none;
@@ -100,7 +100,6 @@ a {
 
     @include respond(phoneExtra) {
       grid-template-columns: repeat(5, 1fr);
-      gap: 2rem;
       display: grid;
       width: 80%;
       
@@ -147,30 +146,32 @@ a {
   &__li a span, 
   &__li span {
     font-family: "Lexend", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     display: contents;
-    color: $color-blue;
-    font-size: $smaller-font;
-    text-transform: uppercase;
+    color: $color-green;
+    font-size: $small-font;
     text-align: center;
+    .uil-step-forward{
+      @include respond(phoneExtra){
+        display: none;
+      }
+    }
     // @include respond(tab-port){
     //   font-size: $small-font;
     // }
   }
 
   &__li a:hover span {
-    color: $color-deep-blue;
+    color: $color-pink;
   }
 
   &__li a span:nth-child(even) {
     overflow: hidden;
     transition: ease-in-out 0.5s;
-    color: $color-white;;
-    letter-spacing: -1em;
+    color: $color-white;
   }
 
   &__li a:hover span:nth-child(even) {
-    letter-spacing: 2px;
     color: $color-white;
     @include respond(phoneExtra){
       color:$color-blue;
@@ -202,18 +203,15 @@ a {
   }
 
   &__menu {
-    width: 100%;
-    
+    width: 100%;  
   }
   @include respond(tab-land){
      background-color: transparent;
   }
   @include respond(phoneExtra) {
-    // background-color: rgba($color-pink-light, 0.88);
     justify-content: space-between;
     max-width: 100% !important;
     margin: 0;
-    height: 9rem;
 
     &__menu {
       width: 100%;
@@ -236,22 +234,27 @@ a {
     &__close,
     &__toggle {
       display: contents;
-      color: $color-brown;
+      color: $color-green;
     }
   }
-
+@include respond(phoneExtra){
+  padding: 1.2rem;
+}
 
 }
 
 .show-menu {
   bottom: 0;
+  // top:0;
   background-color:transparent;
   @include respond(tab-port){
-    background-color:  $color-white;
+    background-color: $color-brown;
   }
 }
 
-// music navigation
+// music PLAYER navigation
+
+
 .navigation {
   // backdrop-filter: blur(10px);
   // -webkit-backdrop-filter: blur(10px);
@@ -382,6 +385,6 @@ a {
   .container, .container-sm{
     @include respond(phone){
     max-width: 100% !important;
-    background-color: transparent !important;
+    background-color: $color-brown!important;
   }
 }

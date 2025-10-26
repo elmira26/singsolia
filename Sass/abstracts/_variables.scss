@@ -4,12 +4,13 @@ $color-white: #dfdacf;
  $color-pink:#af4665;
  $color-pink-light: #ffa399;
  $color-red: #dc3545;
- $color-brown: #363636;
+ $color-green: #7bcc19;
+ $color-brown: #160f1b;
  $color-blue:#2a144b;
  $color-bio-base: #f8f8f8;
  $color-news-base: hsla(334, 11%, 71%, 0.885);
  $color-violet: 	hsl(277, 71%, 85%);
- $color-violet-bright: hsl(285, 58%, 23%);
+ $color-violet-bright: #6200ee;
  $color-font-footer:#fef5de75;
  $color-deep-blue:#0565ec;
  $color-blue-sky:hsl(199, 97%, 77%);
@@ -37,14 +38,14 @@ $shadowgradient:linear-gradient(to bottom, $color-gradient_1);
  
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
- $big: 3.1rem;
+ $big: 3.78rem;
  $h1: 2.7rem;
  $h2: 2.3rem;
  $h3: 2.1rem;
  $mobile-font: 2rem;
  $normal-font: 1.8rem;
  $small-font: 1.5rem;
- $smaller-font:1.3rem;
+ $smaller-font:1rem;
 
  
 //  carousel
@@ -75,3 +76,5 @@ $shadowgradient:linear-gradient(to bottom, $color-gradient_1);
 
 // $carousel-transition-duration:       .4s;
 // $carousel-transition:                transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
+// shadow
+$shadow-box: 0 1.5rem 2rem rgba(90, 85, 85, 0.2);

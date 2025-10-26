@@ -6,7 +6,8 @@
   height: 100vh;
   padding: 5rem 0;
   // background-color: $color-white;
-  background-image: url('../img/musical-bg.svg');
+  // background-image: url('../img/musical-bg.svg');
+  
   @include respond(tab-land){
     height: 85vh;
   }
@@ -47,7 +48,7 @@
       }
     }
     @include respond(phoneExtra){
-       width: 93%;
+       width: 100%;
     }
   }
   &_socials{
@@ -83,10 +84,10 @@
   background-size: cover;
   position: absolute;
   top: 0;
-  left: 30%;
+  left: 20%;
   margin: 0 auto;
   border-radius: 25px;
-  box-shadow: 0 1.5rem 4rem rgba(23, 23, 23, 0.3);
+  box-shadow: $shadow-box;
   background-position: right;
   
    @include respond(desktop){
@@ -102,7 +103,7 @@
   }
   @include respond(phoneExtra) {
     min-width: 90%;
-    left: 5%;
+   
   }
   @include respond(phone) {
     width: 100%;
@@ -111,7 +112,6 @@
 
   &__form {
     width: 100%;
-    min-width: 33rem;
     padding: 2rem;
     background-color:$color-white;
     // @include respond(phoneExtra) {

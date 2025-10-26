@@ -96,7 +96,7 @@ body {
   display: inline-block;
   margin-right: 1rem;
   font-size: 1.5rem;
-  color: #363636;
+  color: #160f1b;
   text-shadow: 1px 1px 2px white;
   font-style: normal;
   font-weight: 400;
@@ -130,27 +130,27 @@ body {
   transform: translateY(1px);
 }
 .heading-primary--q1 {
-  font-size: 2.7rem;
-  -webkit-text-stroke: 1px #0565ec;
-  color: #0565ec;
-  padding-top: 25%;
-  padding-bottom: 1.5rem;
-  text-align: center;
-  font-weight: 500;
+  font-size: 3.78rem;
+  color: #7bcc19;
+  text-transform: uppercase;
+  padding-top: 0;
+  padding-bottom: 1.3rem;
+  text-align: left;
+  font-weight: 700;
   margin-bottom: 0;
-  font-family: "Hachi Maru Pop", cursive;
+  font-family: "Lexend", sans-serif;
   z-index: 1000;
+}
+.heading-primary--q1 .colored-text_1 {
+  color: hsl(199, 97%, 77%);
 }
 @media (min-width: 112.5em) {
   .heading-primary--q1 {
-    width: 24%;
     padding-top: 0;
-    font-size: 2.7rem;
   }
 }
 @media (max-width: 75em) {
   .heading-primary--q1 {
-    width: 45%;
     padding-top: 0;
     font-size: 2.7rem;
   }
@@ -159,7 +159,6 @@ body {
   .heading-primary--q1 {
     padding-top: 0;
     font-size: 2.7rem;
-    width: 55%;
     text-align: center;
   }
 }
@@ -167,14 +166,12 @@ body {
   .heading-primary--q1 {
     padding-top: 0;
     font-size: 2.7rem;
-    width: 55%;
     text-align: center;
   }
 }
 @media (max-width: 37.5em) {
   .heading-primary--q1 {
     font-size: 2.7rem;
-    width: 92%;
     text-align: center;
     padding-top: 0;
     align-self: center;
@@ -185,9 +182,8 @@ body {
   font-size: 1.8rem;
   z-index: 1000;
   display: inline-block;
-  width: 50%;
   text-align: center;
-  color: #2a144b;
+  color: hsl(199, 97%, 77%);
   font-weight: 300;
   margin: 0;
 }
@@ -199,7 +195,7 @@ body {
 @media (max-width: 75em) {
   .heading-primary--q2 {
     font-size: 2.1rem;
-    max-width: 40%;
+    text-align: left;
   }
 }
 @media (max-width: 56.25em) {
@@ -208,13 +204,12 @@ body {
     font-size: 2.1rem;
     padding-bottom: 1rem;
     padding-top: 0;
-    max-width: 35%;
+    text-align: center;
   }
 }
 @media (max-width: 37.5em) {
   .heading-primary--q2 {
     font-size: 2.1rem;
-    min-width: 80%;
     padding-top: 0;
   }
 }
@@ -238,7 +233,6 @@ body {
 
 #title {
   font-size: 2.1rem;
-  white-space: nowrap;
   text-transform: uppercase;
   font-weight: 600;
   font-family: "Hachi Maru Pop", cursive;
@@ -272,12 +266,29 @@ body {
 }
 
 .heading-title {
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 100%;
+  align-items: flex-end;
+  width: inherit;
   justify-content: center;
   margin: 0 auto;
+}
+@media (max-width: 56.25em) {
+  .heading-title {
+    align-items: center;
+  }
+}
+@media (max-width: 45.6em) {
+  .heading-title {
+    padding-top: 3rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .heading-title {
+    padding-top: 5rem;
+    width: 100%;
+  }
 }
 @media (min-width: 112.5em) {
   .heading-title {
@@ -288,7 +299,6 @@ body {
   .heading-title {
     width: 100%;
     align-content: center;
-    padding: 0;
     flex-direction: column;
   }
 }
@@ -481,7 +491,7 @@ body {
 
 .title__form {
   font-family: "Lexend", sans-serif;
-  color: #363636;
+  color: #160f1b;
   font-size: 2.1rem;
   font-weight: 400;
   margin: 0.5rem;
@@ -519,19 +529,19 @@ body {
 }
 @media (max-width: 56.25em) {
   .age_icon {
-    height: 3.1rem;
+    height: 3.78rem;
   }
 }
 @media (max-width: 45.6em) {
   .age_icon {
-    height: 3.1rem;
+    height: 3.78rem;
   }
 }
 
 .carousel-caption h1 {
   font-family: "Hachi Maru Pop", cursive;
   margin-bottom: 0;
-  font-size: 3.1rem !important;
+  font-size: 3.78rem !important;
   color: #0565ec;
 }
 .carousel-caption p {
@@ -767,7 +777,8 @@ a {
   justify-content: center;
   margin: 0 auto;
   width: 100%;
-  padding: 3rem;
+  padding: 1.7rem;
+  border-radius: 1.5rem 1.5rem 0 0;
 }
 .nav__logo__img {
   display: none;
@@ -797,7 +808,7 @@ a {
   cursor: pointer;
 }
 .nav__close:hover {
-  color: hsl(285, 58%, 23%);
+  color: #6200ee;
 }
 .nav__iconbox:hover {
   opacity: 1;
@@ -827,7 +838,6 @@ a {
 @media (max-width: 45.6em) {
   .nav__ul {
     grid-template-columns: repeat(5, 1fr);
-    gap: 2rem;
     display: grid;
     width: 80%;
   }
@@ -868,24 +878,26 @@ a {
 }
 .nav__li a span, .nav__li span {
   font-family: "Lexend", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   display: contents;
-  color: #2a144b;
-  font-size: 1.3rem;
-  text-transform: uppercase;
+  color: #7bcc19;
+  font-size: 1.5rem;
   text-align: center;
 }
+@media (max-width: 45.6em) {
+  .nav__li a span .uil-step-forward, .nav__li span .uil-step-forward {
+    display: none;
+  }
+}
 .nav__li a:hover span {
-  color: #0565ec;
+  color: #af4665;
 }
 .nav__li a span:nth-child(even) {
   overflow: hidden;
   transition: ease-in-out 0.5s;
   color: #dfdacf;
-  letter-spacing: -1em;
 }
 .nav__li a:hover span:nth-child(even) {
-  letter-spacing: 2px;
   color: #dfdacf;
 }
 @media (max-width: 45.6em) {
@@ -922,7 +934,6 @@ a {
     justify-content: space-between;
     max-width: 100% !important;
     margin: 0;
-    height: 9rem;
   }
   .nav__menu {
     width: 100%;
@@ -944,7 +955,12 @@ a {
 @media (max-width: 45.6em) {
   .nav__icon, .nav__close, .nav__toggle {
     display: contents;
-    color: #363636;
+    color: #7bcc19;
+  }
+}
+@media (max-width: 45.6em) {
+  .nav {
+    padding: 1.2rem;
   }
 }
 
@@ -954,7 +970,7 @@ a {
 }
 @media (max-width: 56.25em) {
   .show-menu {
-    background-color: #dfdacf;
+    background-color: #160f1b;
   }
 }
 
@@ -994,7 +1010,7 @@ a {
 @media (max-width: 37.5em) {
   .action-btn {
     margin: 0 10px;
-    font-size: 3.1rem;
+    font-size: 3.78rem;
   }
 }
 
@@ -1084,13 +1100,13 @@ a {
 
 .uil-heart-alt {
   font-size: 2.5rem;
-  color: #363636;
+  color: #160f1b;
 }
 
 @media (max-width: 37.5em) {
   .container, .container-sm {
     max-width: 100% !important;
-    background-color: transparent !important;
+    background-color: #160f1b !important;
   }
 }
 
@@ -1166,24 +1182,22 @@ a {
 }
 
 .blob-btn h2 {
-  background: #dfdacf;
-  -webkit-text-stroke: 1px #dfdacf;
-  font-size: 2.1rem;
+  background: #6200ee;
+  font-size: 2.3rem;
   margin-bottom: 0;
   width: 26rem;
-  font-family: "Hachi Maru Pop", cursive;
-  text-transform: uppercase;
+  font-family: "Lexend", sans-serif;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 .blob-btn {
+  box-shadow: 0 1.5rem 2rem rgba(90, 85, 85, 0.2);
   z-index: 1;
   position: relative;
   padding: 12px 25px;
   text-align: center;
-  text-transform: uppercase;
   border-radius: 1.5rem;
-  background-color: #0565ec;
+  background-color: #7bcc19;
   outline: none;
   border: none;
   transition: color 0.5s;
@@ -1216,7 +1230,7 @@ a {
   top: 0;
   width: 100%;
   height: 100%;
-  border: solid 2px #2a144b;
+  border: solid 2px #6200ee;
 }
 .blob-btn__blobs {
   position: relative;
@@ -1303,7 +1317,7 @@ a {
   left: 93%;
 }
 .appointment-modal__close:before {
-  color: #363636;
+  color: #160f1b;
 }
 @media (max-width: 75em) {
   .appointment-modal__close {
@@ -1389,7 +1403,7 @@ a {
   border-bottom: 3px solid transparent;
   width: 90%;
   display: block;
-  box-shadow: 0 1px 0 1px rgba(54, 54, 54, 0.8);
+  box-shadow: 0 1px 0 1px rgba(22, 15, 27, 0.8);
 }
 .form__input::-webkit-input-placeholder {
   color: rgba(38, 38, 48, 0.4901960784);
@@ -1425,7 +1439,6 @@ a {
 .btn:visited {
   font-family: "Lexend", sans-serif !important;
   font-size: 2.3rem;
-  text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
   display: inline-block;
@@ -1433,7 +1446,6 @@ a {
   transition: all 0.2s;
   position: relative;
   font-size: 2.1rem;
-  letter-spacing: 0.2rem;
   border: none;
   cursor: pointer;
 }
@@ -1475,15 +1487,19 @@ a {
 }
 
 .section-home {
-  height: 96vh;
+  height: 100vh;
   position: relative;
   z-index: 1;
-  background-color: #dfdacf;
+  background-color: #160f1b;
   text-align: center;
   margin: 0 auto;
   align-content: center;
 }
+.section-home .row {
+  height: inherit;
+}
 .section-home__text-box {
+  height: 60%;
   background: transparent;
   opacity: 1;
   display: flex;
@@ -1492,9 +1508,15 @@ a {
   margin: 0 auto;
   padding-top: 0;
 }
+@media (max-width: 75em) {
+  .section-home__text-box {
+    height: 80%;
+  }
+}
 @media (max-width: 56.25em) {
   .section-home__text-box {
     padding-top: 0;
+    height: 100%;
   }
 }
 .section-home-logo {
@@ -1505,53 +1527,60 @@ a {
 .section-home-logo img {
   width: 10%;
 }
-@media (max-width: 37.5em) {
-  .section-home {
-    height: 100vh;
-  }
-}
-
 .section-home::before {
   content: ""; /* Required for pseudo-elements */
   position: absolute;
-  bottom: 87%;
-  left: 0;
-  width: 100%;
+  top: 0;
+  left: 10%;
+  width: 35%;
   height: 100%;
-  background: linear-gradient(to right bottom, rgb(240, 208, 255) 7%, rgb(225, 206, 255) 47%, rgb(65, 220, 251) 77%, rgb(241, 163, 171) 100%); /* Your gradient colors */
+  background-image: url("../img/singing_bg.webp");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   border-radius: inherit; /* Inherit border-radius from parent */
-  filter: blur(50px); /* Adjust blur for shadow effect */
-  z-index: 100; /* Position behind the main element */
-  transform: translate(5px, 5px); /* Optional: Adjust shadow offset */
+}
+@media (min-width: 112.5em) {
+  .section-home::before {
+    top: 0;
+  }
+}
+@media (max-width: 56.25em) {
+  .section-home::before {
+    width: 100%;
+    left: 0;
+    top: 20%;
+    height: 40%;
+  }
+}
+@media (max-width: 45.6em) {
+  .section-home::before {
+    top: 20%;
+    height: 40%;
+  }
 }
 
 .heading-primary {
-  height: 100%;
+  height: 35%;
   display: flex;
-  align-items: baseline;
-  width: 100%;
+  align-items: stretch;
+  width: 75%;
   margin: 0 auto;
 }
 @media (min-width: 112.5em) {
   .heading-primary {
-    height: 100%;
+    height: 75%;
     align-items: center;
   }
 }
 @media (max-width: 75em) {
   .heading-primary {
-    align-items: center;
-  }
-}
-@media (max-width: 56.25em) {
-  .heading-primary {
-    align-items: center;
-    height: 100%;
+    height: 70%;
   }
 }
 @media (max-width: 37.5em) {
   .heading-primary {
-    height: 90%;
+    width: 80%;
   }
 }
 
@@ -1652,7 +1681,7 @@ a {
   display: grid;
   justify-content: stretch;
   padding-bottom: 7rem;
-  color: #363636;
+  color: #160f1b;
   grid-auto-flow: row;
 }
 @media (max-width: 56.25em) {
@@ -1905,7 +1934,6 @@ a {
 @media (max-width: 45.6em) {
   .section-news {
     padding-top: 0;
-    margin-top: 2rem;
   }
 }
 .section-news__title {
@@ -2117,6 +2145,7 @@ a {
   height: fit-content;
   position: relative;
   padding-top: 10rem;
+  background-color: #dfdacf;
 }
 @media (max-width: 56.25em) {
   .section-lessons {
@@ -2199,7 +2228,6 @@ a {
   justify-content: center;
   height: 100vh;
   padding: 5rem 0;
-  background-image: url("../img/musical-bg.svg");
 }
 @media (max-width: 75em) {
   .section-contact {
@@ -2246,7 +2274,7 @@ a {
 }
 @media (max-width: 45.6em) {
   .section-contact_socials {
-    width: 93%;
+    width: 100%;
   }
 }
 .section-contact_socials a h3:hover {
@@ -2284,10 +2312,10 @@ a {
   background-size: cover;
   position: absolute;
   top: 0;
-  left: 30%;
+  left: 20%;
   margin: 0 auto;
   border-radius: 25px;
-  box-shadow: 0 1.5rem 4rem rgba(23, 23, 23, 0.3);
+  box-shadow: 0 1.5rem 2rem rgba(90, 85, 85, 0.2);
   background-position: right;
 }
 @media (min-width: 112.5em) {
@@ -2310,7 +2338,6 @@ a {
 @media (max-width: 45.6em) {
   .book {
     min-width: 90%;
-    left: 5%;
   }
 }
 @media (max-width: 37.5em) {
@@ -2321,7 +2348,6 @@ a {
 }
 .book__form {
   width: 100%;
-  min-width: 33rem;
   padding: 2rem;
   background-color: #dfdacf;
 }
@@ -2387,38 +2413,19 @@ footer {
   }
 }
 .footer__bg {
-  padding: 2rem 0 3rem;
-  background-color: transparent;
-}
-.footer__bg::before {
-  content: ""; /* Required for pseudo-elements */
-  position: absolute;
-  bottom: 0;
-  left: 4px;
-  width: 100%;
-  height: 30px;
-  background: radial-gradient(at 6% 18%, hsl(166, 61%, 78%) 0px, transparent 5%), radial-gradient(at 12% 76%, hsl(55, 70%, 79%) 0px, transparent 5%), radial-gradient(at 7% 15%, hsl(222, 73%, 62%) 0px, transparent 5%), radial-gradient(at 10% 48%, hsl(262, 62%, 77%) 0px, transparent 5%), radial-gradient(at 90% 22%, hsl(353, 84%, 67%) 0px, transparent 5%), radial-gradient(at 43% 83%, hsl(232, 63%, 69%) 0px, transparent 5%), radial-gradient(at 88% 94%, hsl(339, 73%, 67%) 0px, transparent 5%); /* Your gradient colors */
-  border-radius: inherit; /* Inherit border-radius from parent */
-  filter: blur(20px); /* Adjust blur for shadow effect */
-  z-index: 1; /* Position behind the main element */
-  transform: translate(5px, 5px); /* Optional: Adjust shadow offset */
-}
-@media (max-width: 56.25em) {
-  .footer__bg::before {
-    display: none;
-  }
+  padding: 4rem 0 3rem;
+  background-color: #2a144b;
 }
 .footer__logo {
-  font-size: 3.1rem;
+  font-size: 3.78rem;
   width: 8rem;
-  mix-blend-mode: darken;
 }
 .footer__copy {
   text-align: center;
   margin-top: 3rem;
 }
 .footer__subtitle, .footer__link, .footer__social {
-  color: #0565ec;
+  color: hsl(199, 97%, 77%);
   font-family: "Inclusive Sans", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
@@ -2495,10 +2502,10 @@ footer {
 }
 
 .section-QA {
+  position: relative;
   background-color: #dfdacf;
   padding-top: 2rem;
   padding-bottom: 10rem;
-  background-image: url("../img/musical-bg.svg");
   background-position: 25%;
 }
 .section-QA .row .flex-container {
