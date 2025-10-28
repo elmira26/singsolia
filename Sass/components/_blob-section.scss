@@ -34,13 +34,13 @@ $borderW: 6px;
 
 .blob-btn {
   h2{
-    background: $color-violet-bright;
+    background: $color-bio-base;
     font-size: $h2;
     margin-bottom: 0;
     width: 26rem;
     // font-family: "Hachi Maru Pop", cursive;
     font-family: "Lexend", sans-serif;
-    // text-transform: uppercase;
+    text-transform: uppercase;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     @include respond(tab-port){
@@ -109,7 +109,7 @@ $borderW: 6px;
     top: 0;
     width: 100%;
     height: 100%;
-    border: solid 2px $color-violet-bright;
+    border: solid 2px $color-bio-base;
   }
   
   // additional container created, because in FF blobs are breaking overflow:hidden of element with svg gooey filter
