@@ -752,7 +752,7 @@ header {
   width: 100%;
   z-index: 150;
   position: fixed;
-  background-color: transparent;
+  background-color: #160f1b;
 }
 header.active {
   background-color: transparent;
@@ -783,7 +783,7 @@ a {
   }
 }
 .nav__logo__img {
-  height: 5rem;
+  height: 6rem;
   margin-top: 0;
   padding: 1rem;
 }
@@ -2429,8 +2429,7 @@ footer {
   background-color: #2a144b;
 }
 .footer__logo {
-  font-size: 3.78rem;
-  width: 8rem;
+  width: 4rem;
 }
 .footer__copy {
   text-align: center;

@@ -2,7 +2,7 @@ header {
   width: 100%;
   z-index: 150;
   position: fixed;
-  background-color: transparent;
+  background-color: $color-brown;
 
   &.active {
     background-color: transparent;
@@ -43,7 +43,7 @@ a {
     max-width: 100% !important;
   }
   &__logo__img{
-    height: 5rem;
+    height: 6rem;
     margin-top: 0;
     padding: 1rem;
   @include respond(phoneExtra){
