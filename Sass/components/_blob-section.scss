@@ -34,7 +34,7 @@ $borderW: 6px;
 
 .blob-btn {
   h2{
-    background: $color-bio-base;
+    background: $color-brown;
     font-size: $h2;
     margin-bottom: 0;
     width: 26rem;
@@ -55,7 +55,7 @@ $borderW: 6px;
   text-align: center;
   // text-transform: uppercase;
   border-radius: 1.5rem;
-  background-color: $color-green;
+  background-color: $color-deep-blue;
   outline: none;
   border: none;
   transition: color 0.5s;
@@ -109,7 +109,7 @@ $borderW: 6px;
     top: 0;
     width: 100%;
     height: 100%;
-    border: solid 2px $color-bio-base;
+    border: solid 2px $color-brown;
   }
   
   // additional container created, because in FF blobs are breaking overflow:hidden of element with svg gooey filter

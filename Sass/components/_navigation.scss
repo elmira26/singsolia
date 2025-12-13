@@ -31,14 +31,17 @@ a {
 
 .nav {
   background-color: transparent;
-  // display: flex;
+ 
   flex-wrap: nowrap !important;
   align-items: center !important;
   margin: 0 auto;
-  max-width: 80% !important;
+  max-width: 60% !important;
   // border-bottom: solid $color-blue-sky .5px;
   padding: 1.7rem;
   // border-radius: 1.5rem;
+  @include respond(tab-land){
+   max-width: 80% !important; 
+  }
   @include respond(tab-port){
     max-width: 100% !important;
   }
@@ -100,7 +103,7 @@ a {
     }
     @include respond(tab-port){
       width: 90%;
-      justify-content: space-around;
+      justify-content: space-evenly;
       column-gap: normal;
      
     }
@@ -156,7 +159,7 @@ a {
     font-family: "Lexend", sans-serif;
     font-weight: 400;
     display: contents;
-    color: $color-green;
+    color: $color-blue-sky;
     font-size: $small-font;
     text-align: center;
     .uil-step-forward{

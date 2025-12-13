@@ -66,7 +66,7 @@
     text-align: left;
     font-weight: 700;
     margin-bottom: 0;
-    // font-family: "Hachi Maru Pop", cursive;
+    line-height: 36px;
     font-family: "Lexend", sans-serif;
     z-index: 1000;
     .colored-text_1{
@@ -80,11 +80,15 @@
      @include respond(tab-land){
       padding-top: 0;
       font-size: $h1;
+      line-height: 32px;
+      width: 50%;
     }
      @include respond(tab-port){
       padding-top:0;
+      line-height: 28px;
       font-size: $h1;
       text-align: center;
+      width: 70%;
     }
       @include respond(phoneExtra){
       padding-top:0;
@@ -120,7 +124,7 @@
     }
     @include respond(tab-land){
       font-size: $h3;
-      // width: 70%;
+      width: 50%;
       text-align: left;
     }
     @include respond(tab-port){
@@ -220,6 +224,7 @@
   margin: 0 auto;
   @include respond(tab-port){
      align-items: center; 
+    justify-content: space-around;
   }
   @include respond(phoneExtra){
     padding-top: 3rem;

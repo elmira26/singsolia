@@ -63,7 +63,7 @@
       content: ''; /* Required for pseudo-elements */
       position: absolute;
       top: 0;
-      left: 5%;
+      left: 10%;
       width: 35%;
       height: 100%;
       background-image: url('../img/singing_bg.webp');
@@ -82,7 +82,7 @@
         // height: 50%;
         // width: 100%;
         // top: 5%;
-        // left: 0;
+        left: 15%;
         // background-size: contain;
       }
       @include respond(tab-port){
@@ -99,7 +99,7 @@
 .heading-primary{
   height: 35%;
   display: flex;
-  align-items: stretch;
+  align-items: center;
   width: 75%;
   margin: 0 auto;
   
@@ -110,12 +110,16 @@
   }
   @include respond(tab-land){
    height: 70%;
+   width: 80%;
   }
   @include respond(tab-port){
-  //  height: 10%; 
+   height: 65%; 
+  }
+  @include respond(phoneExtra){
+    align-items: center;
   }
   @include respond(phone) {
-    width: 80%;   
+    width: 95%;   
   }
 }
 // .heading-title {

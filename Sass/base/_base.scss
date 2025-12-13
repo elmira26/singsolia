@@ -38,7 +38,11 @@ body {
   padding: 0;
   margin: 0;
   font-size: $normal-font;
+  letter-spacing: 0.1px;
   background-color: transparent;
   position: relative;
+  @include respond(tab-land){
+    letter-spacing: 0.2px;
+  }
   
 }
